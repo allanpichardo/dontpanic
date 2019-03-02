@@ -2,8 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e6632de-10d4-4fa0-ae08-47d0fb5c8659" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_buggy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_buggy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_default.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_default.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_mixedreality.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_mixedreality.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_platformer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_platformer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Actions.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Actions.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Input_ActionSets.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Input_ActionSets.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Input_Actions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Input_Actions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Input_Initialization.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Input_Initialization.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binding_holographic_hmd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binding_rift.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binding_vive.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binding_vive_pro.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binding_vive_tracker_camera.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bindings_holographic_controller.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bindings_knuckles.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bindings_oculus_touch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bindings_vive_controller.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unityProject.vrmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/bball/Ball.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/bball/Ball.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/Basketball_OBJ Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Local/Basketball_OBJ Variant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hoops.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hoops.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hoops/HoopsGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hoops/HoopsGame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hoops/PlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hoops/PlayerController.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,13 +47,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/HoopsGame.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="242">
+              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding>
-                <marker date="1551561417520" expanded="false" signature="6:78" ph="..." />
+                <marker date="1551561417520" expanded="true" signature="6:100" ph="..." />
                 <marker date="1551561417520" expanded="true" signature="140:744" ph="{...}" />
                 <marker date="1551561417520" expanded="true" signature="298:391" ph="{...}" />
                 <marker date="1551561417520" expanded="true" signature="417:466" ph="{...}" />
@@ -50,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BasketController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="127">
               <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding>
                 <marker date="1551556600383" expanded="false" signature="6:78" ph="..." />
@@ -68,17 +102,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/PlayerController.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BallGrabber.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="285">
+              <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
               <folding>
-                <marker date="1551558104247" expanded="false" signature="6:78" ph="..." />
-                <marker date="1551558104247" expanded="true" signature="141:710" ph="{...}" />
-                <marker date="1551558104247" expanded="true" signature="379:456" ph="{...}" />
-                <marker date="1551558104247" expanded="true" signature="487:567" ph="{...}" />
-                <marker date="1551558104247" expanded="true" signature="661:708" ph="{...}" />
+                <marker date="1551564595172" expanded="false" signature="6:94" ph="..." />
+                <marker date="1551564595172" expanded="true" signature="170:1044" ph="{...}" />
+                <marker date="1551564595172" expanded="true" signature="408:550" ph="{...}" />
+                <marker date="1551564595172" expanded="true" signature="581:729" ph="{...}" />
+                <marker date="1551564595172" expanded="true" signature="823:896" ph="{...}" />
+                <marker date="1551564595172" expanded="true" signature="991:1041" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -90,20 +125,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/HoopController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Hoops.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/HoopsGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BallController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BasketController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BallGrabber.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Hoops/BasketController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Hoops/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Hoops/BallController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Hoops/HoopController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Hoops/HoopsGame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Hoops.unity" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hoops/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hoops/BasketballPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hoops/BallGrabber.cs" />
       </list>
     </option>
   </component>
@@ -182,12 +221,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551553557581</updated>
-      <workItem from="1551553566901" duration="4747000" />
+      <workItem from="1551553566901" duration="5888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4747000" />
+    <option name="totallyTimeSpent" value="5888000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -218,7 +257,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3987034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -273,9 +312,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Hoops.unity">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret line="479" column="29" lean-forward="true" selection-start-line="479" selection-start-column="29" selection-end-line="479" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/HoopsGame.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <marker date="1551561417520" expanded="true" signature="6:100" ph="..." />
+            <marker date="1551561417520" expanded="true" signature="140:744" ph="{...}" />
+            <marker date="1551561417520" expanded="true" signature="298:391" ph="{...}" />
+            <marker date="1551561417520" expanded="true" signature="417:466" ph="{...}" />
+            <marker date="1551561417520" expanded="true" signature="493:549" ph="{...}" />
+            <marker date="1551561417520" expanded="true" signature="587:682" ph="{...}" />
+            <marker date="1551561417520" expanded="true" signature="713:742" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BasketballPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BasketController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="127">
           <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding>
             <marker date="1551556600383" expanded="false" signature="6:78" ph="..." />
@@ -292,32 +368,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/PlayerController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BallGrabber.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="285">
+          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
           <folding>
-            <marker date="1551558104247" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551558104247" expanded="true" signature="141:710" ph="{...}" />
-            <marker date="1551558104247" expanded="true" signature="379:456" ph="{...}" />
-            <marker date="1551558104247" expanded="true" signature="487:567" ph="{...}" />
-            <marker date="1551558104247" expanded="true" signature="661:708" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/HoopsGame.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <marker date="1551561417520" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551561417520" expanded="true" signature="140:744" ph="{...}" />
-            <marker date="1551561417520" expanded="true" signature="298:391" ph="{...}" />
-            <marker date="1551561417520" expanded="true" signature="417:466" ph="{...}" />
-            <marker date="1551561417520" expanded="true" signature="493:549" ph="{...}" />
-            <marker date="1551561417520" expanded="true" signature="587:682" ph="{...}" />
-            <marker date="1551561417520" expanded="true" signature="713:742" ph="{...}" />
+            <marker date="1551564595172" expanded="false" signature="6:94" ph="..." />
+            <marker date="1551564595172" expanded="true" signature="170:1044" ph="{...}" />
+            <marker date="1551564595172" expanded="true" signature="408:550" ph="{...}" />
+            <marker date="1551564595172" expanded="true" signature="581:729" ph="{...}" />
+            <marker date="1551564595172" expanded="true" signature="823:896" ph="{...}" />
+            <marker date="1551564595172" expanded="true" signature="991:1041" ph="{...}" />
           </folding>
         </state>
       </provider>

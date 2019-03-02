@@ -255,10 +255,10 @@
           <e p="HandsEmpathyAgent.cs" t="Include" />
           <e p="Hoops" t="Include">
             <e p="BallController.cs" t="Include" />
+            <e p="BallGrabber.cs" t="Include" />
             <e p="BasketController.cs" t="Include" />
             <e p="HoopController.cs" t="Include" />
             <e p="HoopsGame.cs" t="Include" />
-            <e p="PlayerController.cs" t="Include" />
           </e>
           <e p="NPC" t="Include">
             <e p="IKControl.cs" t="Include" />
@@ -554,6 +554,18 @@
             <e p="SteamVR_Windows_EditorHelper.asmdef" t="Include" />
           </e>
         </e>
+        <e p="SteamVR_Input" t="Include">
+          <e p="ActionSetClasses" t="Include">
+            <e p="SteamVR_Input_ActionSet_buggy.cs" t="Include" />
+            <e p="SteamVR_Input_ActionSet_default.cs" t="Include" />
+            <e p="SteamVR_Input_ActionSet_mixedreality.cs" t="Include" />
+            <e p="SteamVR_Input_ActionSet_platformer.cs" t="Include" />
+          </e>
+          <e p="SteamVR_Actions.asmdef" t="Include" />
+          <e p="SteamVR_Input_Actions.cs" t="Include" />
+          <e p="SteamVR_Input_ActionSets.cs" t="Include" />
+          <e p="SteamVR_Input_Initialization.cs" t="Include" />
+        </e>
       </e>
       <e p="Dont Panic.sln" t="IncludeFlat" />
       <e p="iOSBLAS.csproj" t="IncludeRecursive" />
@@ -562,6 +574,7 @@
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="SteamVR.csproj" t="IncludeRecursive" />
+      <e p="SteamVR_Actions.csproj" t="IncludeRecursive" />
       <e p="SteamVR_Editor.csproj" t="IncludeRecursive" />
       <e p="SteamVR_Input_Editor.csproj" t="IncludeRecursive" />
       <e p="SteamVR_Windows_EditorHelper.csproj" t="IncludeRecursive" />
