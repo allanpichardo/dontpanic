@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e6632de-10d4-4fa0-ae08-47d0fb5c8659" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/Basketball_OBJ Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Local/Basketball_OBJ Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/basket Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Local/basket Variant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hoops.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hoops.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hoops/HoopsGame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hoops/HoopsGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,14 +16,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/HoopsGame.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            <state relative-caret-position="120">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <marker date="1551559199916" expanded="false" signature="6:78" ph="..." />
-                <marker date="1551559199916" expanded="true" signature="118:567" ph="{...}" />
-                <marker date="1551559199916" expanded="true" signature="249:342" ph="{...}" />
-                <marker date="1551559199916" expanded="true" signature="380:475" ph="{...}" />
-                <marker date="1551559199916" expanded="true" signature="506:565" ph="{...}" />
+                <marker date="1551561417520" expanded="false" signature="6:78" ph="..." />
+                <marker date="1551561417520" expanded="true" signature="140:744" ph="{...}" />
+                <marker date="1551561417520" expanded="true" signature="298:391" ph="{...}" />
+                <marker date="1551561417520" expanded="true" signature="417:466" ph="{...}" />
+                <marker date="1551561417520" expanded="true" signature="493:549" ph="{...}" />
+                <marker date="1551561417520" expanded="true" signature="587:682" ph="{...}" />
+                <marker date="1551561417520" expanded="true" signature="713:742" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -52,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BasketController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+            <state relative-caret-position="115">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding>
                 <marker date="1551556600383" expanded="false" signature="6:78" ph="..." />
                 <marker date="1551556600383" expanded="true" signature="125:1034" ph="{...}" />
@@ -73,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
+            <state relative-caret-position="330">
               <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding>
                 <marker date="1551558104247" expanded="false" signature="6:78" ph="..." />
@@ -184,12 +182,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551553557581</updated>
-      <workItem from="1551553566901" duration="2964000" />
+      <workItem from="1551553566901" duration="4747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2964000" />
+    <option name="totallyTimeSpent" value="4747000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -244,56 +242,10 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Hoops/BasketController.cs</url>
-          <line>21</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Hoops/BasketController.cs" initialLine="21">
-            <startOffsets>
-              <option value="463" />
-            </startOffsets>
-            <endOffsets>
-              <option value="501" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BasketController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-          <folding>
-            <marker date="1551556600383" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551556600383" expanded="true" signature="125:1034" ph="{...}" />
-            <marker date="1551556600383" expanded="true" signature="378:390" ph="{...}" />
-            <marker date="1551556600383" expanded="true" signature="448:1032" ph="{...}" />
-            <marker date="1551556600383" expanded="true" signature="531:772" ph="{...}" />
-            <marker date="1551556600383" expanded="true" signature="580:675" ph="{...}" />
-            <marker date="1551556600383" expanded="true" signature="692:762" ph="{...}" />
-            <marker date="1551556600383" expanded="true" signature="785:1026" ph="{...}" />
-            <marker date="1551556600383" expanded="true" signature="834:930" ph="{...}" />
-            <marker date="1551556600383" expanded="true" signature="947:1016" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/PlayerController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <marker date="1551558104247" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551558104247" expanded="true" signature="141:710" ph="{...}" />
-            <marker date="1551558104247" expanded="true" signature="379:456" ph="{...}" />
-            <marker date="1551558104247" expanded="true" signature="487:567" ph="{...}" />
-            <marker date="1551558104247" expanded="true" signature="661:708" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BallController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -321,16 +273,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BasketController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <marker date="1551556600383" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551556600383" expanded="true" signature="125:1034" ph="{...}" />
+            <marker date="1551556600383" expanded="true" signature="378:390" ph="{...}" />
+            <marker date="1551556600383" expanded="true" signature="448:1032" ph="{...}" />
+            <marker date="1551556600383" expanded="true" signature="531:772" ph="{...}" />
+            <marker date="1551556600383" expanded="true" signature="580:675" ph="{...}" />
+            <marker date="1551556600383" expanded="true" signature="692:762" ph="{...}" />
+            <marker date="1551556600383" expanded="true" signature="785:1026" ph="{...}" />
+            <marker date="1551556600383" expanded="true" signature="834:930" ph="{...}" />
+            <marker date="1551556600383" expanded="true" signature="947:1016" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/PlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <marker date="1551558104247" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551558104247" expanded="true" signature="141:710" ph="{...}" />
+            <marker date="1551558104247" expanded="true" signature="379:456" ph="{...}" />
+            <marker date="1551558104247" expanded="true" signature="487:567" ph="{...}" />
+            <marker date="1551558104247" expanded="true" signature="661:708" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/HoopsGame.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="120">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <marker date="1551559199916" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551559199916" expanded="true" signature="118:567" ph="{...}" />
-            <marker date="1551559199916" expanded="true" signature="249:342" ph="{...}" />
-            <marker date="1551559199916" expanded="true" signature="380:475" ph="{...}" />
-            <marker date="1551559199916" expanded="true" signature="506:565" ph="{...}" />
+            <marker date="1551561417520" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551561417520" expanded="true" signature="140:744" ph="{...}" />
+            <marker date="1551561417520" expanded="true" signature="298:391" ph="{...}" />
+            <marker date="1551561417520" expanded="true" signature="417:466" ph="{...}" />
+            <marker date="1551561417520" expanded="true" signature="493:549" ph="{...}" />
+            <marker date="1551561417520" expanded="true" signature="587:682" ph="{...}" />
+            <marker date="1551561417520" expanded="true" signature="713:742" ph="{...}" />
           </folding>
         </state>
       </provider>
