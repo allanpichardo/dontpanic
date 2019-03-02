@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 2140cbfbc24564cf6b8423552cefdf39
+ScriptedImporter:
+  fileIDToRecycleName:
+    11400002: Assets/Brains/Models/HandsEmpathyModel30vec.nn
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 83221ad3db87f4b3b91b041047cb2bc5, type: 3}
