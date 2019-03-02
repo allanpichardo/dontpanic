@@ -7,23 +7,22 @@ using Valve.VR.InteractionSystem;
 public class BallGrabber : MonoBehaviour
 {
     public SteamVR_Action_Boolean grabPinch;
-    public SteamVR_Input_Sources inputSource;
+    private SteamVR_Behaviour_Pose pose;
 
     private void Start()
     {
-        grabPinch.AddOnChangeListener((fromAction, fromSource, newState) => 
-            {
-                if (newState)   // pressed
-                {
-                    Debug.Log("pressed");
-                }
-                else
-                {
-                    Debug.Log("released");
-                }
-            }
-            , inputSource);
+        
     }
- 
 
+    private void Update()
+    {
+        if (grabPinch.GetStateDown(pose.inputSource))
+        {
+            Debug.Log("Pinch Down");
+        }
+        else if(grabPinch.GetStateUp(pose.inputSource))
+        {
+            Debug.Log("Pinch Up");
+        }
+    }
 }

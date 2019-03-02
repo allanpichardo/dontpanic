@@ -70,15 +70,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BallGrabber.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="315">
+              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
               <folding>
-                <marker date="1551565201307" expanded="false" signature="6:94" ph="..." />
-                <marker date="1551565201307" expanded="true" signature="170:660" ph="{...}" />
-                <marker date="1551565201307" expanded="true" signature="289:655" ph="{...}" />
-                <marker date="1551565201307" expanded="true" signature="372:621" ph="{...}" />
-                <marker date="1551565201307" expanded="true" signature="429:507" ph="{...}" />
-                <marker date="1551565201307" expanded="true" signature="528:607" ph="{...}" />
+                <marker date="1551566887573" expanded="false" signature="6:94" ph="..." />
+                <marker date="1551566887573" expanded="true" signature="170:568" ph="{...}" />
+                <marker date="1551566887573" expanded="true" signature="284:305" ph="{...}" />
+                <marker date="1551566887573" expanded="true" signature="332:566" ph="{...}" />
+                <marker date="1551566887573" expanded="true" signature="392:449" ph="{...}" />
+                <marker date="1551566887573" expanded="true" signature="505:560" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -107,6 +107,7 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/Hoops.unity" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Hoops/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Hoops/BasketballPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VRInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Hoops/BallGrabber.cs" />
       </list>
     </option>
@@ -186,12 +187,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551553557581</updated>
-      <workItem from="1551553566901" duration="6188000" />
+      <workItem from="1551553566901" duration="7079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6188000" />
+    <option name="totallyTimeSpent" value="7079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,17 +334,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VRInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BallGrabber.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="315">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
           <folding>
-            <marker date="1551565201307" expanded="false" signature="6:94" ph="..." />
-            <marker date="1551565201307" expanded="true" signature="170:660" ph="{...}" />
-            <marker date="1551565201307" expanded="true" signature="289:655" ph="{...}" />
-            <marker date="1551565201307" expanded="true" signature="372:621" ph="{...}" />
-            <marker date="1551565201307" expanded="true" signature="429:507" ph="{...}" />
-            <marker date="1551565201307" expanded="true" signature="528:607" ph="{...}" />
+            <marker date="1551566887573" expanded="false" signature="6:94" ph="..." />
+            <marker date="1551566887573" expanded="true" signature="170:568" ph="{...}" />
+            <marker date="1551566887573" expanded="true" signature="284:305" ph="{...}" />
+            <marker date="1551566887573" expanded="true" signature="332:566" ph="{...}" />
+            <marker date="1551566887573" expanded="true" signature="392:449" ph="{...}" />
+            <marker date="1551566887573" expanded="true" signature="505:560" ph="{...}" />
           </folding>
         </state>
       </provider>
