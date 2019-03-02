@@ -57,6 +57,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basketball_OBJ Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 249311ae1cfff4d3b84713f933da1c72, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 249311ae1cfff4d3b84713f933da1c72, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -117,6 +121,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6105e0e3260ef41a39b5e75575a7e9b7, type: 2}
+    - target: {fileID: 100002, guid: 249311ae1cfff4d3b84713f933da1c72, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 249311ae1cfff4d3b84713f933da1c72, type: 3}
 --- !u!1 &6787047985518633526 stripped

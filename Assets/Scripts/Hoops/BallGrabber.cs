@@ -10,6 +10,8 @@ public class BallGrabber : MonoBehaviour
     public SteamVR_Action_Boolean grabPinch;
     private SteamVR_Behaviour_Pose pose;
     private GameObject ball;
+	private bool isGrabbing = false;
+	public float strength = 0.1f;
 
     private void Start()
     {
@@ -32,26 +34,32 @@ public class BallGrabber : MonoBehaviour
                 ThrowBall();
             }
         }
+		if(isGrabbing) {
+			ball.transform.position = this.transform.position;
+		}
     }
 
     private void GrabBall()
     {
         ball.transform.parent = this.transform;
+		isGrabbing = true;
     }
 
     private void ThrowBall()
     {
-        ball.transform.parent = null;
+        //ball.transform.parent = null;
         Rigidbody rigidbody = ball.GetComponent<Rigidbody>();
-        Vector3 velocity = GetComponent<Rigidbody>().velocity;
-        rigidbody.AddForce(velocity, ForceMode.VelocityChange);
+        Vector3 velocity = new Vector3(0,1,1) * strength;
+        rigidbody.AddForce(velocity.normalized, ForceMode.VelocityChange);
         ball = null;
+		isGrabbing = false;
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.layer == 14)
         {
+			Debug.Log("Touching Ball");
             ball = other.gameObject;
         }
     }
