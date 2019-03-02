@@ -7,7 +7,7 @@ using Valve.VR.InteractionSystem;
 public class BallGrabber : MonoBehaviour
 {
     public SteamVR_Action_Boolean TriggerClick;
-    private SteamVR_Input_Sources inputSource;
+    public SteamVR_Input_Sources inputSource;
  
     private void Start() {} //Monobehaviours without a Start function cannot be disabled in Editor, just FYI
  
