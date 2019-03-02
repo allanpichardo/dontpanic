@@ -7,11 +7,11 @@ using Valve.VR.InteractionSystem;
 public class BallGrabber : MonoBehaviour
 {
     public SteamVR_Action_Boolean grabPinch;
-    private SteamVR_Behaviour_Pose pose;
+    public SteamVR_Behaviour_Pose pose;
 
     private void Start()
     {
-        
+        pose = GetComponent<SteamVR_Behaviour_Pose>();
     }
 
     private void Update()
