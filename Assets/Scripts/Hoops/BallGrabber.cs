@@ -6,8 +6,10 @@ using Valve.VR.InteractionSystem;
 
 public class BallGrabber : MonoBehaviour
 {
+    public Transform grabPoint;
     public SteamVR_Action_Boolean grabPinch;
-    public SteamVR_Behaviour_Pose pose;
+    private SteamVR_Behaviour_Pose pose;
+    private GameObject ball;
 
     private void Start()
     {
@@ -18,11 +20,47 @@ public class BallGrabber : MonoBehaviour
     {
         if (grabPinch.GetStateDown(pose.inputSource))
         {
-            Debug.Log("Pinch Down");
+            if (ball != null)
+            {
+                GrabBall();                
+            }
         }
         else if(grabPinch.GetStateUp(pose.inputSource))
         {
-            Debug.Log("Pinch Up");
+            if (ball != null)
+            {
+                ThrowBall();
+            }
+        }
+    }
+
+    private void GrabBall()
+    {
+        ball.transform.parent = this.transform;
+    }
+
+    private void ThrowBall()
+    {
+        ball.transform.parent = null;
+        Rigidbody rigidbody = ball.GetComponent<Rigidbody>();
+        Vector3 velocity = GetComponent<Rigidbody>().velocity;
+        rigidbody.AddForce(velocity, ForceMode.VelocityChange);
+        ball = null;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.layer == 14)
+        {
+            ball = other.gameObject;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.layer == 14)
+        {
+            ball = other.gameObject;
         }
     }
 }
