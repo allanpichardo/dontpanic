@@ -10,6 +10,7 @@ public class ZombieController : MonoBehaviour
     public Transform player;
     private static readonly int _speed = Animator.StringToHash("speed");
     private bool isDead = false;
+    private static readonly int _distance = Animator.StringToHash("distance");
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,7 @@ public class ZombieController : MonoBehaviour
         {
             navMeshAgent.SetDestination(player.position);
             animator.SetFloat(_speed, navMeshAgent.velocity.magnitude);
+            animator.SetFloat(_distance, Vector3.Distance(this.transform.position, player.position));
         }
     }
 
