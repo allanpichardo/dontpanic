@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028355, g: 0.22571374, b: 0.30692255, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -837,10 +837,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c073ed4a0a87941c4ae03c5cd6f475a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabPoint: {fileID: 0}
+  grabPoint: {fileID: 62914651}
   grabPinch:
     actionPath: /actions/default/in/GrabPinch
     needsReinit: 0
+  strength: 1
 --- !u!65 &1426422680
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -853,7 +854,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.19490671, y: 0.14859009, z: 0.14561522}
-  m_Center: {x: 0.40254664, y: -0.42570496, z: 0.4271924}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1426422681
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -947,6 +948,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1948099282
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2064195868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,11 +1068,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1292671452}
     m_Modifications:
-    - target: {fileID: 825429152526768342, guid: 0c4182a0f20954c4ab10e32345901232,
-        type: 3}
-      propertyPath: m_Name
-      value: field
-      objectReference: {fileID: 0}
     - target: {fileID: 825429152526730486, guid: 0c4182a0f20954c4ab10e32345901232,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1108,6 +1138,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 825429152526768342, guid: 0c4182a0f20954c4ab10e32345901232,
+        type: 3}
+      propertyPath: m_Name
+      value: field
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c4182a0f20954c4ab10e32345901232, type: 3}
 --- !u!1001 &4585796306037926297
@@ -1117,11 +1152,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1292671452}
     m_Modifications:
-    - target: {fileID: 4585796306405705676, guid: 9278645d905664d0eaebc16897e3bf8d,
-        type: 3}
-      propertyPath: m_Name
-      value: basket
-      objectReference: {fileID: 0}
     - target: {fileID: 4585796306405678060, guid: 9278645d905664d0eaebc16897e3bf8d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1191,6 +1221,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4585796306405705676, guid: 9278645d905664d0eaebc16897e3bf8d,
+        type: 3}
+      propertyPath: m_Name
+      value: basket
       objectReference: {fileID: 0}
     - target: {fileID: 594435580021574793, guid: 9278645d905664d0eaebc16897e3bf8d,
         type: 3}
