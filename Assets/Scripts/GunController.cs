@@ -33,10 +33,7 @@ public class GunController : MonoBehaviour
 
     private void OnTrigger()
     {
-        if (animator)
-        {
-            animator.SetTrigger(_fire);
-        }
+        animator.SetTrigger("Fire");
 
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out var hit, float.PositiveInfinity))
         {
