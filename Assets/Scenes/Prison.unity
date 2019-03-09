@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.008623006, g: 0.008856987, b: 0.01875162, a: 1}
+  m_IndirectSpecularColor: {r: 0.008676331, g: 0.0088883685, b: 0.018850598, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -376,6 +376,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &605592346 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 10800000, guid: c3aeb21ec13614d2296d305806fa899a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1601736574}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &631616334 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 188906, guid: cb3370c18187bb444b240cfb08dcc02f,
@@ -1078,6 +1084,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2021744127 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: c3aeb21ec13614d2296d305806fa899a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1601736574}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2021744129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021744127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f3e2cb129f16e4a9da0f07f33e5873, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brain: {fileID: 11400000, guid: 658cc7572cd7f474da9831be211005d1, type: 2}
+  agentParameters:
+    agentCameras: []
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 1
+  showDebug: 0
+  filterBeta: 0.5
+  playerHead: {fileID: 1692131428}
+  playerLeftHand: {fileID: 631616334}
+  playerRightHand: {fileID: 166266451}
+  flashlight: {fileID: 605592346}
 --- !u!1001 &2065824631
 PrefabInstance:
   m_ObjectHideFlags: 0
