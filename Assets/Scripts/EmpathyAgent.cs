@@ -9,13 +9,9 @@ public class EmpathyAgent : Agent
     public GameObject leftHand;
     public GameObject rightHand;
 
-    private Material material;
-    private float lastDistance;
     
     public override void InitializeAgent()
     {
-        material = GetComponent<MeshRenderer>().material;
-        material.color = Color.white;
         trainingPlayer.LoadRandomTrial();
     }
 
@@ -84,7 +80,6 @@ public class EmpathyAgent : Agent
 
         if (reward > 0)
         {
-            material.color = new Color(0,reward,0);
 //            if (reward > 0.90)
 //            {
 //                SetReward(1.0f);
@@ -93,20 +88,16 @@ public class EmpathyAgent : Agent
         }
         else if(reward < 0)
         {
-            material.color = new Color(Mathf.Abs(reward), 0, 0);
         }
         else
         {
-            material.color = Color.white;
         }
 
-        lastDistance = distance;
 
     }
 
     public override void AgentReset()
     {
-        material.color = Color.white;
         trainingPlayer.LoadRandomTrial();
     }
 }

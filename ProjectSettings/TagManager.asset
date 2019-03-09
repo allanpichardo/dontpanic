@@ -26,6 +26,7 @@ TagManager:
   - pyramid
   - switchOn
   - stone
+  - spawnPoint
   layers:
   - Default
   - TransparentFX
@@ -42,8 +43,8 @@ TagManager:
   - strikerWall
   - striker
   - Basketball
-  - 
-  - 
+  - World
+  - Spawn Point
   - 
   - 
   - 

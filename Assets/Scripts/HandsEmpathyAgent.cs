@@ -29,6 +29,10 @@ public abstract class HandsEmpathyAgent : Agent
         
         Vector3 headPosition = playerHead.transform.position.normalized;
         Quaternion headRotation = playerHead.transform.rotation.normalized;
+
+        Vector3 leftUp = playerLeftHand.transform.TransformDirection(Vector3.up);
+        Vector3 rightUp = playerRightHand.transform.TransformDirection(Vector3.up);
+        Vector3 headUp = playerHead.transform.TransformDirection(Vector3.up);
         
         AddVectorObs(leftPosition);
         AddVectorObs(leftRotation);
@@ -36,6 +40,9 @@ public abstract class HandsEmpathyAgent : Agent
         AddVectorObs(rightRotation);
         AddVectorObs(headPosition);
         AddVectorObs(headRotation);
+        AddVectorObs(leftUp);
+        AddVectorObs(rightUp);
+        AddVectorObs(headUp);
     }
 
     public override void AgentAction(float[] vectorAction, string textAction)
