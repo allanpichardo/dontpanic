@@ -33,10 +33,14 @@ public class GunController : MonoBehaviour
 
     private void OnTrigger()
     {
-        animator.SetTrigger(_fire);
+        if (animator)
+        {
+            animator.SetTrigger(_fire);
+        }
 
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out var hit))
         {
+            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward), Color.white);
             if (hit.collider.gameObject.layer == 17)
             {
                 ZombieController zombieController = hit.collider.gameObject.GetComponent<ZombieController>();
