@@ -7,7 +7,7 @@ public class FlashlightController : HandsEmpathyAgent
 {
 	private float emotion;
 	private float energy;
-	public light flashlight;
+	public Light flashlight;
 
     // Start is called before the first frame update
     void Start()
