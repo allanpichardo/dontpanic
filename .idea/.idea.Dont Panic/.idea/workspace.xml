@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e6632de-10d4-4fa0-ae08-47d0fb5c8659" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Brains/HandsEmpathyLearningBrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brains/HandsEmpathyLearningBrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/Zombie Animation Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/Zombie Animation Controller.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/mortimer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Local/mortimer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Trainer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Trainer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,13 +36,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ZombieController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+            <state relative-caret-position="465">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
-                <marker date="1552152886944" expanded="false" signature="6:78" ph="..." />
-                <marker date="1552152886944" expanded="true" signature="147:483" ph="{...}" />
-                <marker date="1552152886944" expanded="true" signature="292:357" ph="{...}" />
-                <marker date="1552152886944" expanded="true" signature="415:481" ph="{...}" />
+                <marker date="1552153768681" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552153768681" expanded="true" signature="147:858" ph="{...}" />
+                <marker date="1552153768681" expanded="true" signature="425:535" ph="{...}" />
+                <marker date="1552153768681" expanded="true" signature="593:776" ph="{...}" />
+                <marker date="1552153768681" expanded="true" signature="620:770" ph="{...}" />
+                <marker date="1552153768681" expanded="true" signature="814:856" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -107,6 +110,17 @@
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
             </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Models" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Models" type="1045f7f1:UnityExplorerNode" />
+              <item name="Prison" type="1045f7f1:UnityExplorerNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -162,12 +176,12 @@
       <workItem from="1551553566901" duration="8043000" />
       <workItem from="1551832299951" duration="579000" />
       <workItem from="1552105438434" duration="2163000" />
-      <workItem from="1552143190629" duration="545000" />
+      <workItem from="1552143190629" duration="1098000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11330000" />
+    <option name="totallyTimeSpent" value="11883000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -182,7 +196,7 @@
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -378,13 +392,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ZombieController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        <state relative-caret-position="465">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
-            <marker date="1552152886944" expanded="false" signature="6:78" ph="..." />
-            <marker date="1552152886944" expanded="true" signature="147:483" ph="{...}" />
-            <marker date="1552152886944" expanded="true" signature="292:357" ph="{...}" />
-            <marker date="1552152886944" expanded="true" signature="415:481" ph="{...}" />
+            <marker date="1552153768681" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552153768681" expanded="true" signature="147:858" ph="{...}" />
+            <marker date="1552153768681" expanded="true" signature="425:535" ph="{...}" />
+            <marker date="1552153768681" expanded="true" signature="593:776" ph="{...}" />
+            <marker date="1552153768681" expanded="true" signature="620:770" ph="{...}" />
+            <marker date="1552153768681" expanded="true" signature="814:856" ph="{...}" />
           </folding>
         </state>
       </provider>
