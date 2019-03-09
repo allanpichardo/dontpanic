@@ -35,6 +35,7 @@ public class ZombieController : MonoBehaviour
     {
         Debug.Log("Zombie set dead");
         this.isDead = isDead;
+        navMeshAgent.ResetPath();
         animator.SetBool(_isDead, isDead);
     }
 
