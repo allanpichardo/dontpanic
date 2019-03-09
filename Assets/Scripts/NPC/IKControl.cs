@@ -17,7 +17,6 @@ public class IKControl : MonoBehaviour {
 
     void Start ()
     {
-        player = GetComponent<EllenAgent>().playerHead.transform;
         animator = GetComponent<Animator>();
     }
 

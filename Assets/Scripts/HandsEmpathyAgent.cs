@@ -1,16 +1,15 @@
 ﻿using System;
+using HTC.UnityPlugin.Vive;
 using MLAgents;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
+using UnityEngine.XR;
 
 public abstract class HandsEmpathyAgent : Agent
 {
     public bool showDebug = false;
     public float filterBeta = 0.5f;
-    public GameObject playerHead;
-    public GameObject playerLeftHand;
-    public GameObject playerRightHand;
 
     private LowpassFilter lowpassFilter;
     
@@ -21,18 +20,22 @@ public abstract class HandsEmpathyAgent : Agent
 
     public override void CollectObservations()
     {
-        Vector3 leftPosition = playerLeftHand.transform.position.normalized;
-        Quaternion leftRotation = playerLeftHand.transform.rotation.normalized;
-
-        Vector3 rightPosition = playerRightHand.transform.position.normalized;
-        Quaternion rightRotation = playerRightHand.transform.rotation.normalized;
+        Pose rightHandPose = VivePose.GetPose(HandRole.RightHand);
+        Pose leftHandPose = VivePose.GetPose(HandRole.LeftHand);
+        Pose headPose = VivePose.GetPose(DeviceRole.Hmd);
         
-        Vector3 headPosition = playerHead.transform.position.normalized;
-        Quaternion headRotation = playerHead.transform.rotation.normalized;
+        Vector3 leftPosition = leftHandPose.position.normalized;
+        Quaternion leftRotation = leftHandPose.rotation.normalized;
 
-        Vector3 leftUp = playerLeftHand.transform.TransformDirection(Vector3.up);
-        Vector3 rightUp = playerRightHand.transform.TransformDirection(Vector3.up);
-        Vector3 headUp = playerHead.transform.TransformDirection(Vector3.up);
+        Vector3 rightPosition = rightHandPose.position.normalized;
+        Quaternion rightRotation = rightHandPose.rotation.normalized;
+
+        Vector3 headPosition = headPose.position.normalized;
+        Quaternion headRotation = headPose.rotation.normalized;
+
+        Vector3 leftUp = leftHandPose.up;
+        Vector3 rightUp = rightHandPose.up;
+        Vector3 headUp = headPose.up;
         
         AddVectorObs(leftPosition);
         AddVectorObs(leftRotation);
