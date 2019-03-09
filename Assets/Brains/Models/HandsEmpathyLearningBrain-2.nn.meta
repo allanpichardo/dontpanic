@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: b8ebdf64f1f0941a78f5787788f5a552
+ScriptedImporter:
+  fileIDToRecycleName:
+    11400000: Assets/Brains/Models/HandsEmpathyLearningBrain-2.nn
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 83221ad3db87f4b3b91b041047cb2bc5, type: 3}
