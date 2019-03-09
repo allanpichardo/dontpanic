@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e6632de-10d4-4fa0-ae08-47d0fb5c8659" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/Zombie Animation Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/Zombie Animation Controller.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombie death.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombie death.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/zombie.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Local/zombie.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,15 +36,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            <state relative-caret-position="211">
+              <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
               <folding>
-                <marker date="1552157882862" expanded="true" signature="6:82" ph="..." />
-                <marker date="1552157882862" expanded="true" signature="134:954" ph="{...}" />
-                <marker date="1552157882862" expanded="true" signature="357:378" ph="{...}" />
-                <marker date="1552157882862" expanded="true" signature="436:630" ph="{...}" />
-                <marker date="1552157882862" expanded="true" signature="506:585" ph="{...}" />
-                <marker date="1552157882862" expanded="true" signature="662:952" ph="{...}" />
+                <marker date="1552162180321" expanded="true" signature="6:96" ph="..." />
+                <marker date="1552162180321" expanded="true" signature="148:1133" ph="{...}" />
+                <marker date="1552162180321" expanded="true" signature="405:478" ph="{...}" />
+                <marker date="1552162180321" expanded="true" signature="536:733" ph="{...}" />
+                <marker date="1552162180321" expanded="true" signature="648:727" ph="{...}" />
+                <marker date="1552162180321" expanded="true" signature="765:1131" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -190,10 +188,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="45488">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="61941">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="45488" />
+      <option name="pid" value="61941" />
       <method v="2" />
     </configuration>
   </component>
@@ -210,12 +208,12 @@
       <workItem from="1551553566901" duration="8043000" />
       <workItem from="1551832299951" duration="579000" />
       <workItem from="1552105438434" duration="2163000" />
-      <workItem from="1552143190629" duration="3846000" />
+      <workItem from="1552143190629" duration="4410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14631000" />
+    <option name="totallyTimeSpent" value="15195000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -230,7 +228,7 @@
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -238,7 +236,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3987034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -443,15 +441,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        <state relative-caret-position="211">
+          <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
           <folding>
-            <marker date="1552157882862" expanded="true" signature="6:82" ph="..." />
-            <marker date="1552157882862" expanded="true" signature="134:954" ph="{...}" />
-            <marker date="1552157882862" expanded="true" signature="357:378" ph="{...}" />
-            <marker date="1552157882862" expanded="true" signature="436:630" ph="{...}" />
-            <marker date="1552157882862" expanded="true" signature="506:585" ph="{...}" />
-            <marker date="1552157882862" expanded="true" signature="662:952" ph="{...}" />
+            <marker date="1552162180321" expanded="true" signature="6:96" ph="..." />
+            <marker date="1552162180321" expanded="true" signature="148:1133" ph="{...}" />
+            <marker date="1552162180321" expanded="true" signature="405:478" ph="{...}" />
+            <marker date="1552162180321" expanded="true" signature="536:733" ph="{...}" />
+            <marker date="1552162180321" expanded="true" signature="648:727" ph="{...}" />
+            <marker date="1552162180321" expanded="true" signature="765:1131" ph="{...}" />
           </folding>
         </state>
       </provider>

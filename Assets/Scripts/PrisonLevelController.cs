@@ -1,31 +1,32 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using Random = System.Random;
 
 public class PrisonLevelController : MonoBehaviour
 {
     public List<GameObject> zombiePrefabs;
-
     public List<Transform> spawnPoints;
-
-    public int spawnInterval = 8;
+    public GameObject player;
+    public float spawnInterval = 10.0f;
 
     private float elapsedTime;
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("player");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Mathf.FloorToInt(elapsedTime) % spawnInterval == 0)
+        elapsedTime += Time.deltaTime;
+        
+        if (Math.Abs(elapsedTime - spawnInterval) < 0.01)
         {
             elapsedTime = 0.0f;
             SpawnZombie();
         }
-        elapsedTime += Time.deltaTime;
     }
 
     private void SpawnZombie()
@@ -35,6 +36,8 @@ public class PrisonLevelController : MonoBehaviour
         
         rnd = UnityEngine.Random.Range(0, zombiePrefabs.Count);
         GameObject zombie = zombiePrefabs[rnd];
+
+        zombie.GetComponent<ZombieController>().player = player.transform;
 
         Instantiate(zombie, spawnPoint);
     }
