@@ -36,9 +36,9 @@ public class EmpathyAgent : Agent
         AddVectorObs(rightRotation);
         AddVectorObs(headPosition);
         AddVectorObs(headRotation);
-        AddVectorObs(leftUp);
-        AddVectorObs(rightUp);
-        AddVectorObs(headUp);
+//        AddVectorObs(leftUp);
+//        AddVectorObs(rightUp);
+//        AddVectorObs(headUp);
     }
 
     private float CalculateReward(float predicted, float actual)
@@ -56,7 +56,7 @@ public class EmpathyAgent : Agent
         Trial trial = trainingPlayer.GetCurrentTrial();
         float valenceReward = CalculateReward(valence, trial.valence);
         float arousalReward = CalculateReward(arousal, trial.energy);
-        float reward = (0.5f * valenceReward + 0.5f * arousalReward);
+        float reward = (0.5f * valenceReward) + (0.5f * arousalReward);
         
         Vector2 actual = new Vector2(trial.valence, trial.energy);
         Vector2 guess = new Vector2(valence, arousal);

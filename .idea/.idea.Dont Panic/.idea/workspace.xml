@@ -2,36 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e6632de-10d4-4fa0-ae08-47d0fb5c8659" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Brains/HandsEmpathyLearningBrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brains/HandsEmpathyLearningBrain.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/Basketball_OBJ Variant.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/Basketball_OBJ Variant.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/basket Variant.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/basket Variant.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/field Variant.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/field Variant.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Hoops.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Hoops.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/mortimer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Local/mortimer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Trainer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Trainer.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_NewSet.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/ActionSetClasses/SteamVR_Input_ActionSet_NewSet.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Input_ActionSets.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Input_ActionSets.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Input_Actions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SteamVR_Input/SteamVR_Input_Actions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions.json" beforeDir="false" afterPath="$PROJECT_DIR$/actions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binding_holographic_hmd.json" beforeDir="false" afterPath="$PROJECT_DIR$/binding_holographic_hmd.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binding_rift.json" beforeDir="false" afterPath="$PROJECT_DIR$/binding_rift.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binding_vive.json" beforeDir="false" afterPath="$PROJECT_DIR$/binding_vive.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binding_vive_pro.json" beforeDir="false" afterPath="$PROJECT_DIR$/binding_vive_pro.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binding_vive_tracker_camera.json" beforeDir="false" afterPath="$PROJECT_DIR$/binding_vive_tracker_camera.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bindings_holographic_controller.json" beforeDir="false" afterPath="$PROJECT_DIR$/bindings_holographic_controller.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bindings_knuckles.json" beforeDir="false" afterPath="$PROJECT_DIR$/bindings_knuckles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bindings_oculus_touch.json" beforeDir="false" afterPath="$PROJECT_DIR$/bindings_oculus_touch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bindings_vive_controller.json" beforeDir="false" afterPath="$PROJECT_DIR$/bindings_vive_controller.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/CompanionController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
+            <state relative-caret-position="285">
               <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <marker date="1552107416937" expanded="false" signature="6:78" ph="..." />
@@ -57,44 +32,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
-              <folding>
-                <marker date="1552107874349" expanded="false" signature="6:103" ph="..." />
-                <marker date="1552107874349" expanded="true" signature="152:2285" ph="{...}" />
-                <marker date="1552107874349" expanded="true" signature="426:483" ph="{...}" />
-                <marker date="1552107874349" expanded="true" signature="531:1583" ph="{...}" />
-                <marker date="1552107874349" expanded="true" signature="1662:2103" ph="{...}" />
-                <marker date="1552107874349" expanded="true" signature="1942:2060" ph="{...}" />
-                <marker date="1552107874349" expanded="true" signature="2109:2171" ph="/* Override this method to receive predictions ... */" />
-                <marker date="1552107874349" expanded="true" signature="2271:2283" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ZombieController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+            <state relative-caret-position="255">
+              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
               <folding>
-                <marker date="1552110699664" expanded="false" signature="6:48" ph="..." />
-                <marker date="1552110699664" expanded="true" signature="83:3071" ph="{...}" />
-                <marker date="1552110699664" expanded="true" signature="269:323" ph="{...}" />
-                <marker date="1552110699664" expanded="true" signature="371:1369" ph="{...}" />
-                <marker date="1552110699664" expanded="true" signature="1435:1606" ph="{...}" />
-                <marker date="1552110699664" expanded="true" signature="1685:2976" ph="{...}" />
-                <marker date="1552110699664" expanded="true" signature="2526:2592" ph="/* Debug.Log(distance); ... */" />
-                <marker date="1552110699664" expanded="true" signature="2647:2716" ph="{...}" />
-                <marker date="1552110699664" expanded="true" signature="2741:2887" ph="{...}" />
-                <marker date="1552110699664" expanded="true" signature="2752:2877" ph="/* if (reward &gt; 0.90) ... */" />
-                <marker date="1552110699664" expanded="true" signature="2915:2935" ph="{...}" />
-                <marker date="1552110699664" expanded="true" signature="2948:2968" ph="{...}" />
-                <marker date="1552110699664" expanded="true" signature="3015:3069" ph="{...}" />
+                <marker date="1552152886944" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552152886944" expanded="true" signature="147:483" ph="{...}" />
+                <marker date="1552152886944" expanded="true" signature="292:357" ph="{...}" />
+                <marker date="1552152886944" expanded="true" signature="415:481" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -107,6 +54,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/CompanionController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/HoopController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Hoops.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -132,6 +80,7 @@
         <option value="$PROJECT_DIR$/Assets/CompanionController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" />
       </list>
     </option>
   </component>
@@ -146,6 +95,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -159,11 +113,6 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,11 +162,12 @@
       <workItem from="1551553566901" duration="8043000" />
       <workItem from="1551832299951" duration="579000" />
       <workItem from="1552105438434" duration="2163000" />
+      <workItem from="1552143190629" duration="545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10785000" />
+    <option name="totallyTimeSpent" value="11330000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -232,7 +182,7 @@
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -272,19 +222,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs</url>
-          <line>19</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" initialLine="23">
-            <startOffsets>
-              <option value="386" />
-            </startOffsets>
-            <endOffsets>
-              <option value="448" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -385,23 +322,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CompanionController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="563">
+          <caret line="50" column="69" selection-start-line="50" selection-start-column="69" selection-end-line="50" selection-end-column="69" />
           <folding>
-            <marker date="1552107416937" expanded="false" signature="6:78" ph="..." />
-            <marker date="1552107416937" expanded="true" signature="132:412" ph="{...}" />
-            <marker date="1552107416937" expanded="true" signature="205:226" ph="{...}" />
-            <marker date="1552107416937" expanded="true" signature="284:305" ph="{...}" />
-            <marker date="1552107416937" expanded="true" signature="366:410" ph="{...}" />
+            <marker date="1552143328674" expanded="false" signature="6:48" ph="..." />
+            <marker date="1552143328674" expanded="true" signature="83:3079" ph="{...}" />
+            <marker date="1552143328674" expanded="true" signature="269:323" ph="{...}" />
+            <marker date="1552143328674" expanded="true" signature="371:1375" ph="{...}" />
+            <marker date="1552143328674" expanded="true" signature="1273:1369" ph="/* AddVectorObs(leftUp); ... */" />
+            <marker date="1552143328674" expanded="true" signature="1441:1612" ph="{...}" />
+            <marker date="1552143328674" expanded="true" signature="1691:2984" ph="{...}" />
+            <marker date="1552143328674" expanded="true" signature="2534:2600" ph="/* Debug.Log(distance); ... */" />
+            <marker date="1552143328674" expanded="true" signature="2655:2724" ph="{...}" />
+            <marker date="1552143328674" expanded="true" signature="2749:2895" ph="{...}" />
+            <marker date="1552143328674" expanded="true" signature="2760:2885" ph="/* if (reward &gt; 0.90) ... */" />
+            <marker date="1552143328674" expanded="true" signature="2923:2943" ph="{...}" />
+            <marker date="1552143328674" expanded="true" signature="2956:2976" ph="{...}" />
+            <marker date="1552143328674" expanded="true" signature="3023:3077" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="157">
           <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
           <folding>
             <marker date="1552107874349" expanded="false" signature="6:103" ph="..." />
@@ -416,24 +362,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/CompanionController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+        <state relative-caret-position="285">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
-            <marker date="1552110699664" expanded="false" signature="6:48" ph="..." />
-            <marker date="1552110699664" expanded="true" signature="83:3071" ph="{...}" />
-            <marker date="1552110699664" expanded="true" signature="269:323" ph="{...}" />
-            <marker date="1552110699664" expanded="true" signature="371:1369" ph="{...}" />
-            <marker date="1552110699664" expanded="true" signature="1435:1606" ph="{...}" />
-            <marker date="1552110699664" expanded="true" signature="1685:2976" ph="{...}" />
-            <marker date="1552110699664" expanded="true" signature="2526:2592" ph="/* Debug.Log(distance); ... */" />
-            <marker date="1552110699664" expanded="true" signature="2647:2716" ph="{...}" />
-            <marker date="1552110699664" expanded="true" signature="2741:2887" ph="{...}" />
-            <marker date="1552110699664" expanded="true" signature="2752:2877" ph="/* if (reward &gt; 0.90) ... */" />
-            <marker date="1552110699664" expanded="true" signature="2915:2935" ph="{...}" />
-            <marker date="1552110699664" expanded="true" signature="2948:2968" ph="{...}" />
-            <marker date="1552110699664" expanded="true" signature="3015:3069" ph="{...}" />
+            <marker date="1552107416937" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552107416937" expanded="true" signature="132:412" ph="{...}" />
+            <marker date="1552107416937" expanded="true" signature="205:226" ph="{...}" />
+            <marker date="1552107416937" expanded="true" signature="284:305" ph="{...}" />
+            <marker date="1552107416937" expanded="true" signature="366:410" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ZombieController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding>
+            <marker date="1552152886944" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552152886944" expanded="true" signature="147:483" ph="{...}" />
+            <marker date="1552152886944" expanded="true" signature="292:357" ph="{...}" />
+            <marker date="1552152886944" expanded="true" signature="415:481" ph="{...}" />
           </folding>
         </state>
       </provider>

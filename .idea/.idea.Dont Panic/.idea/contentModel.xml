@@ -560,6 +560,7 @@
             <e p="LowpassFilter.cs" t="Include" />
             <e p="VectorStatistics.cs" t="Include" />
           </e>
+          <e p="ZombieController.cs" t="Include" />
         </e>
         <e p="SteamVR" t="Include">
           <e p="Editor" t="Include">
