@@ -34,6 +34,8 @@ public class GunController : MonoBehaviour
     private void OnTrigger()
     {
         animator.SetTrigger("Fire");
+        
+        ViveInput.TriggerHapticPulse(HandRole.RightHand);
 
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out var hit, float.PositiveInfinity))
         {
