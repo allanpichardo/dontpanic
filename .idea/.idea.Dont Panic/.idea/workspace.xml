@@ -3,10 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="6e6632de-10d4-4fa0-ae08-47d0fb5c8659" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Brains/HandsEmpathyLearningBrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brains/HandsEmpathyLearningBrain.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/mortimer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Local/mortimer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Trainer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Trainer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/Zombie Animation Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/Zombie Animation Controller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombie walk.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombie walk.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/3ee3de-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/3ee3de-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/7a/7a0307b4c134546bdb70dab2682a3e58" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/7a/7a0307b4c134546bdb70dab2682a3e58" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/e6/e614b82d9781643698a985897e12cf90" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/e6/e614b82d9781643698a985897e12cf90" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,32 +26,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/CompanionController.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ZombieController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="375">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
               <folding>
-                <marker date="1552107416937" expanded="false" signature="6:78" ph="..." />
-                <marker date="1552107416937" expanded="true" signature="132:412" ph="{...}" />
-                <marker date="1552107416937" expanded="true" signature="205:226" ph="{...}" />
-                <marker date="1552107416937" expanded="true" signature="284:305" ph="{...}" />
-                <marker date="1552107416937" expanded="true" signature="366:410" ph="{...}" />
+                <marker date="1552155117792" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552155117792" expanded="true" signature="147:1039" ph="{...}" />
+                <marker date="1552155117792" expanded="true" signature="504:614" ph="{...}" />
+                <marker date="1552155117792" expanded="true" signature="672:957" ph="{...}" />
+                <marker date="1552155117792" expanded="true" signature="699:951" ph="{...}" />
+                <marker date="1552155117792" expanded="true" signature="995:1037" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ZombieController.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+            <state relative-caret-position="277">
+              <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
               <folding>
-                <marker date="1552152886944" expanded="false" signature="6:78" ph="..." />
-                <marker date="1552152886944" expanded="true" signature="147:483" ph="{...}" />
-                <marker date="1552152886944" expanded="true" signature="292:357" ph="{...}" />
-                <marker date="1552152886944" expanded="true" signature="415:481" ph="{...}" />
+                <marker date="1552107874349" expanded="false" signature="6:103" ph="..." />
+                <marker date="1552107874349" expanded="true" signature="152:2285" ph="{...}" />
+                <marker date="1552107874349" expanded="true" signature="426:483" ph="{...}" />
+                <marker date="1552107874349" expanded="true" signature="531:1583" ph="{...}" />
+                <marker date="1552107874349" expanded="true" signature="1662:2103" ph="{...}" />
+                <marker date="1552107874349" expanded="true" signature="1942:2060" ph="{...}" />
+                <marker date="1552107874349" expanded="true" signature="2109:2171" ph="/* Override this method to receive predictions ... */" />
+                <marker date="1552107874349" expanded="true" signature="2271:2283" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -107,6 +122,28 @@
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
             </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Models" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Models" type="1045f7f1:UnityExplorerNode" />
+              <item name="Prison" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scenes" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Scenes" type="1045f7f1:UnityExplorerNode" />
+              <item name="Prison" type="1045f7f1:UnityExplorerNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -162,12 +199,12 @@
       <workItem from="1551553566901" duration="8043000" />
       <workItem from="1551832299951" duration="579000" />
       <workItem from="1552105438434" duration="2163000" />
-      <workItem from="1552143190629" duration="545000" />
+      <workItem from="1552143190629" duration="1954000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11330000" />
+    <option name="totallyTimeSpent" value="12739000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -182,7 +219,7 @@
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -345,23 +382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
-          <folding>
-            <marker date="1552107874349" expanded="false" signature="6:103" ph="..." />
-            <marker date="1552107874349" expanded="true" signature="152:2285" ph="{...}" />
-            <marker date="1552107874349" expanded="true" signature="426:483" ph="{...}" />
-            <marker date="1552107874349" expanded="true" signature="531:1583" ph="{...}" />
-            <marker date="1552107874349" expanded="true" signature="1662:2103" ph="{...}" />
-            <marker date="1552107874349" expanded="true" signature="1942:2060" ph="{...}" />
-            <marker date="1552107874349" expanded="true" signature="2109:2171" ph="/* Override this method to receive predictions ... */" />
-            <marker date="1552107874349" expanded="true" signature="2271:2283" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CompanionController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -376,15 +396,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+          <folding>
+            <marker date="1552107874349" expanded="false" signature="6:103" ph="..." />
+            <marker date="1552107874349" expanded="true" signature="152:2285" ph="{...}" />
+            <marker date="1552107874349" expanded="true" signature="426:483" ph="{...}" />
+            <marker date="1552107874349" expanded="true" signature="531:1583" ph="{...}" />
+            <marker date="1552107874349" expanded="true" signature="1662:2103" ph="{...}" />
+            <marker date="1552107874349" expanded="true" signature="1942:2060" ph="{...}" />
+            <marker date="1552107874349" expanded="true" signature="2109:2171" ph="/* Override this method to receive predictions ... */" />
+            <marker date="1552107874349" expanded="true" signature="2271:2283" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ZombieController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        <state relative-caret-position="375">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
           <folding>
-            <marker date="1552152886944" expanded="false" signature="6:78" ph="..." />
-            <marker date="1552152886944" expanded="true" signature="147:483" ph="{...}" />
-            <marker date="1552152886944" expanded="true" signature="292:357" ph="{...}" />
-            <marker date="1552152886944" expanded="true" signature="415:481" ph="{...}" />
+            <marker date="1552155117792" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552155117792" expanded="true" signature="147:1039" ph="{...}" />
+            <marker date="1552155117792" expanded="true" signature="504:614" ph="{...}" />
+            <marker date="1552155117792" expanded="true" signature="672:957" ph="{...}" />
+            <marker date="1552155117792" expanded="true" signature="699:951" ph="{...}" />
+            <marker date="1552155117792" expanded="true" signature="995:1037" ph="{...}" />
           </folding>
         </state>
       </provider>
