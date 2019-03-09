@@ -537,6 +537,7 @@
           <e p="EllenAgent.cs" t="Include" />
           <e p="EmpathyAcademy.cs" t="Include" />
           <e p="EmpathyAgent.cs" t="Include" />
+          <e p="FlashlightController.cs" t="Include" />
           <e p="HandsEmpathyAgent.cs" t="Include" />
           <e p="Hoops" t="Include">
             <e p="BallController.cs" t="Include" />
@@ -550,6 +551,7 @@
           </e>
           <e p="Observation.cs" t="Include" />
           <e p="PlayWASD.cs" t="Include" />
+          <e p="PrisonLevelController.cs" t="Include" />
           <e p="Reader.cs" t="Include" />
           <e p="Recorder.cs" t="Include" />
           <e p="TimedEmpathyAgent.cs" t="Include" />
