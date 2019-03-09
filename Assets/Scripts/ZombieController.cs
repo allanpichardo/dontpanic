@@ -34,4 +34,9 @@ public class ZombieController : MonoBehaviour
     {
         this.isDead = isDead;
     }
+
+    public void OnZombieAttack()
+    {
+        
+    }
 }
