@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e6632de-10d4-4fa0-ae08-47d0fb5c8659" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/Zombie Animation Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/Zombie Animation Controller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombie death.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombie death.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/zombie.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Local/zombie.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,19 +16,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ZombieController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="457">
+              <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
               <folding>
-                <marker date="1552155698021" expanded="false" signature="6:78" ph="..." />
-                <marker date="1552155698021" expanded="true" signature="147:1094" ph="{...}" />
-                <marker date="1552155698021" expanded="true" signature="504:614" ph="{...}" />
-                <marker date="1552155698021" expanded="true" signature="672:957" ph="{...}" />
-                <marker date="1552155698021" expanded="true" signature="699:951" ph="{...}" />
-                <marker date="1552155698021" expanded="true" signature="995:1037" ph="{...}" />
-                <marker date="1552155698021" expanded="true" signature="1071:1092" ph="{...}" />
+                <marker date="1552156796291" expanded="true" signature="6:100" ph="..." />
+                <marker date="1552156796291" expanded="true" signature="147:1274" ph="{...}" />
+                <marker date="1552156796291" expanded="true" signature="579:689" ph="{...}" />
+                <marker date="1552156796291" expanded="true" signature="747:1032" ph="{...}" />
+                <marker date="1552156796291" expanded="true" signature="774:1026" ph="{...}" />
+                <marker date="1552156796291" expanded="true" signature="1070:1155" ph="{...}" />
+                <marker date="1552156796291" expanded="true" signature="1189:1210" ph="{...}" />
+                <marker date="1552156796291" expanded="true" signature="1237:1272" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="478">
+              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+              <folding>
+                <marker date="1552157882862" expanded="true" signature="6:82" ph="..." />
+                <marker date="1552157882862" expanded="true" signature="134:954" ph="{...}" />
+                <marker date="1552157882862" expanded="true" signature="357:378" ph="{...}" />
+                <marker date="1552157882862" expanded="true" signature="436:630" ph="{...}" />
+                <marker date="1552157882862" expanded="true" signature="506:585" ph="{...}" />
+                <marker date="1552157882862" expanded="true" signature="662:952" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -65,6 +87,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BallController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BasketController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BallGrabber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -83,6 +106,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" />
       </list>
     </option>
   </component>
@@ -186,12 +210,12 @@
       <workItem from="1551553566901" duration="8043000" />
       <workItem from="1551832299951" duration="579000" />
       <workItem from="1552105438434" duration="2163000" />
-      <workItem from="1552143190629" duration="2701000" />
+      <workItem from="1552143190629" duration="3846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13486000" />
+    <option name="totallyTimeSpent" value="14631000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,16 +426,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ZombieController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="457">
+          <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
           <folding>
-            <marker date="1552155698021" expanded="false" signature="6:78" ph="..." />
-            <marker date="1552155698021" expanded="true" signature="147:1094" ph="{...}" />
-            <marker date="1552155698021" expanded="true" signature="504:614" ph="{...}" />
-            <marker date="1552155698021" expanded="true" signature="672:957" ph="{...}" />
-            <marker date="1552155698021" expanded="true" signature="699:951" ph="{...}" />
-            <marker date="1552155698021" expanded="true" signature="995:1037" ph="{...}" />
-            <marker date="1552155698021" expanded="true" signature="1071:1092" ph="{...}" />
+            <marker date="1552156796291" expanded="true" signature="6:100" ph="..." />
+            <marker date="1552156796291" expanded="true" signature="147:1274" ph="{...}" />
+            <marker date="1552156796291" expanded="true" signature="579:689" ph="{...}" />
+            <marker date="1552156796291" expanded="true" signature="747:1032" ph="{...}" />
+            <marker date="1552156796291" expanded="true" signature="774:1026" ph="{...}" />
+            <marker date="1552156796291" expanded="true" signature="1070:1155" ph="{...}" />
+            <marker date="1552156796291" expanded="true" signature="1189:1210" ph="{...}" />
+            <marker date="1552156796291" expanded="true" signature="1237:1272" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <folding>
+            <marker date="1552157882862" expanded="true" signature="6:82" ph="..." />
+            <marker date="1552157882862" expanded="true" signature="134:954" ph="{...}" />
+            <marker date="1552157882862" expanded="true" signature="357:378" ph="{...}" />
+            <marker date="1552157882862" expanded="true" signature="436:630" ph="{...}" />
+            <marker date="1552157882862" expanded="true" signature="506:585" ph="{...}" />
+            <marker date="1552157882862" expanded="true" signature="662:952" ph="{...}" />
           </folding>
         </state>
       </provider>

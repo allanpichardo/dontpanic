@@ -11,6 +11,7 @@ public class ZombieController : MonoBehaviour
     private static readonly int _speed = Animator.StringToHash("speed");
     private bool isDead = false;
     private static readonly int _distance = Animator.StringToHash("distance");
+    private static readonly int _isDead = Animator.StringToHash("isDead");
 
     // Start is called before the first frame update
     void Start()
@@ -33,10 +34,16 @@ public class ZombieController : MonoBehaviour
     public void SetDead(bool isDead)
     {
         this.isDead = isDead;
+        animator.SetBool(_isDead, isDead);
     }
 
     public void OnZombieAttack()
     {
         
+    }
+
+    public void OnDeath()
+    {
+        Destroy(this);
     }
 }
