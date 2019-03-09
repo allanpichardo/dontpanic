@@ -33,6 +33,7 @@ public class ZombieController : MonoBehaviour
 
     public void SetDead(bool isDead)
     {
+        Debug.Log("Zombie set dead");
         this.isDead = isDead;
         animator.SetBool(_isDead, isDead);
     }
