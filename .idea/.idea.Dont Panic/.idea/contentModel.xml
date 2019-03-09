@@ -538,6 +538,7 @@
           <e p="EmpathyAcademy.cs" t="Include" />
           <e p="EmpathyAgent.cs" t="Include" />
           <e p="FlashlightController.cs" t="Include" />
+          <e p="GunController.cs" t="Include" />
           <e p="HandsEmpathyAgent.cs" t="Include" />
           <e p="Hoops" t="Include">
             <e p="BallController.cs" t="Include" />

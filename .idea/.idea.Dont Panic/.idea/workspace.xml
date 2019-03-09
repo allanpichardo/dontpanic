@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e6632de-10d4-4fa0-ae08-47d0fb5c8659" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CompanionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CompanionController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/Zombie Animation Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/Zombie Animation Controller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombies/liam/Liam Animator Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombies/liam/Liam Animator Controller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombies/liam/animations/liam@Standing Idle 02 Looking.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombies/liam/animations/liam@Standing Idle 02 Looking.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombies/liam/animations/liam@Standing Walk Forward.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombies/liam/animations/liam@Standing Walk Forward.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombies/liam/animations/liam@Terrified.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombies/liam/animations/liam@Terrified.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/mortimer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Local/mortimer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/zombie.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Local/zombie.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +23,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/CompanionController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+              <folding>
+                <marker date="1552164625725" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552164625725" expanded="true" signature="154:1043" ph="{...}" />
+                <marker date="1552164625725" expanded="true" signature="443:624" ph="{...}" />
+                <marker date="1552164625725" expanded="true" signature="682:936" ph="{...}" />
+                <marker date="1552164625725" expanded="true" signature="780:930" ph="{...}" />
+                <marker date="1552164625725" expanded="true" signature="997:1041" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GunController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+              <folding>
+                <marker date="1552165894047" expanded="false" signature="6:106" ph="..." />
+                <marker date="1552165894047" expanded="true" signature="150:1172" ph="{...}" />
+                <marker date="1552165894047" expanded="true" signature="326:383" ph="{...}" />
+                <marker date="1552165894047" expanded="true" signature="441:462" ph="{...}" />
+                <marker date="1552165894047" expanded="true" signature="488:589" ph="{...}" />
+                <marker date="1552165894047" expanded="true" signature="619:723" ph="{...}" />
+                <marker date="1552165894047" expanded="true" signature="753:1170" ph="{...}" />
+                <marker date="1552165894047" expanded="true" signature="905:1164" ph="{...}" />
+                <marker date="1552165894047" expanded="true" signature="968:1154" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ZombieController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+            <state relative-caret-position="307">
+              <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
               <folding>
                 <marker date="1552156796291" expanded="true" signature="6:100" ph="..." />
                 <marker date="1552156796291" expanded="true" signature="147:1274" ph="{...}" />
@@ -33,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
+            <state relative-caret-position="523">
               <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
               <folding>
                 <marker date="1552162180321" expanded="true" signature="6:96" ph="..." />
@@ -86,6 +131,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BasketController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BallGrabber.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -100,11 +146,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/VRInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Hoops/BallGrabber.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RWVR/RWVR_InteractionController.cs" />
-        <option value="$PROJECT_DIR$/Assets/CompanionController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/CompanionController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GunController.cs" />
       </list>
     </option>
   </component>
@@ -208,12 +255,12 @@
       <workItem from="1551553566901" duration="8043000" />
       <workItem from="1551832299951" duration="579000" />
       <workItem from="1552105438434" duration="2163000" />
-      <workItem from="1552143190629" duration="4410000" />
+      <workItem from="1552143190629" duration="5490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15195000" />
+    <option name="totallyTimeSpent" value="16275000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -236,7 +283,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3987034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -391,20 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CompanionController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <marker date="1552107416937" expanded="false" signature="6:78" ph="..." />
-            <marker date="1552107416937" expanded="true" signature="132:412" ph="{...}" />
-            <marker date="1552107416937" expanded="true" signature="205:226" ph="{...}" />
-            <marker date="1552107416937" expanded="true" signature="284:305" ph="{...}" />
-            <marker date="1552107416937" expanded="true" signature="366:410" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -422,10 +455,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
+          <folding>
+            <marker date="1552162180321" expanded="true" signature="6:96" ph="..." />
+            <marker date="1552162180321" expanded="true" signature="148:1133" ph="{...}" />
+            <marker date="1552162180321" expanded="true" signature="405:478" ph="{...}" />
+            <marker date="1552162180321" expanded="true" signature="536:733" ph="{...}" />
+            <marker date="1552162180321" expanded="true" signature="648:727" ph="{...}" />
+            <marker date="1552162180321" expanded="true" signature="765:1131" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ZombieController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+        <state relative-caret-position="307">
+          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
           <folding>
             <marker date="1552156796291" expanded="true" signature="6:100" ph="..." />
             <marker date="1552156796291" expanded="true" signature="147:1274" ph="{...}" />
@@ -439,17 +487,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/CompanionController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="39" column="73" selection-start-line="39" selection-start-column="73" selection-end-line="39" selection-end-column="73" />
+        <state relative-caret-position="75">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding>
-            <marker date="1552162180321" expanded="true" signature="6:96" ph="..." />
-            <marker date="1552162180321" expanded="true" signature="148:1133" ph="{...}" />
-            <marker date="1552162180321" expanded="true" signature="405:478" ph="{...}" />
-            <marker date="1552162180321" expanded="true" signature="536:733" ph="{...}" />
-            <marker date="1552162180321" expanded="true" signature="648:727" ph="{...}" />
-            <marker date="1552162180321" expanded="true" signature="765:1131" ph="{...}" />
+            <marker date="1552164625725" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552164625725" expanded="true" signature="154:1043" ph="{...}" />
+            <marker date="1552164625725" expanded="true" signature="443:624" ph="{...}" />
+            <marker date="1552164625725" expanded="true" signature="682:936" ph="{...}" />
+            <marker date="1552164625725" expanded="true" signature="780:930" ph="{...}" />
+            <marker date="1552164625725" expanded="true" signature="997:1041" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GunController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <marker date="1552165894047" expanded="false" signature="6:106" ph="..." />
+            <marker date="1552165894047" expanded="true" signature="150:1172" ph="{...}" />
+            <marker date="1552165894047" expanded="true" signature="326:383" ph="{...}" />
+            <marker date="1552165894047" expanded="true" signature="441:462" ph="{...}" />
+            <marker date="1552165894047" expanded="true" signature="488:589" ph="{...}" />
+            <marker date="1552165894047" expanded="true" signature="619:723" ph="{...}" />
+            <marker date="1552165894047" expanded="true" signature="753:1170" ph="{...}" />
+            <marker date="1552165894047" expanded="true" signature="905:1164" ph="{...}" />
+            <marker date="1552165894047" expanded="true" signature="968:1154" ph="{...}" />
           </folding>
         </state>
       </provider>
