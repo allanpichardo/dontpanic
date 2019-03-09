@@ -41,8 +41,10 @@ public class GunController : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out var hit, float.PositiveInfinity))
         {
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward), Color.white, 0.3f);
+            Debug.Log(hit.collider.gameObject.layer);
             if (hit.collider.gameObject.layer == 17)
             {
+                Debug.Log("hit zombie");
                 ZombieController zombieController = hit.collider.gameObject.GetComponent<ZombieController>();
                 zombieController.SetDead(true);
             }
