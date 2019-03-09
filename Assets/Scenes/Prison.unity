@@ -118,6 +118,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2065824631}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &166266455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166266451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3796c35a6a17f4cb3be95384a231b465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &354381926
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -128,6 +140,10 @@ PrefabInstance:
     - target: {fileID: 100012, guid: 248ca2582425d45ffa5560f9d1f4ecd9, type: 3}
       propertyPath: m_Name
       value: pistol_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 248ca2582425d45ffa5560f9d1f4ecd9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 248ca2582425d45ffa5560f9d1f4ecd9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -386,12 +402,6 @@ Light:
     type: 3}
   m_PrefabInstance: {fileID: 1601736574}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &631616334 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 188906, guid: cb3370c18187bb444b240cfb08dcc02f,
-    type: 3}
-  m_PrefabInstance: {fileID: 2065824631}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &671656820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -548,9 +558,6 @@ MonoBehaviour:
     numberOfActionsBetweenDecisions: 1
   showDebug: 1
   filterBeta: 0.1
-  playerHead: {fileID: 1692131428}
-  playerLeftHand: {fileID: 631616334}
-  playerRightHand: {fileID: 166266451}
   distanceThreshold: 0
 --- !u!195 &671656827
 NavMeshAgent:
@@ -770,11 +777,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1438965409, guid: 94472587119ba48e5ba8aad175ea0d9d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1438965409, guid: 94472587119ba48e5ba8aad175ea0d9d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.82
       objectReference: {fileID: 0}
     - target: {fileID: 1438965409, guid: 94472587119ba48e5ba8aad175ea0d9d, type: 3}
       propertyPath: m_LocalRotation.x
@@ -820,7 +827,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1438965410}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0, z: -0.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 505951003}
@@ -1181,7 +1188,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2021744127}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e2f3e2cb129f16e4a9da0f07f33e5873, type: 3}
   m_Name: 
@@ -1195,9 +1202,6 @@ MonoBehaviour:
     numberOfActionsBetweenDecisions: 1
   showDebug: 1
   filterBeta: 0.5
-  playerHead: {fileID: 1692131428}
-  playerLeftHand: {fileID: 631616334}
-  playerRightHand: {fileID: 166266451}
   flashlight: {fileID: 605592346}
 --- !u!1001 &2065824631
 PrefabInstance:
