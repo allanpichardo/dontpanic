@@ -24,7 +24,7 @@ public class FlashlightController : HandsEmpathyAgent
     public override void OnNewPrediction(Vector3 inference){
     	this.emotion = inference.x;
     	this.energy = inference.y;
-
+    	Debug.Log("Energy: "+energy);
     	// emotion = ((emotion+1)*0.5);
     	// energy = ((energy+1)*0.5);
     	// float outputMultiplier = ((emotion+energy)*0.5);
