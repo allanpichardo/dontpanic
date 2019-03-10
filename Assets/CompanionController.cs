@@ -31,6 +31,6 @@ public class CompanionController : HandsEmpathyAgent
 
     public override void OnNewPrediction(Vector3 inference)
     {
-       //Debug.Log(inference); 
+       Debug.Log(inference); 
     }
 }

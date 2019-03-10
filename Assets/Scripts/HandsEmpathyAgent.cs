@@ -10,6 +10,7 @@ public abstract class HandsEmpathyAgent : Agent
 {
     public bool showDebug = false;
     public float filterBeta = 0.5f;
+    public Transform worldCenter;
 
     private LowpassFilter lowpassFilter;
     
@@ -21,8 +22,13 @@ public abstract class HandsEmpathyAgent : Agent
     public override void CollectObservations()
     {
         Pose rightHandPose = VivePose.GetPose(HandRole.RightHand);
+        rightHandPose = rightHandPose.GetTransformedBy(worldCenter);
+        
         Pose leftHandPose = VivePose.GetPose(HandRole.LeftHand);
+        leftHandPose = leftHandPose.GetTransformedBy(worldCenter);
+        
         Pose headPose = VivePose.GetPose(DeviceRole.Hmd);
+        headPose = headPose.GetTransformedBy(worldCenter);
         
         Vector3 leftPosition = leftHandPose.position.normalized;
         Quaternion leftRotation = leftHandPose.rotation.normalized;
@@ -43,9 +49,9 @@ public abstract class HandsEmpathyAgent : Agent
         AddVectorObs(rightRotation);
         AddVectorObs(headPosition);
         AddVectorObs(headRotation);
-        AddVectorObs(leftUp);
-        AddVectorObs(rightUp);
-        AddVectorObs(headUp);
+//        AddVectorObs(leftUp);
+//        AddVectorObs(rightUp);
+//        AddVectorObs(headUp);
     }
 
     public override void AgentAction(float[] vectorAction, string textAction)
