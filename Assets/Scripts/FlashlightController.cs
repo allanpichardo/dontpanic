@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class FlashlightController : HandsEmpathyAgent
+public class FlashlightController : MonoBehaviour
 {
 	private float emotion;
 	private float energy;
@@ -21,14 +21,4 @@ public class FlashlightController : HandsEmpathyAgent
         
     }
 
-    public override void OnNewPrediction(Vector3 inference){
-    	this.emotion = inference.x;
-    	this.energy = inference.y;
-    	Debug.Log("Energy: "+energy);
-    	// emotion = ((emotion+1)*0.5);
-    	// energy = ((energy+1)*0.5);
-    	// float outputMultiplier = ((emotion+energy)*0.5);
-    	this.flashlight.spotAngle = 30+(energy*15);
-
-    }
 }

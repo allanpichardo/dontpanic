@@ -95,19 +95,7 @@ namespace MLAgents
         [SerializeField] 
         public BroadcastHub broadcastHub = new BroadcastHub();
         
-        private const string kApiVersion = "API-7";
-
-        /// Temporary storage for global gravity value
-        /// Used to restore oringal value when deriving Academy modifies it 
-        private Vector3 originalGravity;
-
-        /// Temporary storage for global fixedDeltaTime value
-        /// Used to restore oringal value when deriving Academy modifies it 
-        private float originalFixedDeltaTime;
-        
-        /// Temporary storage for global maximumDeltaTime value
-        /// Used to restore oringal value when deriving Academy modifies it 
-        private float originalMaximumDeltaTime;
+        private const string kApiVersion = "API-6";
 
         // Fields provided in the Inspector
 
@@ -263,10 +251,6 @@ namespace MLAgents
         /// </summary>
         private void InitializeEnvironment()
         {
-            originalGravity = Physics.gravity;
-            originalFixedDeltaTime = Time.fixedDeltaTime;
-            originalMaximumDeltaTime = Time.maximumDeltaTime;
-            
             InitializeAcademy();
             Communicator communicator = null;
 
@@ -625,16 +609,6 @@ namespace MLAgents
         void FixedUpdate()
         {
             EnvironmentStep();
-        }
-
-        /// <summary>
-        /// Cleanup function
-        /// </summary>
-        protected virtual void OnDestroy()
-        {
-            Physics.gravity = originalGravity;
-            Time.fixedDeltaTime = originalFixedDeltaTime;
-            Time.maximumDeltaTime = originalMaximumDeltaTime;
         }
     }
 }

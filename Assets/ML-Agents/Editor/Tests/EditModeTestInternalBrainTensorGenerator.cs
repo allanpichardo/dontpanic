@@ -113,14 +113,17 @@ namespace MLAgents.Tests
             var inputTensor = new Tensor()
             {
                 Shape = new long[] {2, 2},
-                ValueType = Tensor.TensorType.Integer
+                ValueType = Tensor.TensorType.FloatingPoint
                 
             };
             var batchSize = 4;
             var agentInfos = GetFakeAgentInfos();
 
             var generator = new PreviousActionInputGenerator();
+            Assert.Catch<NotImplementedException>(
+                () => generator.Generate(inputTensor, batchSize, agentInfos));
 
+            inputTensor.ValueType = Tensor.TensorType.Integer;
             generator.Generate(inputTensor, batchSize, agentInfos);
             Assert.IsNotNull(inputTensor.Data as int[,]);
             Assert.AreEqual((inputTensor.Data as int[,])[0, 0], 1);

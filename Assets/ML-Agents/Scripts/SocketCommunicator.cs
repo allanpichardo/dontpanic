@@ -1,4 +1,5 @@
 using Google.Protobuf;
+using Grpc.Core;
 using System.Net.Sockets;
 using UnityEngine;
 using MLAgents.CommunicatorObjects;
