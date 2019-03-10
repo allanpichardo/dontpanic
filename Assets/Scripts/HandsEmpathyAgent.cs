@@ -22,13 +22,13 @@ public abstract class HandsEmpathyAgent : Agent
     public override void CollectObservations()
     {
         Pose rightHandPose = VivePose.GetPose(HandRole.RightHand);
-        rightHandPose = rightHandPose.GetTransformedBy(worldCenter);
+        //rightHandPose = rightHandPose.GetTransformedBy(worldCenter);
         
         Pose leftHandPose = VivePose.GetPose(HandRole.LeftHand);
-        leftHandPose = leftHandPose.GetTransformedBy(worldCenter);
+        //leftHandPose = leftHandPose.GetTransformedBy(worldCenter);
         
         Pose headPose = VivePose.GetPose(DeviceRole.Hmd);
-        headPose = headPose.GetTransformedBy(worldCenter);
+        //headPose = headPose.GetTransformedBy(worldCenter);
         
         Vector3 leftPosition = leftHandPose.position.normalized;
         Quaternion leftRotation = leftHandPose.rotation.normalized;
