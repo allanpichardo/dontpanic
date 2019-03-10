@@ -26,7 +26,7 @@ public class TennisAgent : Agent
     public override void InitializeAgent()
     {
         agentRb = GetComponent<Rigidbody>();
-        ballRb = ball.GetComponent<Rigidbody>();
+        ballRb = GetComponent<Rigidbody>();
         var canvas = GameObject.Find(CanvasName);
         GameObject scoreBoard;
         if (invertX)
