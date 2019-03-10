@@ -14,7 +14,6 @@ namespace MLAgents
     public class LearningBrainEditor : BrainEditor
     {
         private const string ModelPropName = "model";
-        private const string InferenceDevicePropName = "inferenceDevice";
         private const float TimeBetweenModelReloads = 2f;
         // Time since the last reload of the model
         private float _timeSinceModelReload;
@@ -48,8 +47,6 @@ namespace MLAgents
             serializedBrain.Update(); 
             var tfGraphModel = serializedBrain.FindProperty(ModelPropName);
             EditorGUILayout.ObjectField(tfGraphModel);
-            var inferenceDevice = serializedBrain.FindProperty(InferenceDevicePropName);
-            EditorGUILayout.PropertyField(inferenceDevice);
             serializedBrain.ApplyModifiedProperties();
             if (EditorGUI.EndChangeCheck())
             {

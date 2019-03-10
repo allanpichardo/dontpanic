@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class CompanionController : HandsEmpathyAgent
+public class CompanionController : MonoBehaviour
 {
     public float distanceThreshold = 5.0f;
     private NavMeshAgent navMeshAgent;
@@ -29,8 +29,4 @@ public class CompanionController : HandsEmpathyAgent
         }
     }
 
-    public override void OnNewPrediction(Vector3 inference)
-    {
-       Debug.Log(inference); 
-    }
 }

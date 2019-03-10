@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = System.Random;
 
-public class PrisonLevelController : MonoBehaviour
+public class PrisonLevelController : HandsEmpathyAgent
 {
     public List<GameObject> zombiePrefabs;
     public List<Transform> spawnPoints;
     public GameObject player;
     public float spawnInterval = 10.0f;
+    public Light flashlight;
+    public GameObject companion;
 
     private float elapsedTime;
     // Start is called before the first frame update
@@ -22,7 +24,7 @@ public class PrisonLevelController : MonoBehaviour
     {
         elapsedTime += Time.deltaTime;
         
-        if (Math.Abs(elapsedTime - spawnInterval) < 0.01)
+        if (Math.Abs(elapsedTime - spawnInterval) < 0.001)
         {
             elapsedTime = 0.0f;
             SpawnZombie();
@@ -40,5 +42,10 @@ public class PrisonLevelController : MonoBehaviour
         zombie.GetComponent<ZombieController>().player = player.transform;
 
         Instantiate(zombie, spawnPoint);
+    }
+
+    public override void OnNewPrediction(Vector3 inference)
+    {
+        flashlight.spotAngle = 30+(inference.x * -15);
     }
 }
