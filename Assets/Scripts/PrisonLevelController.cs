@@ -10,7 +10,7 @@ public class PrisonLevelController : HandsEmpathyAgent
     public GameObject player;
     public float spawnInterval = 10.0f;
     public Light flashlight;
-    public GameObject companion;
+    public CompanionController companion;
 
     private float elapsedTime;
     // Start is called before the first frame update
@@ -47,5 +47,6 @@ public class PrisonLevelController : HandsEmpathyAgent
     public override void OnNewPrediction(Vector3 inference)
     {
         flashlight.spotAngle = 30+(inference.x * -15);
+        companion.SetValence(inference.y);
     }
 }

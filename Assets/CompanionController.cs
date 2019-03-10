@@ -5,15 +5,19 @@ using UnityEngine.AI;
 
 public class CompanionController : MonoBehaviour
 {
-    public float distanceThreshold = 5.0f;
+    public AudioClip neutralBreathing;
+    public AudioClip scaredBreathing;
     private NavMeshAgent navMeshAgent;
     private Transform player;
     private Animator animator;
+    private AudioSource audioSource;
     private static readonly int _speed = Animator.StringToHash("speed");
+    private static readonly int _valence = Animator.StringToHash("valence");
 
     // Start is called before the first frame update
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         navMeshAgent = GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("player").transform;
@@ -22,11 +26,30 @@ public class CompanionController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Vector3.Distance(this.transform.position, player.position) > distanceThreshold)
+        navMeshAgent.SetDestination(player.position);
+        animator.SetFloat(_speed, navMeshAgent.velocity.magnitude);
+    }
+
+    public void SetValence(float valence)
+    {
+        animator.SetFloat(_valence, valence);
+        if (valence < 0)
         {
-            navMeshAgent.SetDestination(player.position);
-            animator.SetFloat(_speed, navMeshAgent.velocity.magnitude);
+            if (!audioSource.clip.Equals(scaredBreathing))
+            {
+                audioSource.clip = scaredBreathing;
+                audioSource.Play();
+            }
         }
+        else
+        {
+            if (!audioSource.clip.Equals(neutralBreathing))
+            {
+                audioSource.clip = neutralBreathing;
+                audioSource.Play();
+            }
+        }
+        
     }
 
 }
