@@ -34,6 +34,7 @@ public class GunController : MonoBehaviour
     private void OnTrigger()
     {
         animator.SetTrigger("Fire");
+        GetComponent<SimpleShoot>().Flash();
         
         ViveInput.TriggerHapticPulse(HandRole.RightHand);
 
