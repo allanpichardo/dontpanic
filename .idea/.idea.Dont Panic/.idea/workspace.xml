@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e6632de-10d4-4fa0-ae08-47d0fb5c8659" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CompanionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CompanionController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombies/liam/Liam Animator Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombies/liam/Liam Animator Controller.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brains/Models/BiofeedbackLearningBrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brains/Models/BiofeedbackLearningBrain.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="457">
@@ -29,46 +25,6 @@
                 <marker date="1552241298403" expanded="true" signature="724:803" ph="{...}" />
                 <marker date="1552241298403" expanded="true" signature="841:1207" ph="{...}" />
                 <marker date="1552241298403" expanded="true" signature="1268:1378" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
-              <folding>
-                <marker date="1552194603412" expanded="false" signature="6:153" ph="..." />
-                <marker date="1552194603412" expanded="true" signature="202:2482" ph="{...}" />
-                <marker date="1552194603412" expanded="true" signature="399:456" ph="{...}" />
-                <marker date="1552194603412" expanded="true" signature="504:1780" ph="{...}" />
-                <marker date="1552194603412" expanded="true" signature="1678:1774" ph="/* AddVectorObs(leftUp); ... */" />
-                <marker date="1552194603412" expanded="true" signature="1859:2300" ph="{...}" />
-                <marker date="1552194603412" expanded="true" signature="2139:2257" ph="{...}" />
-                <marker date="1552194603412" expanded="true" signature="2306:2368" ph="/* Override this method to receive predictions ... */" />
-                <marker date="1552194603412" expanded="true" signature="2468:2480" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/CompanionController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-              <folding>
-                <marker date="1552241712251" expanded="false" signature="6:100" ph="..." />
-                <marker date="1552241712251" expanded="true" signature="150:1554" ph="{...}" />
-                <marker date="1552241712251" expanded="true" signature="587:819" ph="{...}" />
-                <marker date="1552241712251" expanded="true" signature="877:1011" ph="{...}" />
-                <marker date="1552241712251" expanded="true" signature="1054:1551" ph="{...}" />
-                <marker date="1552241712251" expanded="true" signature="1131:1326" ph="{...}" />
-                <marker date="1552241712251" expanded="true" signature="1200:1316" ph="{...}" />
-                <marker date="1552241712251" expanded="true" signature="1339:1536" ph="{...}" />
-                <marker date="1552241712251" expanded="true" signature="1409:1526" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -88,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/HoopsGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BallController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlashlightController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/LearningBrain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BasketController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BallGrabber.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/IKControl.cs" root0="FORCE_HIGHLIGHTING" />
@@ -222,12 +179,12 @@
       <workItem from="1552105438434" duration="2163000" />
       <workItem from="1552143190629" duration="6545000" />
       <workItem from="1552189354587" duration="2763000" />
-      <workItem from="1552240417492" duration="1028000" />
+      <workItem from="1552240417492" duration="1287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22025000" />
+    <option name="totallyTimeSpent" value="22284000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,9 +475,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CompanionController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+          <folding>
+            <marker date="1552241712251" expanded="false" signature="6:100" ph="..." />
+            <marker date="1552241712251" expanded="true" signature="150:1554" ph="{...}" />
+            <marker date="1552241712251" expanded="true" signature="587:819" ph="{...}" />
+            <marker date="1552241712251" expanded="true" signature="877:1011" ph="{...}" />
+            <marker date="1552241712251" expanded="true" signature="1054:1551" ph="{...}" />
+            <marker date="1552241712251" expanded="true" signature="1131:1326" ph="{...}" />
+            <marker date="1552241712251" expanded="true" signature="1200:1316" ph="{...}" />
+            <marker date="1552241712251" expanded="true" signature="1339:1536" ph="{...}" />
+            <marker date="1552241712251" expanded="true" signature="1409:1526" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="391">
           <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
           <folding>
             <marker date="1552194603412" expanded="false" signature="6:153" ph="..." />
@@ -532,6 +507,32 @@
             <marker date="1552194603412" expanded="true" signature="2139:2257" ph="{...}" />
             <marker date="1552194603412" expanded="true" signature="2306:2368" ph="/* Override this method to receive predictions ... */" />
             <marker date="1552194603412" expanded="true" signature="2468:2480" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/LearningBrain.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <marker date="1547237988000" expanded="false" signature="6:145" ph="..." />
+            <marker date="1547237988000" expanded="true" signature="165:5648" ph="{...}" />
+            <marker date="1547237988000" expanded="true" signature="172:967" ph="/// The Learning Brain works differently if you are training it or not. ... " />
+            <marker date="1547237988000" expanded="true" signature="1098:5646" ph="{...}" />
+            <marker date="1547237988000" expanded="true" signature="1571:1733" ph="/// When Called, the brain will be controlled externally. It will not use the ... " />
+            <marker date="1547237988000" expanded="true" signature="1781:1835" ph="{...}" />
+            <marker date="1547237988000" expanded="true" signature="1916:1963" ph="{...}" />
+            <marker date="1547237988000" expanded="true" signature="1981:2412" ph="/// Initializes the Brain with the Model that it will use when selecting actions for ... " />
+            <marker date="1547237988000" expanded="true" signature="2458:3128" ph="{...}" />
+            <marker date="1547237988000" expanded="true" signature="2521:2656" ph="{...}" />
+            <marker date="1547237988000" expanded="true" signature="2673:2733" ph="{...}" />
+            <marker date="1547237988000" expanded="true" signature="3146:3676" ph="/// Return a list of failed checks corresponding to the failed compatibility checks ... " />
+            <marker date="1547237988000" expanded="true" signature="3734:4105" ph="{...}" />
+            <marker date="1547237988000" expanded="true" signature="4180:5640" ph="{...}" />
+            <marker date="1547237988000" expanded="true" signature="4221:4309" ph="{...}" />
+            <marker date="1547237988000" expanded="true" signature="4403:4455" ph="{...}" />
+            <marker date="1547237988000" expanded="true" signature="4510:4641" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -548,24 +549,6 @@
             <marker date="1552241298403" expanded="true" signature="724:803" ph="{...}" />
             <marker date="1552241298403" expanded="true" signature="841:1207" ph="{...}" />
             <marker date="1552241298403" expanded="true" signature="1268:1378" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CompanionController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-          <folding>
-            <marker date="1552241712251" expanded="false" signature="6:100" ph="..." />
-            <marker date="1552241712251" expanded="true" signature="150:1554" ph="{...}" />
-            <marker date="1552241712251" expanded="true" signature="587:819" ph="{...}" />
-            <marker date="1552241712251" expanded="true" signature="877:1011" ph="{...}" />
-            <marker date="1552241712251" expanded="true" signature="1054:1551" ph="{...}" />
-            <marker date="1552241712251" expanded="true" signature="1131:1326" ph="{...}" />
-            <marker date="1552241712251" expanded="true" signature="1200:1316" ph="{...}" />
-            <marker date="1552241712251" expanded="true" signature="1339:1536" ph="{...}" />
-            <marker date="1552241712251" expanded="true" signature="1409:1526" ph="{...}" />
           </folding>
         </state>
       </provider>
