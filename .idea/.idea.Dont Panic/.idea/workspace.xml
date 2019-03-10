@@ -2,267 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e6632de-10d4-4fa0-ae08-47d0fb5c8659" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallHardLearning.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallHardLearning.bytes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallLearning.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallLearning.bytes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/BananaCollectors/TFModels/BananaLearning.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/BananaCollectors/TFModels/BananaLearning.bytes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/TFModels/BasicLearning.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Prefabs/RLAgent.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Prefabs/RLAgent.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/TFModels/BouncerLearning.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerDynamicLearning.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerStaticLearning.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerStaticLearning.bytes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/TFModels/GridWorldLearning.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/TFModels/GridWorldLearning.bytes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/TFModels/HallwayLearning.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/TFModels/HallwayLearning.bytes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/TFModels/PushBlockLearning.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/TFModels/PushBlockLearning.bytes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/TFModels/PyramidsLearning.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/TFModels/ReacherLearning.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/TFModels/ReacherLearning.bytes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/GoalieLearning.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/GoalieLearning.bytes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/StrikerLearning.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/StrikerLearning.bytes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/TFModels/TennisLearning.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/TFModels/TennisLearning.bytes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/TFModels/WalkerLearning.bytes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/BigWallJumpLearning.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/BigWallJumpLearning.bytes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/SmallWallJumpLearning.bytes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/SmallWallJumpLearning.bytes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/Java.Interop.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/Java.Interop.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/Mono.Android.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/Mono.Android.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Collections.Concurrent.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Collections.Concurrent.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Collections.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Collections.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Diagnostics.Debug.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Diagnostics.Debug.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Linq.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Linq.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Reflection.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Reflection.Extensions.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Reflection.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Reflection.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Resources.ResourceManager.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Resources.ResourceManager.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Runtime.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Runtime.Extensions.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Runtime.InteropServices.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Runtime.InteropServices.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Runtime.Numerics.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Runtime.Numerics.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Runtime.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Runtime.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Text.Encoding.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Text.Encoding.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Threading.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/System.Threading.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/TensorFlowSharp.Android.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/TensorFlowSharp.Android.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/TensorFlowSharp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/TensorFlowSharp.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/libs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/libs/armeabi-v7a/libtensorflow.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/libs/armeabi-v7a/libtensorflow.so.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/libs/x86/libtensorflow.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/libs/x86/libtensorflow.so.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Computer/TensorFlowSharp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Computer/liblibtensorflow.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Computer/liblibtensorflow.so.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Computer/libtensorflow.bundle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Computer/libtensorflow.bundle.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Computer/libtensorflow.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Computer/libtensorflow.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Computer/libtensorflow_framework.bundle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Computer/libtensorflow_framework.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Computer/libtensorflow_framework.so.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/System.Numerics.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/System.Numerics.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/System.ValueTuple.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/System.ValueTuple.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/iOS/TensorFlowSharp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/iOS/TensorFlowSharp.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/iOS/libprotobuf-lite.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/iOS/libprotobuf-lite.a.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/iOS/libprotobuf.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/iOS/libprotobuf.a.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/iOS/libtensorflow-core.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/iOS/libtensorflow-core.a.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/iOS/nsync.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Brains/HandsEmpathyLearningBrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brains/HandsEmpathyLearningBrain.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CompanionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CompanionController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor/AgentEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Editor/AgentEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor/LearningBrainEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Editor/LearningBrainEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor/NNModelImporter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor/NNModelImporter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor/Tests/EditModeTestInternalBrainTensorGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Editor/Tests/EditModeTestInternalBrainTensorGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor/Tests/MultinomialTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Editor/Tests/MultinomialTest.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor/Tests/RandomNormalTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Editor/Tests/RandomNormalTest.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Brains/3DBallHardLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Brains/3DBallHardLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Brains/3DBallLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Brains/3DBallLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Prefabs/Game.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Prefabs/Game.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Prefabs/GameHard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Prefabs/GameHard.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallHardLearning.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallHardLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallLearning.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/BananaCollectors/Brains/BananaLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/BananaCollectors/Brains/BananaLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/BananaCollectors/Prefabs/RLArea.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/BananaCollectors/Prefabs/RLArea.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/BananaCollectors/TFModels/BananaLearning.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/BananaCollectors/TFModels/BananaLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Brains/BasicLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Brains/BasicLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Prefabs/Basic.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Prefabs/Basic.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/TFModels/BasicLearning.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/TFModels/BasicLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Brains/BouncerLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Brains/BouncerLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Prefabs/Environment.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Prefabs/Environment.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Scenes/Bouncer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Scenes/Bouncer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/TFModels/BouncerLearning.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/TFModels/BouncerLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Brains/CrawlerDynamicLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Brains/CrawlerDynamicLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Brains/CrawlerStaticLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Brains/CrawlerStaticLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerDynamicLearning.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerDynamicLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerStaticLearning.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerStaticLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Brains/GridWorldLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Brains/GridWorldLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Resources/agent.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Resources/agent.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Scenes/GridWorld.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Scenes/GridWorld.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/TFModels/GridWorldLearning.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/TFModels/GridWorldLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Brains/HallwayLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Brains/HallwayLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Prefabs/HallwayArea.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Prefabs/HallwayArea.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/TFModels/HallwayLearning.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/TFModels/HallwayLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Brains/PushBlockLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Brains/PushBlockLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Prefabs/PushBlockArea.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Prefabs/PushBlockArea.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/TFModels/PushBlockLearning.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/TFModels/PushBlockLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Brains/PyramidsLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Brains/PyramidsLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Prefabs/AreaPB.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Prefabs/AreaPB.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/TFModels/PyramidsLearning.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/TFModels/PyramidsLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Brains/ReacherLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Brains/ReacherLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/TFModels/ReacherLearning.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/TFModels/ReacherLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Brains/GoalieLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Brains/GoalieLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Brains/StrikerLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Brains/StrikerLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerFieldTwos.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerFieldTwos.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/GoalieLearning.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/GoalieLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/StrikerLearning.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/StrikerLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Template/Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Template/Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Brains/TennisLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Brains/TennisLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Prefabs/TennisArea.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Prefabs/TennisArea.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Scripts/TennisAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Scripts/TennisAgent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/TFModels/TennisLearning.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/TFModels/TennisLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Brains/WalkerLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Brains/WalkerLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/TFModels/WalkerLearning.nn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/TFModels/WalkerLearning.bytes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/TFModels/WalkerLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Brains/BigWallJumpLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Brains/BigWallJumpLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Brains/SmallWallJumpLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Brains/SmallWallJumpLearning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/BigWallJumpLearning.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/BigWallJumpLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/SmallWallJumpLearning.nn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/SmallWallJumpLearning.nn.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Computer.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/TFModels/BouncerLearning.bytes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/libs/x86.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Barracuda.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Barracuda.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/Grpc.Core.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android/libs/armeabi-v7a.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/MacBLAS.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/MacBLAS.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/MacBLAS.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/MacBLAS.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Computer/libtensorflow_framework.bundle.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents/Info.plist.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents/MacOS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents/MacOS/macblas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents/MacOS/macblas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents/_CodeSignature.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents/_CodeSignature/CodeResources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents/_CodeSignature/CodeResources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/iOS.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/iOS.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/iOS/iOSBLAS.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/iOS/iOSBLAS.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/iOS/iOSBLAS.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/iOS/iOSBLAS.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/iOS/iOSBLAS.mm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/iOS/iOSBLAS.mm.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/iOS/nsync.a.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Activation.compute" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Activation.compute.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/BarracudaReferenceImpl.compute" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/BarracudaReferenceImpl.compute.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Broadcast.compute" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Broadcast.compute.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Conv.compute" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Conv.compute.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/ConvOld.compute" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/ConvOld.compute.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Dense.compute" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Dense.compute.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/DenseFP16.compute" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/DenseFP16.compute.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Experimental.compute" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Experimental.compute.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/FastNV.compute" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/FastNV.compute.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Generic.compute" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Generic.compute.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Random.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Random.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Tensor.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Tensor.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/TexConv.compute" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/TexConv.compute.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/LICENSE.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/TFModels/BasicLearning.bytes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/ReleaseNotes.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/ReleaseNotes.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerDynamicLearning.bytes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/package.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/TFModels/PyramidsLearning.bytes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/Grpc.Core.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Computer/TensorFlowSharp.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Resources/NNModelIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Resources/NNModelIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Academy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Academy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Agent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Agent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/CommunicatorObjects/UnityToExternalGrpc.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/CommunicatorObjects/UnityToExternalGrpc.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/ApplierImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/ApplierImpl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/BarracudaModelParamLoader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/BarracudaModelParamLoader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/GeneratorImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/GeneratorImpl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/ModelParamLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/ModelParamLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/NNModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/NNModel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/TensorApplier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/TensorApplier.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/TensorGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/TensorGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/TensorNames.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/TensorNames.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/LearningBrain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/LearningBrain.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/RpcCommunicator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/RpcCommunicator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/SocketCommunicator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/SocketCommunicator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombies/liam/Liam Animator Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/zombies/liam/Liam Animator Controller.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FlashlightController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FlashlightController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -275,25 +19,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+            <state relative-caret-position="457">
+              <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
               <folding>
-                <marker date="1552194568969" expanded="false" signature="6:96" ph="..." />
-                <marker date="1552194568969" expanded="true" signature="152:1328" ph="{...}" />
-                <marker date="1552194568969" expanded="true" signature="471:544" ph="{...}" />
-                <marker date="1552194568969" expanded="true" signature="602:800" ph="{...}" />
-                <marker date="1552194568969" expanded="true" signature="715:794" ph="{...}" />
-                <marker date="1552194568969" expanded="true" signature="832:1198" ph="{...}" />
-                <marker date="1552194568969" expanded="true" signature="1259:1326" ph="{...}" />
+                <marker date="1552241298403" expanded="false" signature="6:96" ph="..." />
+                <marker date="1552241298403" expanded="true" signature="152:1380" ph="{...}" />
+                <marker date="1552241298403" expanded="true" signature="480:553" ph="{...}" />
+                <marker date="1552241298403" expanded="true" signature="611:809" ph="{...}" />
+                <marker date="1552241298403" expanded="true" signature="724:803" ph="{...}" />
+                <marker date="1552241298403" expanded="true" signature="841:1207" ph="{...}" />
+                <marker date="1552241298403" expanded="true" signature="1268:1378" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="495">
               <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
               <folding>
                 <marker date="1552194603412" expanded="false" signature="6:153" ph="..." />
@@ -305,6 +49,26 @@
                 <marker date="1552194603412" expanded="true" signature="2139:2257" ph="{...}" />
                 <marker date="1552194603412" expanded="true" signature="2306:2368" ph="/* Override this method to receive predictions ... */" />
                 <marker date="1552194603412" expanded="true" signature="2468:2480" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/CompanionController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+              <folding>
+                <marker date="1552241712251" expanded="false" signature="6:100" ph="..." />
+                <marker date="1552241712251" expanded="true" signature="150:1554" ph="{...}" />
+                <marker date="1552241712251" expanded="true" signature="587:819" ph="{...}" />
+                <marker date="1552241712251" expanded="true" signature="877:1011" ph="{...}" />
+                <marker date="1552241712251" expanded="true" signature="1054:1551" ph="{...}" />
+                <marker date="1552241712251" expanded="true" signature="1131:1326" ph="{...}" />
+                <marker date="1552241712251" expanded="true" signature="1200:1316" ph="{...}" />
+                <marker date="1552241712251" expanded="true" signature="1339:1536" ph="{...}" />
+                <marker date="1552241712251" expanded="true" signature="1409:1526" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -349,10 +113,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/NPC/IKControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GunController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" />
-        <option value="$PROJECT_DIR$/Assets/CompanionController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FlashlightController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/CompanionController.cs" />
       </list>
     </option>
   </component>
@@ -367,11 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -406,6 +166,10 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -457,12 +221,13 @@
       <workItem from="1551832299951" duration="579000" />
       <workItem from="1552105438434" duration="2163000" />
       <workItem from="1552143190629" duration="6545000" />
-      <workItem from="1552189354587" duration="2640000" />
+      <workItem from="1552189354587" duration="2763000" />
+      <workItem from="1552240417492" duration="1028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20874000" />
+    <option name="totallyTimeSpent" value="22025000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -477,7 +242,7 @@
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -753,39 +518,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CompanionController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <marker date="1552193516203" expanded="false" signature="6:100" ph="..." />
-            <marker date="1552193516203" expanded="true" signature="150:935" ph="{...}" />
-            <marker date="1552193516203" expanded="true" signature="439:620" ph="{...}" />
-            <marker date="1552193516203" expanded="true" signature="678:932" ph="{...}" />
-            <marker date="1552193516203" expanded="true" signature="776:926" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-          <folding>
-            <marker date="1552194568969" expanded="false" signature="6:96" ph="..." />
-            <marker date="1552194568969" expanded="true" signature="152:1328" ph="{...}" />
-            <marker date="1552194568969" expanded="true" signature="471:544" ph="{...}" />
-            <marker date="1552194568969" expanded="true" signature="602:800" ph="{...}" />
-            <marker date="1552194568969" expanded="true" signature="715:794" ph="{...}" />
-            <marker date="1552194568969" expanded="true" signature="832:1198" ph="{...}" />
-            <marker date="1552194568969" expanded="true" signature="1259:1326" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="495">
           <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
           <folding>
             <marker date="1552194603412" expanded="false" signature="6:153" ph="..." />
@@ -797,6 +532,40 @@
             <marker date="1552194603412" expanded="true" signature="2139:2257" ph="{...}" />
             <marker date="1552194603412" expanded="true" signature="2306:2368" ph="/* Override this method to receive predictions ... */" />
             <marker date="1552194603412" expanded="true" signature="2468:2480" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding>
+            <marker date="1552241298403" expanded="false" signature="6:96" ph="..." />
+            <marker date="1552241298403" expanded="true" signature="152:1380" ph="{...}" />
+            <marker date="1552241298403" expanded="true" signature="480:553" ph="{...}" />
+            <marker date="1552241298403" expanded="true" signature="611:809" ph="{...}" />
+            <marker date="1552241298403" expanded="true" signature="724:803" ph="{...}" />
+            <marker date="1552241298403" expanded="true" signature="841:1207" ph="{...}" />
+            <marker date="1552241298403" expanded="true" signature="1268:1378" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CompanionController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+          <folding>
+            <marker date="1552241712251" expanded="false" signature="6:100" ph="..." />
+            <marker date="1552241712251" expanded="true" signature="150:1554" ph="{...}" />
+            <marker date="1552241712251" expanded="true" signature="587:819" ph="{...}" />
+            <marker date="1552241712251" expanded="true" signature="877:1011" ph="{...}" />
+            <marker date="1552241712251" expanded="true" signature="1054:1551" ph="{...}" />
+            <marker date="1552241712251" expanded="true" signature="1131:1326" ph="{...}" />
+            <marker date="1552241712251" expanded="true" signature="1200:1316" ph="{...}" />
+            <marker date="1552241712251" expanded="true" signature="1339:1536" ph="{...}" />
+            <marker date="1552241712251" expanded="true" signature="1409:1526" ph="{...}" />
           </folding>
         </state>
       </provider>
