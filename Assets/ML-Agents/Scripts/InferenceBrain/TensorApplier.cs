@@ -50,9 +50,6 @@ namespace MLAgents.InferenceBrain
                     bp.vectorActionSize, seed);
             }
             _dict[TensorNames.RecurrentOutput] = new MemoryOutputApplier();
-            
-            _dict[TensorNames.RecurrentOutput_C] = new BarracudaMemoryOutputApplier(true);
-            _dict[TensorNames.RecurrentOutput_H] = new BarracudaMemoryOutputApplier(false);
         }
 
         /// <summary>
