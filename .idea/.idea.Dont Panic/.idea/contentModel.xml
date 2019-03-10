@@ -528,6 +528,13 @@
             <e p="NavMeshSurface.cs" t="Include" />
           </e>
         </e>
+        <e p="Nokobot" t="Include">
+          <e p="ModernGuns_Handgun" t="Include">
+            <e p="Demo Assets" t="Include">
+              <e p="SimpleShoot.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="AccelerometerLogger.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />

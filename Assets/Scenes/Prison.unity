@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.008676331, g: 0.0088883685, b: 0.018850598, a: 1}
+  m_IndirectSpecularColor: {r: 0.008623006, g: 0.008856987, b: 0.01875162, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -270,7 +270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   broadcastHub:
     broadcastingBrains:
-    - {fileID: 11400000, guid: f2b11e939bdfc4aeba905aa100b6e7c6, type: 2}
+    - {fileID: 11400000, guid: 658cc7572cd7f474da9831be211005d1, type: 2}
     _brainsToControl: []
   maxSteps: 0
   trainingConfiguration:
@@ -454,7 +454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc104125a8944069a461ed4e904a8b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brain: {fileID: 11400000, guid: 658cc7572cd7f474da9831be211005d1, type: 2}
+  brain: {fileID: 11400000, guid: f2b11e939bdfc4aeba905aa100b6e7c6, type: 2}
   agentParameters:
     agentCameras: []
     maxStep: 0
@@ -463,6 +463,7 @@ MonoBehaviour:
     numberOfActionsBetweenDecisions: 1
   showDebug: 1
   filterBeta: 0.1
+  worldCenter: {fileID: 1946479389}
   distanceThreshold: 0
 --- !u!195 &671656827
 NavMeshAgent:
@@ -1181,6 +1182,7 @@ MonoBehaviour:
     numberOfActionsBetweenDecisions: 1
   showDebug: 1
   filterBeta: 0.5
+  worldCenter: {fileID: 0}
   flashlight: {fileID: 605592346}
 --- !u!1001 &2065824631
 PrefabInstance:
@@ -1196,6 +1198,14 @@ PrefabInstance:
     - target: {fileID: 175660, guid: cb3370c18187bb444b240cfb08dcc02f, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 477402, guid: cb3370c18187bb444b240cfb08dcc02f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 477402, guid: cb3370c18187bb444b240cfb08dcc02f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 463184, guid: cb3370c18187bb444b240cfb08dcc02f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1239,14 +1249,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 463184, guid: cb3370c18187bb444b240cfb08dcc02f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 477402, guid: cb3370c18187bb444b240cfb08dcc02f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 477402, guid: cb3370c18187bb444b240cfb08dcc02f, type: 3}
-      propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2071970, guid: cb3370c18187bb444b240cfb08dcc02f, type: 3}
