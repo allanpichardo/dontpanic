@@ -454,16 +454,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc104125a8944069a461ed4e904a8b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brain: {fileID: 11400000, guid: f2b11e939bdfc4aeba905aa100b6e7c6, type: 2}
-  agentParameters:
-    agentCameras: []
-    maxStep: 0
-    resetOnDone: 0
-    onDemandDecision: 0
-    numberOfActionsBetweenDecisions: 1
-  showDebug: 1
-  filterBeta: 0.1
-  worldCenter: {fileID: 1946479389}
   distanceThreshold: 0
 --- !u!195 &671656827
 NavMeshAgent:
@@ -1145,6 +1135,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c600b6e03b734afab62acc310bbca8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brain: {fileID: 11400000, guid: 658cc7572cd7f474da9831be211005d1, type: 2}
+  agentParameters:
+    agentCameras: []
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 1
+  showDebug: 1
+  filterBeta: 0.01
+  worldCenter: {fileID: 1946479389}
   zombiePrefabs:
   - {fileID: 8119183219152311386, guid: 38cebfb29525a460ca20802cff2b62d8, type: 3}
   - {fileID: 5847996983265834965, guid: e774172ab01114908a10527f012b7a81, type: 3}
@@ -1155,35 +1155,8 @@ MonoBehaviour:
   - {fileID: 1684336118}
   player: {fileID: 1692131428}
   spawnInterval: 5
---- !u!1 &2021744127 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100004, guid: c3aeb21ec13614d2296d305806fa899a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1601736574}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2021744129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2021744127}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2f3e2cb129f16e4a9da0f07f33e5873, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  brain: {fileID: 11400000, guid: 658cc7572cd7f474da9831be211005d1, type: 2}
-  agentParameters:
-    agentCameras: []
-    maxStep: 0
-    resetOnDone: 1
-    onDemandDecision: 0
-    numberOfActionsBetweenDecisions: 1
-  showDebug: 1
-  filterBeta: 0.5
-  worldCenter: {fileID: 0}
   flashlight: {fileID: 605592346}
+  companion: {fileID: 671656821}
 --- !u!1001 &2065824631
 PrefabInstance:
   m_ObjectHideFlags: 0

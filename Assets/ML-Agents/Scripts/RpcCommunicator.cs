@@ -1,6 +1,4 @@
-# if UNITY_EDITOR || UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX || UNITY_STANDALONE_LINUX
 using Grpc.Core;
-#endif
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
@@ -18,10 +16,9 @@ namespace MLAgents
         /// If true, the communication is active.
         bool m_isOpen;
 
-# if UNITY_EDITOR || UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX || UNITY_STANDALONE_LINUX
         /// The Unity to External client. 
         UnityToExternal.UnityToExternalClient m_client;
-#endif
+
         /// The communicator parameters sent at construction
         CommunicatorParameters m_communicatorParameters;
 
@@ -44,7 +41,6 @@ namespace MLAgents
         public UnityInput Initialize(UnityOutput unityOutput,
                                      out UnityInput unityInput)
         {
-# if UNITY_EDITOR || UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX || UNITY_STANDALONE_LINUX
             m_isOpen = true;
             var channel = new Channel(
                 "localhost:"+m_communicatorParameters.port, 
@@ -61,10 +57,6 @@ namespace MLAgents
 #endif
 #endif
             return result.UnityInput;
-#else
-            throw new UnityAgentsException(
-                "You cannot perform training on this platform.");
-#endif
         }
 
         /// <summary>
@@ -72,7 +64,6 @@ namespace MLAgents
         /// </summary>
         public void Close()
         {
-# if UNITY_EDITOR || UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX || UNITY_STANDALONE_LINUX
             if (!m_isOpen)
             {
                 return;
@@ -87,10 +78,6 @@ namespace MLAgents
             {
                 return;
             }
-#else
-            throw new UnityAgentsException(
-                "You cannot perform training on this platform.");
-#endif
         }
 
         /// <summary>
@@ -100,7 +87,6 @@ namespace MLAgents
         /// <param name="unityOutput">The UnityOutput to be sent.</param>
         public UnityInput Exchange(UnityOutput unityOutput)
         {
-# if UNITY_EDITOR || UNITY_STANDALONE_WIN || UNITY_STANDALONE_OSX || UNITY_STANDALONE_LINUX
             if (!m_isOpen)
             {
                 return null;
@@ -123,10 +109,6 @@ namespace MLAgents
                 m_isOpen = false;
                 return null;
             }
-#else
-            throw new UnityAgentsException(
-                "You cannot perform training on this platform.");
-#endif
         }
 
         /// <summary>
