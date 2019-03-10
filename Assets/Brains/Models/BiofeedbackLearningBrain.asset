@@ -13,13 +13,12 @@ MonoBehaviour:
   m_Name: BiofeedbackLearningBrain
   m_EditorClassIdentifier: 
   brainParameters:
-    vectorObservationSize: 21
-    numStackedVectorObservations: 50
+    vectorObservationSize: 6
+    numStackedVectorObservations: 30
     vectorActionSize: 02000000
     cameraResolutions: []
     vectorActionDescriptions:
     - 
     - 
     vectorActionSpaceType: 1
-  model: {fileID: 11400000, guid: b8ebdf64f1f0941a78f5787788f5a552, type: 3}
-  inferenceDevice: 0
+  model: {fileID: 0}
