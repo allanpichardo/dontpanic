@@ -46,10 +46,16 @@ public class EmpathyAgent : Agent
         
         AddVectorObs(leftPosition);
         AddVectorObs(rightPosition);
-        AddVectorObs(headRotation);
+        //AddVectorObs(headRotation);
 
         lastLeftPos = leftPosition;
         lastRightPos = rightPosition;
+    }
+
+    private Quaternion TransformRotationToLocalOf(Quaternion world, Quaternion target)
+    {
+        Quaternion LocalRotation = Quaternion.Inverse(target) * world;
+        return LocalRotation;
     }
 
     private float CalculateReward(float predicted, float actual)
