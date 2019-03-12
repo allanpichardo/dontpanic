@@ -2,7 +2,237 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e6632de-10d4-4fa0-ae08-47d0fb5c8659" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Brains/Models/BiofeedbackLearningBrain.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Brains/Models/BiofeedbackLearningBrain.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Editor/NNModelImporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Editor/NNModelImporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallHardLearning.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallHardLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallLearning.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/BananaCollectors/TFModels/BananaLearning.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/BananaCollectors/TFModels/BananaLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/TFModels/BasicLearning.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/TFModels/BasicLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/TFModels/BouncerLearning.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/TFModels/BouncerLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerDynamicLearning.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerDynamicLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerStaticLearning.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerStaticLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/TFModels/GridWorldLearning.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/TFModels/GridWorldLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/TFModels/HallwayLearning.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/TFModels/HallwayLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/TFModels/PushBlockLearning.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/TFModels/PushBlockLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/TFModels/PyramidsLearning.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/TFModels/PyramidsLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/TFModels/ReacherLearning.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/TFModels/ReacherLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/GoalieLearning.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/GoalieLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/StrikerLearning.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/StrikerLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/TFModels/TennisLearning.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/TFModels/TennisLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/TFModels/WalkerLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/BigWallJumpLearning.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/BigWallJumpLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/SmallWallJumpLearning.nn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/SmallWallJumpLearning.nn.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Barracuda.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Barracuda.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/MacBLAS.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/MacBLAS.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/MacBLAS.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/MacBLAS.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents/Info.plist.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents/MacOS.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents/MacOS/macblas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents/MacOS/macblas.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents/_CodeSignature.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents/_CodeSignature/CodeResources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/OSX/macblas.bundle/Contents/_CodeSignature/CodeResources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/iOS/iOSBLAS.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/iOS/iOSBLAS.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/iOS/iOSBLAS.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/iOS/iOSBLAS.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/iOS/iOSBLAS.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/iOS/iOSBLAS.mm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Activation.compute" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Activation.compute.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/BarracudaReferenceImpl.compute" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/BarracudaReferenceImpl.compute.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Broadcast.compute" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Broadcast.compute.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Conv.compute" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Conv.compute.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/ConvOld.compute" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/ConvOld.compute.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Dense.compute" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Dense.compute.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/DenseFP16.compute" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/DenseFP16.compute.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Experimental.compute" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Experimental.compute.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/FastNV.compute" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/FastNV.compute.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Generic.compute" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Generic.compute.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Random.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Random.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Tensor.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/Tensor.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/TexConv.compute" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Resources/TexConv.compute.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/ReleaseNotes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/Google.Protobuf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/Google.Protobuf.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/Grpc.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/Grpc.Core.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/runtimes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/runtimes/linux.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/runtimes/linux/native.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/runtimes/linux/native/libgrpc_csharp_ext.x64.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/runtimes/linux/native/libgrpc_csharp_ext.x64.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/runtimes/linux/native/libgrpc_csharp_ext.x86.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/runtimes/linux/native/libgrpc_csharp_ext.x86.so.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/runtimes/osx/native.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/runtimes/osx/native/libgrpc_csharp_ext.x64.bundle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/runtimes/osx/native/libgrpc_csharp_ext.x64.bundle.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/runtimes/win.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/runtimes/win/native.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/runtimes/win/native/grpc_csharp_ext.x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/runtimes/win/native/grpc_csharp_ext.x64.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/runtimes/win/native/grpc_csharp_ext.x86.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/runtimes/win/native/grpc_csharp_ext.x86.dll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/System.IO.Abstractions.TestingHelpers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/System.IO.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Resources/NNModelIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Resources/NNModelIcon.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/BarracudaModelParamLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/BarracudaModelParamLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/NNModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/NNModel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Brains/Models/BiofeedbackLearningBrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brains/Models/BiofeedbackLearningBrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor/AgentEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Editor/AgentEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor/LearningBrainEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Editor/LearningBrainEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor/Tests/EditModeTestInternalBrainTensorGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Editor/Tests/EditModeTestInternalBrainTensorGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor/Tests/MultinomialTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Editor/Tests/MultinomialTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Editor/Tests/RandomNormalTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Editor/Tests/RandomNormalTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Brains/3DBallHardLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Brains/3DBallHardLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Brains/3DBallLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Brains/3DBallLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Prefabs/Game.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Prefabs/Game.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Prefabs/GameHard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/Prefabs/GameHard.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallHardLearning.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallHardLearning.bytes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/package.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallLearning.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/3DBall/TFModels/3DBallLearning.bytes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/BananaCollectors/Brains/BananaLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/BananaCollectors/Brains/BananaLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/BananaCollectors/Prefabs/RLArea.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/BananaCollectors/Prefabs/RLArea.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/BananaCollectors/TFModels/BananaLearning.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/BananaCollectors/TFModels/BananaLearning.bytes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/LICENSE.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Brains/BasicLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Brains/BasicLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Prefabs/Basic.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/Prefabs/Basic.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/TFModels/BasicLearning.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Basic/TFModels/BasicLearning.bytes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/ReleaseNotes.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Brains/BouncerLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Brains/BouncerLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Prefabs/Environment.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Prefabs/Environment.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Prefabs/RLAgent.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Prefabs/RLAgent.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Scenes/Bouncer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/Scenes/Bouncer.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/TFModels/BouncerLearning.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Bouncer/TFModels/BouncerLearning.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Brains/CrawlerDynamicLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Brains/CrawlerDynamicLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Brains/CrawlerStaticLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/Brains/CrawlerStaticLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerDynamicLearning.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerDynamicLearning.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerStaticLearning.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Crawler/TFModels/CrawlerStaticLearning.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Brains/GridWorldLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Brains/GridWorldLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Resources/agent.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Resources/agent.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Scenes/GridWorld.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/Scenes/GridWorld.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/TFModels/GridWorldLearning.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/GridWorld/TFModels/GridWorldLearning.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Brains/HallwayLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Brains/HallwayLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Prefabs/HallwayArea.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/Prefabs/HallwayArea.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/TFModels/HallwayLearning.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Hallway/TFModels/HallwayLearning.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Brains/PushBlockLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Brains/PushBlockLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Prefabs/PushBlockArea.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/Prefabs/PushBlockArea.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/TFModels/PushBlockLearning.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/PushBlock/TFModels/PushBlockLearning.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Brains/PyramidsLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Brains/PyramidsLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Prefabs/AreaPB.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/Prefabs/AreaPB.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/TFModels/PyramidsLearning.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Pyramids/TFModels/PyramidsLearning.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Brains/ReacherLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/Brains/ReacherLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/TFModels/ReacherLearning.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Reacher/TFModels/ReacherLearning.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Brains/GoalieLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Brains/GoalieLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Brains/StrikerLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Brains/StrikerLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerFieldTwos.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/Prefabs/SoccerFieldTwos.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/GoalieLearning.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/GoalieLearning.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/StrikerLearning.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Soccer/TFModels/StrikerLearning.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Template/Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Template/Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Brains/TennisLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Brains/TennisLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Prefabs/TennisArea.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Prefabs/TennisArea.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Scripts/TennisAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/Scripts/TennisAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/TFModels/TennisLearning.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Tennis/TFModels/TennisLearning.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Brains/WalkerLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/Brains/WalkerLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/TFModels/WalkerLearning.bytes" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/TFModels/WalkerLearning.nn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/Walker/TFModels/WalkerLearning.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Brains/BigWallJumpLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Brains/BigWallJumpLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Brains/SmallWallJumpLearning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/Brains/SmallWallJumpLearning.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/BigWallJumpLearning.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/BigWallJumpLearning.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/SmallWallJumpLearning.bytes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Examples/WallJump/TFModels/SmallWallJumpLearning.bytes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Android.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/ProtoBuffer/runtimes/osx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Computer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/System.Numerics.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/System.ValueTuple.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/iOS.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Plugins/Barracuda.Core/Barracuda/Plugins/iOS.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Academy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Academy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Agent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/Agent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/CommunicatorObjects/UnityToExternalGrpc.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/CommunicatorObjects/UnityToExternalGrpc.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/ApplierImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/ApplierImpl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/GeneratorImpl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/GeneratorImpl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/ModelParamLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/ModelParamLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/TensorApplier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/TensorApplier.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/TensorGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/TensorGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/TensorNames.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/InferenceBrain/TensorNames.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/LearningBrain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/LearningBrain.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/RpcCommunicator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/RpcCommunicator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/SocketCommunicator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ML-Agents/Scripts/SocketCommunicator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Trainer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Trainer.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TrainingPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TrainingPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,19 +242,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+            <state relative-caret-position="690">
+              <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
               <folding>
-                <marker date="1552241298403" expanded="false" signature="6:96" ph="..." />
-                <marker date="1552241298403" expanded="true" signature="152:1380" ph="{...}" />
-                <marker date="1552241298403" expanded="true" signature="480:553" ph="{...}" />
-                <marker date="1552241298403" expanded="true" signature="611:809" ph="{...}" />
-                <marker date="1552241298403" expanded="true" signature="724:803" ph="{...}" />
-                <marker date="1552241298403" expanded="true" signature="841:1207" ph="{...}" />
-                <marker date="1552241298403" expanded="true" signature="1268:1378" ph="{...}" />
+                <marker date="1552356711060" expanded="false" signature="6:96" ph="..." />
+                <marker date="1552356711060" expanded="true" signature="152:1381" ph="{...}" />
+                <marker date="1552356711060" expanded="true" signature="480:553" ph="{...}" />
+                <marker date="1552356711060" expanded="true" signature="611:809" ph="{...}" />
+                <marker date="1552356711060" expanded="true" signature="724:803" ph="{...}" />
+                <marker date="1552356711060" expanded="true" signature="841:1207" ph="{...}" />
+                <marker date="1552356711060" expanded="true" signature="1268:1379" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+              <folding>
+                <marker date="1552359098998" expanded="false" signature="6:184" ph="..." />
+                <marker date="1552359098998" expanded="true" signature="233:1751" ph="{...}" />
+                <marker date="1552359098998" expanded="true" signature="430:487" ph="{...}" />
+                <marker date="1552359098998" expanded="true" signature="535:1162" ph="{...}" />
+                <marker date="1552359098998" expanded="true" signature="1241:1569" ph="{...}" />
+                <marker date="1552359098998" expanded="true" signature="1454:1526" ph="{...}" />
+                <marker date="1552359098998" expanded="true" signature="1575:1637" ph="/* Override this method to receive predictions ... */" />
+                <marker date="1552359098998" expanded="true" signature="1737:1749" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="48" column="35" selection-start-line="46" selection-start-column="8" selection-end-line="48" selection-end-column="35" />
+              <folding>
+                <marker date="1552345235586" expanded="false" signature="6:48" ph="..." />
+                <marker date="1552345235586" expanded="true" signature="83:3671" ph="{...}" />
+                <marker date="1552345235586" expanded="true" signature="438:546" ph="{...}" />
+                <marker date="1552345235586" expanded="true" signature="594:1537" ph="{...}" />
+                <marker date="1552345235586" expanded="true" signature="860:1267" ph="/* float leftVelocity = 0f; ... */" />
+                <marker date="1552345235586" expanded="true" signature="1603:1774" ph="{...}" />
+                <marker date="1552345235586" expanded="true" signature="1853:3368" ph="{...}" />
+                <marker date="1552345235586" expanded="true" signature="2223:2576" ph="/* float reward = (0.5f * valenceReward) + (0.5f * arousalReward); ... */" />
+                <marker date="1552345235586" expanded="true" signature="2765:2990" ph="/* if (reward &gt; 0.95) ... */" />
+                <marker date="1552345235586" expanded="true" signature="3032:3101" ph="{...}" />
+                <marker date="1552345235586" expanded="true" signature="3129:3325" ph="/* if (distance &lt; lastDistance) ... */" />
+                <marker date="1552345235586" expanded="true" signature="3408:3448" ph="{...}" />
+                <marker date="1552345235586" expanded="true" signature="3487:3669" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TrainingPlayer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+              <folding>
+                <marker date="1552331921319" expanded="false" signature="6:220" ph="..." />
+                <marker date="1552331921319" expanded="true" signature="265:1713" ph="{...}" />
+                <marker date="1552331921319" expanded="true" signature="431:809" ph="{...}" />
+                <marker date="1552331921319" expanded="true" signature="835:877" ph="{...}" />
+                <marker date="1552331921319" expanded="true" signature="912:1389" ph="{...}" />
+                <marker date="1552331921319" expanded="true" signature="946:1000" ph="{...}" />
+                <marker date="1552331921319" expanded="true" signature="1415:1499" ph="{...}" />
+                <marker date="1552331921319" expanded="true" signature="1535:1576" ph="{...}" />
+                <marker date="1552331921319" expanded="true" signature="1610:1646" ph="{...}" />
+                <marker date="1552331921319" expanded="true" signature="1676:1711" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EmpathyAcademy.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <marker date="1552254166046" expanded="false" signature="6:171" ph="..." />
+                <marker date="1552254166046" expanded="true" signature="210:325" ph="{...}" />
+                <marker date="1552254166046" expanded="true" signature="267:312" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -48,10 +356,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BasketController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BallGrabber.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/IKControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EmpathyAcademy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Hoops.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrainingPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Agent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -66,14 +377,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/VRInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Hoops/BallGrabber.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RWVR/RWVR_InteractionController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPC/IKControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GunController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FlashlightController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/CompanionController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EmpathyAcademy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TrainingPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" />
       </list>
     </option>
   </component>
@@ -88,6 +401,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <subPane>
@@ -124,10 +441,6 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,10 +470,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="61941">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="69356">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="61941" />
+      <option name="pid" value="69356" />
       <method v="2" />
     </configuration>
   </component>
@@ -179,12 +492,15 @@
       <workItem from="1552105438434" duration="2163000" />
       <workItem from="1552143190629" duration="6545000" />
       <workItem from="1552189354587" duration="2763000" />
-      <workItem from="1552240417492" duration="1287000" />
+      <workItem from="1552240417492" duration="2372000" />
+      <workItem from="1552252878211" duration="5242000" />
+      <workItem from="1552267986699" duration="2468000" />
+      <workItem from="1552313464188" duration="4909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22284000" />
+    <option name="totallyTimeSpent" value="35988000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -199,7 +515,7 @@
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26979" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2819063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -239,6 +555,45 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs</url>
+          <line>124</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" initialLine="88">
+            <startOffsets>
+              <option value="3630" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3663" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs</url>
+          <line>116</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" initialLine="88">
+            <startOffsets>
+              <option value="3423" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3442" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs</url>
+          <line>63</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" initialLine="40">
+            <startOffsets>
+              <option value="1870" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1928" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -335,29 +690,6 @@
             <marker date="1551568158662" expanded="true" signature="1266:1323" ph="{...}" />
             <marker date="1551568158662" expanded="true" signature="1377:1488" ph="{...}" />
             <marker date="1551568158662" expanded="true" signature="1425:1482" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="50" column="69" selection-start-line="50" selection-start-column="69" selection-end-line="50" selection-end-column="69" />
-          <folding>
-            <marker date="1552143328674" expanded="false" signature="6:48" ph="..." />
-            <marker date="1552143328674" expanded="true" signature="83:3079" ph="{...}" />
-            <marker date="1552143328674" expanded="true" signature="269:323" ph="{...}" />
-            <marker date="1552143328674" expanded="true" signature="371:1375" ph="{...}" />
-            <marker date="1552143328674" expanded="true" signature="1273:1369" ph="/* AddVectorObs(leftUp); ... */" />
-            <marker date="1552143328674" expanded="true" signature="1441:1612" ph="{...}" />
-            <marker date="1552143328674" expanded="true" signature="1691:2984" ph="{...}" />
-            <marker date="1552143328674" expanded="true" signature="2534:2600" ph="/* Debug.Log(distance); ... */" />
-            <marker date="1552143328674" expanded="true" signature="2655:2724" ph="{...}" />
-            <marker date="1552143328674" expanded="true" signature="2749:2895" ph="{...}" />
-            <marker date="1552143328674" expanded="true" signature="2760:2885" ph="/* if (reward &gt; 0.90) ... */" />
-            <marker date="1552143328674" expanded="true" signature="2923:2943" ph="{...}" />
-            <marker date="1552143328674" expanded="true" signature="2956:2976" ph="{...}" />
-            <marker date="1552143328674" expanded="true" signature="3023:3077" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -493,62 +825,294 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
-          <folding>
-            <marker date="1552194603412" expanded="false" signature="6:153" ph="..." />
-            <marker date="1552194603412" expanded="true" signature="202:2482" ph="{...}" />
-            <marker date="1552194603412" expanded="true" signature="399:456" ph="{...}" />
-            <marker date="1552194603412" expanded="true" signature="504:1780" ph="{...}" />
-            <marker date="1552194603412" expanded="true" signature="1678:1774" ph="/* AddVectorObs(leftUp); ... */" />
-            <marker date="1552194603412" expanded="true" signature="1859:2300" ph="{...}" />
-            <marker date="1552194603412" expanded="true" signature="2139:2257" ph="{...}" />
-            <marker date="1552194603412" expanded="true" signature="2306:2368" ph="/* Override this method to receive predictions ... */" />
-            <marker date="1552194603412" expanded="true" signature="2468:2480" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/LearningBrain.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
-            <marker date="1547237988000" expanded="false" signature="6:145" ph="..." />
-            <marker date="1547237988000" expanded="true" signature="165:5648" ph="{...}" />
-            <marker date="1547237988000" expanded="true" signature="172:967" ph="/// The Learning Brain works differently if you are training it or not. ... " />
-            <marker date="1547237988000" expanded="true" signature="1098:5646" ph="{...}" />
-            <marker date="1547237988000" expanded="true" signature="1571:1733" ph="/// When Called, the brain will be controlled externally. It will not use the ... " />
-            <marker date="1547237988000" expanded="true" signature="1781:1835" ph="{...}" />
-            <marker date="1547237988000" expanded="true" signature="1916:1963" ph="{...}" />
-            <marker date="1547237988000" expanded="true" signature="1981:2412" ph="/// Initializes the Brain with the Model that it will use when selecting actions for ... " />
-            <marker date="1547237988000" expanded="true" signature="2458:3128" ph="{...}" />
-            <marker date="1547237988000" expanded="true" signature="2521:2656" ph="{...}" />
-            <marker date="1547237988000" expanded="true" signature="2673:2733" ph="{...}" />
-            <marker date="1547237988000" expanded="true" signature="3146:3676" ph="/// Return a list of failed checks corresponding to the failed compatibility checks ... " />
-            <marker date="1547237988000" expanded="true" signature="3734:4105" ph="{...}" />
-            <marker date="1547237988000" expanded="true" signature="4180:5640" ph="{...}" />
-            <marker date="1547237988000" expanded="true" signature="4221:4309" ph="{...}" />
-            <marker date="1547237988000" expanded="true" signature="4403:4455" ph="{...}" />
-            <marker date="1547237988000" expanded="true" signature="4510:4641" ph="{...}" />
+            <marker date="1551296974000" expanded="false" signature="6:145" ph="..." />
+            <marker date="1551296974000" expanded="true" signature="9713:9721" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="172:967" ph="/// The Learning Brain works differently if you are training it or not. ... " />
+            <marker date="1551296974000" expanded="true" signature="9713:9719" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="1571:1733" ph="/// When Called, the brain will be controlled externally. It will not use the ... " />
+            <marker date="1551296974000" expanded="true" signature="1781:1835" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="1916:1963" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="1981:2412" ph="/// Initializes the Brain with the Model that it will use when selecting actions for ... " />
+            <marker date="1551296974000" expanded="true" signature="2458:3128" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="2521:2656" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="2673:2733" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="3146:3676" ph="/// Return a list of failed checks corresponding to the failed compatibility checks ... " />
+            <marker date="1551296974000" expanded="true" signature="3734:4105" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="4180:5640" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="4221:4309" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="4403:4455" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="4510:4641" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EmpathyAcademy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <marker date="1552254166046" expanded="false" signature="6:171" ph="..." />
+            <marker date="1552254166046" expanded="true" signature="210:325" ph="{...}" />
+            <marker date="1552254166046" expanded="true" signature="267:312" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TrainingPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <marker date="1552331921319" expanded="false" signature="6:220" ph="..." />
+            <marker date="1552331921319" expanded="true" signature="265:1713" ph="{...}" />
+            <marker date="1552331921319" expanded="true" signature="431:809" ph="{...}" />
+            <marker date="1552331921319" expanded="true" signature="835:877" ph="{...}" />
+            <marker date="1552331921319" expanded="true" signature="912:1389" ph="{...}" />
+            <marker date="1552331921319" expanded="true" signature="946:1000" ph="{...}" />
+            <marker date="1552331921319" expanded="true" signature="1415:1499" ph="{...}" />
+            <marker date="1552331921319" expanded="true" signature="1535:1576" ph="{...}" />
+            <marker date="1552331921319" expanded="true" signature="1610:1646" ph="{...}" />
+            <marker date="1552331921319" expanded="true" signature="1676:1711" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="48" column="35" selection-start-line="46" selection-start-column="8" selection-end-line="48" selection-end-column="35" />
+          <folding>
+            <marker date="1552345235586" expanded="false" signature="6:48" ph="..." />
+            <marker date="1552345235586" expanded="true" signature="83:3671" ph="{...}" />
+            <marker date="1552345235586" expanded="true" signature="438:546" ph="{...}" />
+            <marker date="1552345235586" expanded="true" signature="594:1537" ph="{...}" />
+            <marker date="1552345235586" expanded="true" signature="860:1267" ph="/* float leftVelocity = 0f; ... */" />
+            <marker date="1552345235586" expanded="true" signature="1603:1774" ph="{...}" />
+            <marker date="1552345235586" expanded="true" signature="1853:3368" ph="{...}" />
+            <marker date="1552345235586" expanded="true" signature="2223:2576" ph="/* float reward = (0.5f * valenceReward) + (0.5f * arousalReward); ... */" />
+            <marker date="1552345235586" expanded="true" signature="2765:2990" ph="/* if (reward &gt; 0.95) ... */" />
+            <marker date="1552345235586" expanded="true" signature="3032:3101" ph="{...}" />
+            <marker date="1552345235586" expanded="true" signature="3129:3325" ph="/* if (distance &lt; lastDistance) ... */" />
+            <marker date="1552345235586" expanded="true" signature="3408:3448" ph="{...}" />
+            <marker date="1552345235586" expanded="true" signature="3487:3669" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+        <state relative-caret-position="690">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
           <folding>
-            <marker date="1552241298403" expanded="false" signature="6:96" ph="..." />
-            <marker date="1552241298403" expanded="true" signature="152:1380" ph="{...}" />
-            <marker date="1552241298403" expanded="true" signature="480:553" ph="{...}" />
-            <marker date="1552241298403" expanded="true" signature="611:809" ph="{...}" />
-            <marker date="1552241298403" expanded="true" signature="724:803" ph="{...}" />
-            <marker date="1552241298403" expanded="true" signature="841:1207" ph="{...}" />
-            <marker date="1552241298403" expanded="true" signature="1268:1378" ph="{...}" />
+            <marker date="1552356711060" expanded="false" signature="6:96" ph="..." />
+            <marker date="1552356711060" expanded="true" signature="152:1381" ph="{...}" />
+            <marker date="1552356711060" expanded="true" signature="480:553" ph="{...}" />
+            <marker date="1552356711060" expanded="true" signature="611:809" ph="{...}" />
+            <marker date="1552356711060" expanded="true" signature="724:803" ph="{...}" />
+            <marker date="1552356711060" expanded="true" signature="841:1207" ph="{...}" />
+            <marker date="1552356711060" expanded="true" signature="1268:1379" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Agent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding>
+            <marker date="1551296974000" expanded="true" signature="6:130" ph="..." />
+            <marker date="1551296974000" expanded="true" signature="151:40691" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="158:345" ph="/// Struct that contains all the information for an Agent, including its  ... " />
+            <marker date="1551296974000" expanded="true" signature="373:3954" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="388:489" ph="/// Most recent agent vector (i.e. numeric) observation. ... " />
+            <marker date="1551296974000" expanded="true" signature="545:776" ph="/// The previous agent vector observations, stacked. The length of the ... " />
+            <marker date="1551296974000" expanded="true" signature="839:940" ph="/// Most recent agent camera (i.e. texture) observation. ... " />
+            <marker date="1551296974000" expanded="true" signature="1001:1079" ph="/// Most recent text observation. ... " />
+            <marker date="1551296974000" expanded="true" signature="1128:1234" ph="/// Keeps track of the last vector action taken by the Brain. ... " />
+            <marker date="1551296974000" expanded="true" signature="1288:1392" ph="/// Keeps track of the last text action taken by the Brain. ... " />
+            <marker date="1551296974000" expanded="true" signature="1443:1608" ph="/// For discrete control, specifies the actions that the agent cannot take. Is true if ... " />
+            <marker date="1551296974000" expanded="true" signature="1653:1990" ph="/// Used by the Trainer to store information about the agent. This data ... " />
+            <marker date="1551296974000" expanded="true" signature="2037:2107" ph="/// Current agent reward. ... " />
+            <marker date="1551296974000" expanded="true" signature="2146:2228" ph="/// Whether the agent is done or not. ... " />
+            <marker date="1551296974000" expanded="true" signature="2264:2379" ph="/// Whether the agent has reached its max step count for this episode. ... " />
+            <marker date="1551296974000" expanded="true" signature="2425:2610" ph="/// Unique identifier each agent receives at initialization. It is used ... " />
+            <marker date="1551296974000" expanded="true" signature="2643:2889" ph="/// Converts a AgentInfo to a protobuffer generated AgentInfoProto ... " />
+            <marker date="1551296974000" expanded="true" signature="2949:3948" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="3044:3433" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="3468:3551" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="3589:3682" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="3741:3902" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="3960:4087" ph="/// Struct that contains the action information sent from the Brain to the  ... " />
+            <marker date="1551296974000" expanded="true" signature="4117:4267" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="4273:4496" ph="/// Struct that contains all the Agent-specific parameters provided in the  ... " />
+            <marker date="1551296974000" expanded="true" signature="4555:6089" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="4570:4705" ph="/// The list of the Camera GameObjects the agent uses for visual ... " />
+            <marker date="1551296974000" expanded="true" signature="4778:5277" ph="/// The maximum number of steps the agent takes before being done.  ... " />
+            <marker date="1551296974000" expanded="true" signature="5315:5657" ph="/// Determines the behaviour of the agent when done. ... " />
+            <marker date="1551296974000" expanded="true" signature="5707:5840" ph="/// Whether to enable On Demand Decisions or make a decision at  ... " />
+            <marker date="1551296974000" expanded="true" signature="5888:6031" ph="/// Number of actions between decisions (used when On Demand Decisions ... " />
+            <marker date="1551296974000" expanded="true" signature="6096:9115" ph="/// Agent Monobehavior class that is attached to a Unity GameObject, making it ... " />
+            <marker date="1551296974000" expanded="true" signature="9120:9253" ph="[...]" />
+            <marker date="1551296974000" expanded="true" signature="9327:40689" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="9342:9670" ph="/// The Brain attached to this agent. A brain can be attached either ... " />
+            <marker date="1551296974000" expanded="true" signature="9726:9836" ph="/// Agent parameters specified within the Editor via AgentEditor. ... " />
+            <marker date="1551296974000" expanded="true" signature="10089:10539" ph="/// Represents the reward the agent accumulated during the current step. ... " />
+            <marker date="1551296974000" expanded="true" signature="10845:11043" ph="/// Whether or not the agent has completed the episode. This may be due ... " />
+            <marker date="1551296974000" expanded="true" signature="11176:11444" ph="/// Keeps track of the number of steps taken by the agent in this episode. ... " />
+            <marker date="1551296974000" expanded="true" signature="11477:11628" ph="/// Flag to signify that an agent has been reset but the fact that it is ... " />
+            <marker date="1551296974000" expanded="true" signature="11668:11796" ph="/// Flag to signify that an agent is done and should not reset until ... " />
+            <marker date="1551296974000" expanded="true" signature="11830:11970" ph="/// Unique identifier each agent receives at initialization. It is used ... " />
+            <marker date="1551296974000" expanded="true" signature="12109:12221" ph="/// Array of Texture2D used to render to from render buffer before ... " />
+            <marker date="1551296974000" expanded="true" signature="12265:12337" ph="/// Demonstration recorder. ... " />
+            <marker date="1551296974000" expanded="true" signature="12395:12503" ph="/// Monobehavior function that is called when the attached GameObject ... " />
+            <marker date="1551296974000" expanded="true" signature="12527:13032" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="12688:12799" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="13042:13140" ph="/// Helper method for the &lt;see cref=&quot;OnEnable&quot;/&gt; event, created to ... " />
+            <marker date="1551296974000" expanded="true" signature="13185:14122" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="13305:13455" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="13733:13790" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="13807:14080" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="14132:14243" ph="/// Monobehavior function that is called when the attached GameObject ... " />
+            <marker date="1551296974000" expanded="true" signature="14268:14691" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="14388:14681" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="14701:15481" ph="/// Updates the Brain for the agent. Any brain currently assigned to the ... " />
+            <marker date="1551296974000" expanded="true" signature="15524:15601" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="15611:15802" ph="/// Returns the current step counter (within the current epside). ... " />
+            <marker date="1551296974000" expanded="true" signature="15836:15886" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="15896:16014" ph="/// Resets the step reward and possibly the episode reward for the agent. ... " />
+            <marker date="1551296974000" expanded="true" signature="16048:16182" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="16105:16172" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="16192:16413" ph="/// Overrides the current step reward of the agent and updates the episode ... " />
+            <marker date="1551296974000" expanded="true" signature="16457:16567" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="16577:16758" ph="/// Increments the step and episode rewards by the provided value. ... " />
+            <marker date="1551296974000" expanded="true" signature="16805:16901" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="16911:17048" ph="/// Retrieves the step reward for the Agent. ... " />
+            <marker date="1551296974000" expanded="true" signature="17081:17128" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="17138:17281" ph="/// Retrieves the episode reward for the Agent. ... " />
+            <marker date="1551296974000" expanded="true" signature="17324:17381" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="17391:17467" ph="/// Sets the done flag to true. ... " />
+            <marker date="1551296974000" expanded="true" signature="17494:17539" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="17549:17665" ph="/// Is called when the agent must request the brain for a new decision. ... " />
+            <marker date="1551296974000" expanded="true" signature="17703:17788" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="17798:17898" ph="/// Is called then the agent must perform a new action. ... " />
+            <marker date="1551296974000" expanded="true" signature="17934:17988" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="17998:18237" ph="/// Indicates if the agent has reached his maximum number of steps. ... " />
+            <marker date="1551296974000" expanded="true" signature="18276:18331" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="18341:18536" ph="/// Indicates if the agent is done ... " />
+            <marker date="1551296974000" expanded="true" signature="18565:18610" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="18620:18812" ph="/// Helper function that resets all the data structures associated with ... " />
+            <marker date="1551296974000" expanded="true" signature="18837:20265" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="18878:18930" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="19111:19297" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="19314:19508" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="20275:20690" ph="/// Initializes the agent, called once when the agent is enabled. Can be ... " />
+            <marker date="1551296974000" expanded="true" signature="20736:20756" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="20766:20856" ph="/// Sends the Agent info to the linked Brain. ... " />
+            <marker date="1551296974000" expanded="true" signature="20887:23428" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="20928:20980" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="21453:21896" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="22208:22623" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="22709:23041" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="23302:23378" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="23438:25197" ph="/// Collects the (vector, visual, text) observations of the agent. ... " />
+            <marker date="1551296974000" expanded="true" signature="25247:25267" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="25277:25757" ph="/// Sets an action mask for discrete control agents. When used, the agent will not be ... " />
+            <marker date="1551296974000" expanded="true" signature="25826:25904" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="25914:26389" ph="/// Sets an action mask for discrete control agents. When used, the agent will not be ... " />
+            <marker date="1551296974000" expanded="true" signature="26443:26532" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="26542:27094" ph="/// Sets an action mask for discrete control agents. When used, the agent will not be ... " />
+            <marker date="1551296974000" expanded="true" signature="27160:27254" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="27264:27825" ph="/// Modifies an action mask for discrete control agents. When used, the agent will not be ... " />
+            <marker date="1551296974000" expanded="true" signature="27906:27989" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="28000:28243" ph="/// Adds a float observation to the vector observations of the agent. ... " />
+            <marker date="1551296974000" expanded="true" signature="28298:28371" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="28381:28627" ph="/// Adds an integer observation to the vector observations of the agent. ... " />
+            <marker date="1551296974000" expanded="true" signature="28680:28753" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="28763:29009" ph="/// Adds an Vector3 observation to the vector observations of the agent. ... " />
+            <marker date="1551296974000" expanded="true" signature="29066:29251" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="29261:29507" ph="/// Adds an Vector2 observation to the vector observations of the agent. ... " />
+            <marker date="1551296974000" expanded="true" signature="29564:29694" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="29704:29983" ph="/// Adds a collection of float observations to the vector observations of the agent. ... " />
+            <marker date="1551296974000" expanded="true" signature="30051:30129" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="30139:30387" ph="/// Adds a quaternion observation to the vector observations of the agent. ... " />
+            <marker date="1551296974000" expanded="true" signature="30447:30687" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="30697:30930" ph="/// Adds a boolean observation to the vector observation of the agent. ... " />
+            <marker date="1551296974000" expanded="true" signature="30984:31067" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="31132:31307" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="31317:31464" ph="/// Sets the text observation. ... " />
+            <marker date="1551296974000" expanded="true" signature="31519:31591" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="31601:31964" ph="/// Specifies the agent behavior at every step based on the provided ... " />
+            <marker date="1551296974000" expanded="true" signature="32045:32065" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="32075:32303" ph="/// Specifies the agent behavior when done and  ... " />
+            <marker date="1551296974000" expanded="true" signature="32345:32365" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="32375:32592" ph="/// Specifies the agent behavior when being reset, which can be due to ... " />
+            <marker date="1551296974000" expanded="true" signature="32633:32653" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="32663:32835" ph="/// An internal reset method that updates internal data structures in ... " />
+            <marker date="1551296974000" expanded="true" signature="32862:32960" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="32970:33109" ph="/// Updates the vector action. ... " />
+            <marker date="1551296974000" expanded="true" signature="33171:33241" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="33251:33381" ph="/// Updates the memories action. ... " />
+            <marker date="1551296974000" expanded="true" signature="33444:33504" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="33576:33644" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="33654:33787" ph="/// Updates the text action. ... " />
+            <marker date="1551296974000" expanded="true" signature="33844:33910" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="33920:34060" ph="/// Updates the value of the agent. ... " />
+            <marker date="1551296974000" expanded="true" signature="34111:34165" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="34209:34262" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="34272:34532" ph="/// Scales continous action from [-1, 1] to arbitrary range. ... " />
+            <marker date="1551296974000" expanded="true" signature="34607:34757" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="34767:35158" ph="/// Sets the status of the agent. ... " />
+            <marker date="1551296974000" expanded="true" signature="35244:35744" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="35283:35351" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="35430:35497" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="35511:35612" ph="/* If the Academy needs to reset, the agent should reset ... */" />
+            <marker date="1551296974000" expanded="true" signature="35641:35734" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="35854:36962" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="35877:35971" ph="/* If an agent is done, then it will also ... */" />
+            <marker date="1551296974000" expanded="true" signature="35997:36952" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="36060:36804" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="36136:36493" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="36204:36471" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="36259:36350" ph="/* If event based, the agent can reset as soon ... */" />
+            <marker date="1551296974000" expanded="true" signature="36539:36786" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="36586:36725" ph="/* If not event based, the agent must wait to request a ... */" />
+            <marker date="1551296974000" expanded="true" signature="36825:36938" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="36972:37083" ph="/// Signals the agent that it must sent its decision to the brain. ... " />
+            <marker date="1551296974000" expanded="true" signature="37107:37407" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="37150:37397" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="37497:38307" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="37534:37880" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="37933:38071" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="38177:38268" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="38317:38489" ph="/// Is called after every step, contains the logic to decide if the agent ... " />
+            <marker date="1551296974000" expanded="true" signature="38539:39002" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="38741:38992" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="38903:38978" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="39012:39435" ph="/// Converts a camera and correspinding resolution to a 2D texture. ... " />
+            <marker date="1551296974000" expanded="true" signature="39549:40683" ph="{...}" />
+            <marker date="1551296974000" expanded="true" signature="39982:40059" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding>
+            <marker date="1552359098998" expanded="false" signature="6:184" ph="..." />
+            <marker date="1552359098998" expanded="true" signature="233:1751" ph="{...}" />
+            <marker date="1552359098998" expanded="true" signature="430:487" ph="{...}" />
+            <marker date="1552359098998" expanded="true" signature="535:1162" ph="{...}" />
+            <marker date="1552359098998" expanded="true" signature="1241:1569" ph="{...}" />
+            <marker date="1552359098998" expanded="true" signature="1454:1526" ph="{...}" />
+            <marker date="1552359098998" expanded="true" signature="1575:1637" ph="/* Override this method to receive predictions ... */" />
+            <marker date="1552359098998" expanded="true" signature="1737:1749" ph="{...}" />
           </folding>
         </state>
       </provider>

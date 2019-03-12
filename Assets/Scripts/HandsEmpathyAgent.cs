@@ -1,4 +1,5 @@
 ﻿using System;
+using HTC.UnityPlugin.Utility;
 using HTC.UnityPlugin.Vive;
 using MLAgents;
 using UnityEngine;
@@ -21,50 +22,30 @@ public abstract class HandsEmpathyAgent : Agent
 
     public override void CollectObservations()
     {
-        Pose rightHandPose = VivePose.GetPose(HandRole.RightHand);
-        //rightHandPose = rightHandPose.GetTransformedBy(worldCenter);
-        
-        Pose leftHandPose = VivePose.GetPose(HandRole.LeftHand);
-        //leftHandPose = leftHandPose.GetTransformedBy(worldCenter);
-        
-        Pose headPose = VivePose.GetPose(DeviceRole.Hmd);
-        //headPose = headPose.GetTransformedBy(worldCenter);
-        
-        Vector3 leftPosition = leftHandPose.position.normalized;
-        Quaternion leftRotation = leftHandPose.rotation.normalized;
+        RigidPose rightHandPose = VivePose.GetPose(HandRole.RightHand);
+        RigidPose leftHandPose = VivePose.GetPose(HandRole.LeftHand);
+        RigidPose headPose = VivePose.GetPose(DeviceRole.Hmd);
 
-        Vector3 rightPosition = rightHandPose.position.normalized;
-        Quaternion rightRotation = rightHandPose.rotation.normalized;
-
-        Vector3 headPosition = headPose.position.normalized;
-        Quaternion headRotation = headPose.rotation.normalized;
-
-        Vector3 leftUp = leftHandPose.up;
-        Vector3 rightUp = rightHandPose.up;
-        Vector3 headUp = headPose.up;
+        Quaternion headRotation = headPose.rot;
+        Vector3 leftPosition = headPose.InverseTransformPoint(leftHandPose.pos);
+        Vector3 rightPosition = headPose.InverseTransformPoint(rightHandPose.pos);
+        
+        //Debug.Log(leftPosition+" "+rightPosition+" "+headPose.pos);
         
         AddVectorObs(leftPosition);
-        AddVectorObs(leftRotation);
         AddVectorObs(rightPosition);
-        AddVectorObs(rightRotation);
-        AddVectorObs(headPosition);
         AddVectorObs(headRotation);
-//        AddVectorObs(leftUp);
-//        AddVectorObs(rightUp);
-//        AddVectorObs(headUp);
     }
 
     public override void AgentAction(float[] vectorAction, string textAction)
     {
-        float valence = Mathf.Clamp(vectorAction[0], -1.0f, 1.0f);
-        float arousal = Mathf.Clamp(vectorAction[1], -1.0f, 1.0f);
+        float arousal = Mathf.Clamp(vectorAction[0], -1.0f, 1.0f);
 
-        Vector3 inference = lowpassFilter.GetFilteredVector(new Vector3(valence, arousal, 0), filterBeta);
+        Vector3 inference = lowpassFilter.GetFilteredVector(new Vector3(arousal, arousal, 0), filterBeta);
         
         if (showDebug)
         {
-            Monitor.Log("Valence", inference.x);
-            Monitor.Log("Arousal", inference.y);
+            Monitor.Log("Excitement", inference.x);
         }
 
         OnNewPrediction(inference);
