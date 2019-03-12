@@ -1252,7 +1252,7 @@ MonoBehaviour:
   - {fileID: 746487791}
   - {fileID: 1684336118}
   player: {fileID: 1692131428}
-  spawnInterval: 5
+  spawnInterval: 10
   flashlight: {fileID: 605592346}
   companion: {fileID: 671656826}
 --- !u!82 &1946479391
