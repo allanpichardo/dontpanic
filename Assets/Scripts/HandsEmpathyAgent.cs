@@ -26,7 +26,6 @@ public abstract class HandsEmpathyAgent : Agent
         RigidPose leftHandPose = VivePose.GetPose(HandRole.LeftHand);
         RigidPose headPose = VivePose.GetPose(DeviceRole.Hmd);
 
-        Quaternion headRotation = headPose.rot;
         Vector3 leftPosition = headPose.InverseTransformPoint(leftHandPose.pos);
         Vector3 rightPosition = headPose.InverseTransformPoint(rightHandPose.pos);
         
@@ -34,7 +33,6 @@ public abstract class HandsEmpathyAgent : Agent
         
         AddVectorObs(leftPosition);
         AddVectorObs(rightPosition);
-        AddVectorObs(headRotation);
     }
 
     public override void AgentAction(float[] vectorAction, string textAction)
