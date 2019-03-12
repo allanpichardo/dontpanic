@@ -9,36 +9,47 @@ public class EmpathyAgent : Agent
     public GameObject leftHand;
     public GameObject rightHand;
 
-    
+    private EmpathyAcademy academy;
+    private float threshold = 0.7f;
+
+    private Vector3 lastLeftPos;
+    private Vector3 lastRightPos;
+
+    private float lastDistance;
+
     public override void InitializeAgent()
     {
+        academy = FindObjectOfType<EmpathyAcademy>();
         trainingPlayer.LoadRandomTrial();
     }
 
     public override void CollectObservations()
     {
-        Vector3 leftPosition = leftHand.transform.position.normalized;
-        Quaternion leftRotation = leftHand.transform.rotation.normalized;
+        Vector3 leftPosition = head.transform.InverseTransformPoint(leftHand.transform.position);
+        Vector3 rightPosition = head.transform.InverseTransformPoint(rightHand.transform.position);
+        Quaternion headRotation = head.transform.rotation;
 
-        Vector3 rightPosition = rightHand.transform.position.normalized;
-        Quaternion rightRotation = rightHand.transform.rotation.normalized;
-        
-        Vector3 headPosition = head.transform.position.normalized;
-        Quaternion headRotation = head.transform.rotation.normalized;
 
-        Vector3 leftUp = leftHand.transform.TransformDirection(Vector3.up);
-        Vector3 rightUp = rightHand.transform.TransformDirection(Vector3.up);
-        Vector3 headUp = head.transform.TransformDirection(Vector3.up);
+//        float leftVelocity = 0f;
+//        if (lastLeftPos.sqrMagnitude > 0)
+//        {
+//            leftVelocity = ((leftPosition - lastLeftPos) / Time.fixedDeltaTime).magnitude;
+//        }
+//        
+//        float rightVelocity = 0f;
+//        if (lastRightPos.sqrMagnitude > 0)
+//        {
+//            rightVelocity = ((rightPosition - lastRightPos) / Time.fixedDeltaTime).magnitude;
+//        }
+
+        Debug.Log(leftPosition+", "+rightPosition+", "+headRotation);
         
         AddVectorObs(leftPosition);
-        AddVectorObs(leftRotation);
         AddVectorObs(rightPosition);
-        AddVectorObs(rightRotation);
-        AddVectorObs(headPosition);
         AddVectorObs(headRotation);
-//        AddVectorObs(leftUp);
-//        AddVectorObs(rightUp);
-//        AddVectorObs(headUp);
+
+        lastLeftPos = leftPosition;
+        lastRightPos = rightPosition;
     }
 
     private float CalculateReward(float predicted, float actual)
@@ -50,54 +61,67 @@ public class EmpathyAgent : Agent
 
     public override void AgentAction(float[] vectorAction, string textAction)
     {
-        float valence = Mathf.Clamp(vectorAction[0], -1.0f, 1.0f);
-        float arousal = Mathf.Clamp(vectorAction[1], -1.0f, 1.0f);
+        //float valence = Mathf.Clamp(vectorAction[0], -1.0f, 1.0f);
+        float arousal = Mathf.Clamp(vectorAction[0], -1.0f, 1.0f);
 
         Trial trial = trainingPlayer.GetCurrentTrial();
-        float valenceReward = CalculateReward(valence, trial.valence);
-        float arousalReward = CalculateReward(arousal, trial.energy);
-        float reward = (0.5f * valenceReward) + (0.5f * arousalReward);
+        //float valenceReward = CalculateReward(valence, trial.valence);
+        float reward = Mathf.Clamp(CalculateReward(arousal, trial.energy), -1.0f, 1.0f);
+        //float reward = (0.5f * valenceReward) + (0.5f * arousalReward);
+
+//        float maxDistance = 1.414215f;
+//        Vector2 guess = new Vector2(valence, arousal);
+//        Vector2 actual = new Vector2(trial.valence, trial.energy);
+//        float distance = Vector2.Distance(guess, actual);
+//        float r = (maxDistance - distance) / maxDistance;
         
-        Vector2 actual = new Vector2(trial.valence, trial.energy);
-        Vector2 guess = new Vector2(valence, arousal);
-        float distance = Vector2.Distance(actual, guess);
-        distance = Mathf.Clamp(distance, 0.0f, 1.0f);
-        
-        Monitor.Log("Step Reward", reward);
-        Monitor.Log("Valence", new []{trial.valence, valence});
+        Monitor.Log("Step Reward", reward/700f);
+        //Monitor.Log("Valence", new []{trial.valence, valence});
         Monitor.Log("Arousal", new []{trial.energy, arousal});
 
-        //Debug.Log(distance);
-        
-//        SetReward(1 - distance);
-        SetReward(reward);
+//        if (reward > 0.95)
+//        {
+//            SetReward(1.0f);
+//            Done();
+//        }
+//
+//        if (reward > 0)
+//        {
+//            SetReward(reward);
+//        }
 
-        if (reward > 0.95)
+        //SetReward(reward/700);
+        
+        if (reward >= threshold)
         {
             SetReward(1.0f);
             Done();
         }
-
-        if (reward > 0)
-        {
-//            if (reward > 0.90)
-//            {
-//                SetReward(1.0f);
-//                Done();
-//            }
-        }
-        else if(reward < 0)
-        {
-        }
-        else
-        {
-        }
+        
+        
+        
+//        if (distance < lastDistance)
+//        {
+//            SetReward(1f / 700.0f);
+//        }else if (distance > lastDistance)
+//        {
+//            SetReward(-1f / 700.0f);
+//        }
 
 
+//        lastDistance = distance;
+    }
+
+    public override void AgentOnDone()
+    {
+        base.AgentOnDone();
     }
 
     public override void AgentReset()
     {
+        threshold = academy.resetParameters["target"];
+        lastLeftPos = Vector3.zero;
+        lastRightPos = Vector3.zero;
         trainingPlayer.LoadRandomTrial();
     }
 }
