@@ -13,7 +13,6 @@ public class TrainingPlayer : MonoBehaviour
     private List<Trial> trials;
     private Trial currentTrial;
     private Animator animator;
-    public Agent agent;
     private float length;
     
     private void InitializeManifest()
@@ -28,12 +27,19 @@ public class TrainingPlayer : MonoBehaviour
         ms.Close();
     }
 
+    private void Awake()
+    {
+        InitializeManifest();
+    }
+
     public void LoadRandomTrial()
     {
+        if (trials == null)
+        {
+            InitializeManifest();
+        }
         int n = Random.Range(0, trials.Count);
         currentTrial = trials[n];
-//        animator.SetInteger("subject", currentTrial.subject);
-//        animator.SetInteger("trial", currentTrial.trial);
         String name = currentTrial.subject.ToString("00") + "_" + currentTrial.trial.ToString("00") + " (batch)";
         Debug.Log(name);
         int layer = animator.GetLayerIndex("Base Layer");
@@ -44,7 +50,6 @@ public class TrainingPlayer : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
-        InitializeManifest();
         LoadRandomTrial();
     }
 
@@ -55,7 +60,7 @@ public class TrainingPlayer : MonoBehaviour
 
     public void OnAnimationEnd()
     {
-        agent.Done();
+        //agent.Done();
     }
 
     public float getLength()

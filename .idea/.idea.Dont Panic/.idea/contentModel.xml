@@ -282,6 +282,7 @@
             <e p="DemonstrationImporter.cs" t="Include" />
             <e p="HeuristicBrainEditor.cs" t="Include" />
             <e p="LearningBrainEditor.cs" t="Include" />
+            <e p="NNModelImporter.cs" t="Include" />
             <e p="PlayerBrainEditor.cs" t="Include" />
             <e p="ResetParameterDrawer.cs" t="Include" />
             <e p="Tests" t="Include">
@@ -416,6 +417,37 @@
               </e>
             </e>
           </e>
+          <e p="Plugins" t="Include">
+            <e p="Barracuda.Core" t="Include">
+              <e p="Barracuda" t="Include">
+                <e p="Plugins" t="Include">
+                  <e p="iOS" t="Include">
+                    <e p="iOSBLAS.asmdef" t="Include" />
+                    <e p="iOSBLAS.cs" t="Include" />
+                  </e>
+                  <e p="OSX" t="Include">
+                    <e p="MacBLAS.asmdef" t="Include" />
+                    <e p="MacBLAS.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Resources" t="Include">
+                  <e p="Activation.compute" t="Include" />
+                  <e p="BarracudaReferenceImpl.compute" t="Include" />
+                  <e p="Broadcast.compute" t="Include" />
+                  <e p="Conv.compute" t="Include" />
+                  <e p="ConvOld.compute" t="Include" />
+                  <e p="Dense.compute" t="Include" />
+                  <e p="DenseFP16.compute" t="Include" />
+                  <e p="Experimental.compute" t="Include" />
+                  <e p="FastNV.compute" t="Include" />
+                  <e p="Generic.compute" t="Include" />
+                  <e p="Random.cginc" t="Include" />
+                  <e p="Tensor.cginc" t="Include" />
+                  <e p="TexConv.compute" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
           <e p="Scripts" t="Include">
             <e p="Academy.cs" t="Include" />
             <e p="ActionMasker.cs" t="Include" />
@@ -454,8 +486,10 @@
             <e p="HeuristicBrain.cs" t="Include" />
             <e p="InferenceBrain" t="Include">
               <e p="ApplierImpl.cs" t="Include" />
+              <e p="BarracudaModelParamLoader.cs" t="Include" />
               <e p="GeneratorImpl.cs" t="Include" />
               <e p="ModelParamLoader.cs" t="Include" />
+              <e p="NNModel.cs" t="Include" />
               <e p="Tensor.cs" t="Include" />
               <e p="TensorApplier.cs" t="Include" />
               <e p="TensorGenerator.cs" t="Include" />
@@ -834,7 +868,9 @@
         </e>
       </e>
       <e p="Dont Panic.sln" t="IncludeFlat" />
+      <e p="iOSBLAS.csproj" t="IncludeRecursive" />
       <e p="Library" t="ExcludeRecursive" />
+      <e p="MacBLAS.csproj" t="IncludeRecursive" />
       <e p="NavMeshComponents.csproj" t="IncludeRecursive" />
       <e p="NavMeshComponentsEditor.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
