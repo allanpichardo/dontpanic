@@ -4,8 +4,10 @@
     <list default="true" id="6e6632de-10d4-4fa0-ae08-47d0fb5c8659" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Brains/Models/BiofeedbackLearningBrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brains/Models/BiofeedbackLearningBrain.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Trainer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Trainer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Brains/Models/BiofeedbackLearningBrain.nn" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Brains/Models/BiofeedbackLearningBrain.nn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,19 +17,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+            <state relative-caret-position="442">
+              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
               <folding>
-                <marker date="1552359410084" expanded="false" signature="6:96" ph="..." />
-                <marker date="1552359410084" expanded="true" signature="152:1381" ph="{...}" />
-                <marker date="1552359410084" expanded="true" signature="480:553" ph="{...}" />
-                <marker date="1552359410084" expanded="true" signature="611:809" ph="{...}" />
-                <marker date="1552359410084" expanded="true" signature="724:803" ph="{...}" />
-                <marker date="1552359410084" expanded="true" signature="841:1207" ph="{...}" />
-                <marker date="1552359410084" expanded="true" signature="1268:1379" ph="{...}" />
+                <marker date="1552366028222" expanded="false" signature="6:96" ph="..." />
+                <marker date="1552366028222" expanded="true" signature="152:1381" ph="{...}" />
+                <marker date="1552366028222" expanded="true" signature="480:553" ph="{...}" />
+                <marker date="1552366028222" expanded="true" signature="611:809" ph="{...}" />
+                <marker date="1552366028222" expanded="true" signature="724:803" ph="{...}" />
+                <marker date="1552366028222" expanded="true" signature="841:1207" ph="{...}" />
+                <marker date="1552366028222" expanded="true" signature="1268:1379" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -36,26 +38,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+            <state relative-caret-position="258">
+              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
               <folding>
-                <marker date="1552359410084" expanded="false" signature="6:184" ph="..." />
-                <marker date="1552359410084" expanded="true" signature="233:1751" ph="{...}" />
-                <marker date="1552359410084" expanded="true" signature="430:487" ph="{...}" />
-                <marker date="1552359410084" expanded="true" signature="535:1162" ph="{...}" />
-                <marker date="1552359410084" expanded="true" signature="1241:1569" ph="{...}" />
-                <marker date="1552359410084" expanded="true" signature="1454:1526" ph="{...}" />
-                <marker date="1552359410084" expanded="true" signature="1575:1637" ph="/* Override this method to receive predictions ... */" />
-                <marker date="1552359410084" expanded="true" signature="1737:1749" ph="{...}" />
+                <marker date="1552365625930" expanded="false" signature="6:184" ph="..." />
+                <marker date="1552365625930" expanded="true" signature="233:1667" ph="{...}" />
+                <marker date="1552365625930" expanded="true" signature="430:487" ph="{...}" />
+                <marker date="1552365625930" expanded="true" signature="535:1078" ph="{...}" />
+                <marker date="1552365625930" expanded="true" signature="1157:1485" ph="{...}" />
+                <marker date="1552365625930" expanded="true" signature="1370:1442" ph="{...}" />
+                <marker date="1552365625930" expanded="true" signature="1491:1553" ph="/* Override this method to receive predictions ... */" />
+                <marker date="1552365625930" expanded="true" signature="1653:1665" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
+            <state relative-caret-position="163">
               <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
               <folding>
                 <marker date="1552360251894" expanded="false" signature="6:48" ph="..." />
@@ -158,9 +160,9 @@
         <option value="$PROJECT_DIR$/Assets/CompanionController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EmpathyAcademy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TrainingPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" />
       </list>
     </option>
   </component>
@@ -269,12 +271,12 @@
       <workItem from="1552240417492" duration="2372000" />
       <workItem from="1552252878211" duration="5242000" />
       <workItem from="1552267986699" duration="2468000" />
-      <workItem from="1552313464188" duration="5634000" />
+      <workItem from="1552313464188" duration="6085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36713000" />
+    <option name="totallyTimeSpent" value="37164000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -287,7 +289,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2819063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -656,22 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-          <folding>
-            <marker date="1552359410084" expanded="false" signature="6:96" ph="..." />
-            <marker date="1552359410084" expanded="true" signature="152:1381" ph="{...}" />
-            <marker date="1552359410084" expanded="true" signature="480:553" ph="{...}" />
-            <marker date="1552359410084" expanded="true" signature="611:809" ph="{...}" />
-            <marker date="1552359410084" expanded="true" signature="724:803" ph="{...}" />
-            <marker date="1552359410084" expanded="true" signature="841:1207" ph="{...}" />
-            <marker date="1552359410084" expanded="true" signature="1268:1379" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Agent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -852,26 +837,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
-          <folding>
-            <marker date="1552359410084" expanded="false" signature="6:184" ph="..." />
-            <marker date="1552359410084" expanded="true" signature="233:1751" ph="{...}" />
-            <marker date="1552359410084" expanded="true" signature="430:487" ph="{...}" />
-            <marker date="1552359410084" expanded="true" signature="535:1162" ph="{...}" />
-            <marker date="1552359410084" expanded="true" signature="1241:1569" ph="{...}" />
-            <marker date="1552359410084" expanded="true" signature="1454:1526" ph="{...}" />
-            <marker date="1552359410084" expanded="true" signature="1575:1637" ph="/* Override this method to receive predictions ... */" />
-            <marker date="1552359410084" expanded="true" signature="1737:1749" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
+        <state relative-caret-position="163">
           <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding>
             <marker date="1552360251894" expanded="false" signature="6:48" ph="..." />
@@ -888,6 +856,39 @@
             <marker date="1552360251894" expanded="true" signature="3332:3528" ph="/* if (distance &lt; lastDistance) ... */" />
             <marker date="1552360251894" expanded="true" signature="3611:3651" ph="{...}" />
             <marker date="1552360251894" expanded="true" signature="3690:3872" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <marker date="1552365625930" expanded="false" signature="6:184" ph="..." />
+            <marker date="1552365625930" expanded="true" signature="233:1667" ph="{...}" />
+            <marker date="1552365625930" expanded="true" signature="430:487" ph="{...}" />
+            <marker date="1552365625930" expanded="true" signature="535:1078" ph="{...}" />
+            <marker date="1552365625930" expanded="true" signature="1157:1485" ph="{...}" />
+            <marker date="1552365625930" expanded="true" signature="1370:1442" ph="{...}" />
+            <marker date="1552365625930" expanded="true" signature="1491:1553" ph="/* Override this method to receive predictions ... */" />
+            <marker date="1552365625930" expanded="true" signature="1653:1665" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+          <folding>
+            <marker date="1552366028222" expanded="false" signature="6:96" ph="..." />
+            <marker date="1552366028222" expanded="true" signature="152:1381" ph="{...}" />
+            <marker date="1552366028222" expanded="true" signature="480:553" ph="{...}" />
+            <marker date="1552366028222" expanded="true" signature="611:809" ph="{...}" />
+            <marker date="1552366028222" expanded="true" signature="724:803" ph="{...}" />
+            <marker date="1552366028222" expanded="true" signature="841:1207" ph="{...}" />
+            <marker date="1552366028222" expanded="true" signature="1268:1379" ph="{...}" />
           </folding>
         </state>
       </provider>
