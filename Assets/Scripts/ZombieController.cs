@@ -52,6 +52,6 @@ public class ZombieController : MonoBehaviour
 
     public void OnDeath()
     {
-        Destroy(this.gameObject);
+        //Destroy(this.gameObject);
     }
 }
