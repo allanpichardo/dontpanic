@@ -25,9 +25,10 @@ public class EmpathyAgent : Agent
 
     public override void CollectObservations()
     {
-        Vector3 leftPosition = head.transform.InverseTransformPoint(leftHand.transform.position);
-        Vector3 rightPosition = head.transform.InverseTransformPoint(rightHand.transform.position);
-        Quaternion headRotation = head.transform.rotation;
+        Vector3 leftPosition = head.transform.InverseTransformPoint(leftHand.transform.position).normalized;
+        Vector3 rightPosition = head.transform.InverseTransformPoint(rightHand.transform.position).normalized;
+        float leftAngle = Vector3.Angle(head.transform.TransformDirection(Vector3.forward), leftHand.transform.TransformDirection(Vector3.left));
+        float rightAngle = Vector3.Angle(head.transform.TransformDirection(Vector3.forward), rightHand.transform.TransformDirection(Vector3.right));
 
 
 //        float leftVelocity = 0f;
@@ -42,11 +43,12 @@ public class EmpathyAgent : Agent
 //            rightVelocity = ((rightPosition - lastRightPos) / Time.fixedDeltaTime).magnitude;
 //        }
 
-        Debug.Log(leftPosition+", "+rightPosition+", "+headRotation);
+        Debug.Log(leftPosition+", "+rightPosition+", "+leftAngle+", "+rightAngle);
         
         AddVectorObs(leftPosition);
         AddVectorObs(rightPosition);
-        //AddVectorObs(headRotation);
+        AddVectorObs(leftAngle);
+        AddVectorObs(rightAngle);
 
         lastLeftPos = leftPosition;
         lastRightPos = rightPosition;
