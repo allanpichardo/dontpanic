@@ -8,7 +8,7 @@ public class BasketController : MonoBehaviour
     public float maxBound = 60.0f;
     public float minBound = -60.0f;
 
-    private float xPos = 0.0f;
+    //private float xPos = 0.0f;
     private bool isDirectionRight = true;
     
     // Start is called before the first frame update

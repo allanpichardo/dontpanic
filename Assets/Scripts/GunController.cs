@@ -18,7 +18,7 @@ public class GunController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log(ViveInput.GetTriggerValue(HandRole.RightHand));
     }
 
     private void Awake()
@@ -33,6 +33,7 @@ public class GunController : MonoBehaviour
 
     private void OnTrigger()
     {
+        Debug.Log("BANG!");
         animator.SetTrigger("Fire");
         GetComponent<SimpleShoot>().Flash();
         
