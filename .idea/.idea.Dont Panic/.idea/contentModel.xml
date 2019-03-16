@@ -537,6 +537,8 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AccelerometerLogger.cs" t="Include" />
+          <e p="BulletCasingController.cs" t="Include" />
+          <e p="BulletController.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="Chomper.cs" t="Include" />
           <e p="ChomperAgent.cs" t="Include" />
@@ -554,6 +556,7 @@
             <e p="HoopController.cs" t="Include" />
             <e p="HoopsGame.cs" t="Include" />
           </e>
+          <e p="MuzzleFlashController.cs" t="Include" />
           <e p="NPC" t="Include">
             <e p="IKControl.cs" t="Include" />
           </e>

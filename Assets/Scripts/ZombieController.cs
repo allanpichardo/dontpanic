@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class ZombieController : MonoBehaviour
 {
+    private AudioSource audioSource;
     private NavMeshAgent navMeshAgent;
     private Animator animator;
     public Transform player;
@@ -18,6 +19,7 @@ public class ZombieController : MonoBehaviour
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -37,6 +39,10 @@ public class ZombieController : MonoBehaviour
         this.isDead = isDead;
         navMeshAgent.ResetPath();
         animator.SetBool(_isDead, isDead);
+        if (isDead)
+        {
+            audioSource.Stop();
+        }
     }
 
     public void OnZombieAttack()
@@ -46,6 +52,6 @@ public class ZombieController : MonoBehaviour
 
     public void OnDeath()
     {
-        Destroy(this);
+        Destroy(this.gameObject);
     }
 }

@@ -88,6 +88,7 @@ GameObject:
   - component: {fileID: 4516850313033972}
   - component: {fileID: 136132550391131772}
   - component: {fileID: 54736518851447296}
+  - component: {fileID: 5266830885572057361}
   m_Layer: 0
   m_Name: Bullet_45mm_Casing
   m_TagString: Untagged
@@ -140,3 +141,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5266830885572057361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482960508195586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19892bd61b55847bd9fd8b9a1e43171a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
