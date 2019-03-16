@@ -28,11 +28,15 @@ public abstract class HandsEmpathyAgent : Agent
 
         Vector3 leftPosition = headPose.InverseTransformPoint(leftHandPose.pos);
         Vector3 rightPosition = headPose.InverseTransformPoint(rightHandPose.pos);
+        float leftAngle = Vector3.Angle(headPose.forward, leftHandPose.forward);
+        float rightAngle = Vector3.Angle(headPose.forward, rightHandPose.forward);
         
         //Debug.Log(leftPosition+" "+rightPosition+" "+headPose.pos);
         
         AddVectorObs(leftPosition);
         AddVectorObs(rightPosition);
+        AddVectorObs(leftAngle);
+        AddVectorObs(rightAngle);
     }
 
     public override void AgentAction(float[] vectorAction, string textAction)

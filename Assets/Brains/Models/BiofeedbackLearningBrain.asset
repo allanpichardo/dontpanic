@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BiofeedbackLearningBrain
   m_EditorClassIdentifier: 
   brainParameters:
-    vectorObservationSize: 6
+    vectorObservationSize: 8
     numStackedVectorObservations: 50
     vectorActionSize: 01000000
     cameraResolutions: []
