@@ -13,6 +13,7 @@ public class PrisonLevelController : HandsEmpathyAgent
     public CompanionController companion;
     private Boolean toggleLight = false;
 
+    private List<float> phaseObservations;
     private float elapsedTime;
     private float phaseTime = 0.0f;
     public float spawnInterval = 10.0f;
@@ -23,6 +24,7 @@ public class PrisonLevelController : HandsEmpathyAgent
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("player");
+        phaseObservations = new List<float>();
     }
 
     // Update is called once per frame
@@ -37,6 +39,8 @@ public class PrisonLevelController : HandsEmpathyAgent
             {
                 phaseTime = 0;
                 startSpawn = false;
+                companion.SetPhaseObservations(phaseObservations);
+                phaseObservations.Clear();
             }
         }
 
@@ -77,5 +81,10 @@ public class PrisonLevelController : HandsEmpathyAgent
     {
         flashlight.spotAngle = 40+(inference.x * -15);
         companion.SetValence(-inference.x);
+
+        if (startSpawn)
+        {
+            phaseObservations.Add(inference.x);
+        }
     }
 }
