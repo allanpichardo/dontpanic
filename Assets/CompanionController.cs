@@ -30,9 +30,8 @@ public class CompanionController : MonoBehaviour
         animator.SetFloat(_speed, navMeshAgent.velocity.magnitude);
     }
 
-    public void SetPhaseObservations(List<float> observations)
+    public void SetPhaseObservations(float[] obsArr)
     {
-        float[] obsArr = observations.ToArray();
         float min = Mathf.Min(obsArr);
         float max = Mathf.Max(obsArr);
         float sum = 0.0f;

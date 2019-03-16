@@ -1423,7 +1423,7 @@ MonoBehaviour:
   companion: {fileID: 671656826}
   spawnInterval: 10
   startSpawn: 1
-  trial: 0
+  trial: 2
 --- !u!82 &1946479391
 AudioSource:
   m_ObjectHideFlags: 0

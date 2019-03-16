@@ -35,12 +35,14 @@ public class PrisonLevelController : HandsEmpathyAgent
             phaseTime +=Time.deltaTime;
             this.zombiePhase(phaseTime);
 
-            if(phaseTime == 60)
+            if(phaseTime > 60)
             {
+                Debug.Log("End of Zombie Phase " + trial);
                 phaseTime = 0;
                 startSpawn = false;
-                companion.SetPhaseObservations(phaseObservations);
+                companion.SetPhaseObservations(phaseObservations.ToArray());
                 phaseObservations.Clear();
+                trial = (trial < 2) ? trial + 1 : 0;
             }
         }
 
@@ -68,12 +70,12 @@ public class PrisonLevelController : HandsEmpathyAgent
     {
         //Exponential decay function
         elapsedTime += Time.deltaTime;
-        Debug.Log("Spawn Interval: " + spawnInterval + ", phaseTime: " + phaseTime + ", elapsedTime: " + elapsedTime);
+        //Debug.Log("Spawn Interval: " + spawnInterval + ", phaseTime: " + phaseTime + ", elapsedTime: " + elapsedTime);
         if (Math.Abs(elapsedTime - spawnInterval) < 0.1)
         {
             elapsedTime = 0.0f;
             SpawnZombie();
-            spawnInterval = (30 - 10 * (trial)) * Mathf.Pow((float)Math.E, (float)(-0.05 * time));
+            spawnInterval = 1 + (30 - 10 * (trial)) * Mathf.Pow((float)Math.E, (float)(-0.05 * time));
         }
     }
 
