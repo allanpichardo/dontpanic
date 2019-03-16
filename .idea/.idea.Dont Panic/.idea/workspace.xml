@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e6632de-10d4-4fa0-ae08-47d0fb5c8659" name="Default Changelist" comment="" />
+    <list default="true" id="6e6632de-10d4-4fa0-ae08-47d0fb5c8659" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Ambience.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Ambience.mp3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Nokobot/ModernGuns_Handgun/Demo Assets/SimpleShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Nokobot/ModernGuns_Handgun/Demo Assets/SimpleShoot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Nokobot/ModernGuns_Handgun/Effects/MuzzleFlash.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Nokobot/ModernGuns_Handgun/Effects/MuzzleFlash.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GunController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GunController.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+            <state relative-caret-position="187">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <marker date="1552366028222" expanded="false" signature="6:96" ph="..." />
                 <marker date="1552366028222" expanded="true" signature="152:1381" ph="{...}" />
@@ -29,9 +35,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GunController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+              <folding>
+                <marker date="1552766882188" expanded="false" signature="6:106" ph="..." />
+                <marker date="1552766882188" expanded="true" signature="150:1857" ph="{...}" />
+                <marker date="1552766882188" expanded="true" signature="435:543" ph="{...}" />
+                <marker date="1552766882188" expanded="true" signature="601:711" ph="{...}" />
+                <marker date="1552766882188" expanded="true" signature="649:705" ph="{...}" />
+                <marker date="1552766882188" expanded="true" signature="737:838" ph="{...}" />
+                <marker date="1552766882188" expanded="true" signature="868:972" ph="{...}" />
+                <marker date="1552766882188" expanded="true" signature="1002:1033" ph="{...}" />
+                <marker date="1552766882188" expanded="true" signature="1061:1855" ph="{...}" />
+                <marker date="1552766882188" expanded="true" signature="1382:1849" ph="{...}" />
+                <marker date="1552766882188" expanded="true" signature="1612:1839" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Nokobot/ModernGuns_Handgun/Demo Assets/SimpleShoot.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <marker date="1552766615027" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552766615027" expanded="true" signature="120:1937" ph="{...}" />
+                <marker date="1552766615027" expanded="true" signature="369:457" ph="{...}" />
+                <marker date="1552766615027" expanded="true" signature="476:630" ph="{...}" />
+                <marker date="1552766615027" expanded="true" signature="483:624" ph="/* if (Input.GetButtonDown(&quot;Fire1&quot;)) ... */" />
+                <marker date="1552766615027" expanded="true" signature="655:799" ph="{...}" />
+                <marker date="1552766615027" expanded="true" signature="824:1439" ph="{...}" />
+                <marker date="1552766615027" expanded="true" signature="839:1049" ph="/* GameObject bullet; ... */" />
+                <marker date="1552766615027" expanded="true" signature="1232:1425" ph="/* Destroy(tempFlash, 0.5f); ... */" />
+                <marker date="1552766615027" expanded="true" signature="1472:1933" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
+            <state relative-caret-position="245">
               <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
               <folding>
                 <marker date="1552754012023" expanded="false" signature="6:184" ph="..." />
@@ -117,6 +166,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/HoopController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HTC.UnityPlugin/Utility/RigidPose.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Nokobot/ModernGuns_Handgun/Demo Assets/SimpleShoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/HoopsGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BallController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlashlightController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -146,7 +196,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Hoops/BallGrabber.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RWVR/RWVR_InteractionController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NPC/IKControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GunController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FlashlightController.cs" />
         <option value="$PROJECT_DIR$/Assets/CompanionController.cs" />
@@ -155,6 +204,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Nokobot/ModernGuns_Handgun/Demo Assets/SimpleShoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GunController.cs" />
       </list>
     </option>
   </component>
@@ -265,12 +316,12 @@
       <workItem from="1552267986699" duration="2468000" />
       <workItem from="1552313464188" duration="6085000" />
       <workItem from="1552681015344" duration="2351000" />
-      <workItem from="1552753761425" duration="425000" />
+      <workItem from="1552753761425" duration="2020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39940000" />
+    <option name="totallyTimeSpent" value="41535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -477,24 +528,6 @@
             <marker date="1552168652187" expanded="true" signature="664:1493" ph="{...}" />
             <marker date="1552168652187" expanded="true" signature="984:1349" ph="{...}" />
             <marker date="1552168652187" expanded="true" signature="1394:1479" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GunController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="38" column="55" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
-          <folding>
-            <marker date="1552177003794" expanded="false" signature="6:106" ph="..." />
-            <marker date="1552177003794" expanded="true" signature="150:1517" ph="{...}" />
-            <marker date="1552177003794" expanded="true" signature="326:383" ph="{...}" />
-            <marker date="1552177003794" expanded="true" signature="441:462" ph="{...}" />
-            <marker date="1552177003794" expanded="true" signature="488:589" ph="{...}" />
-            <marker date="1552177003794" expanded="true" signature="619:723" ph="{...}" />
-            <marker date="1552177003794" expanded="true" signature="753:1515" ph="{...}" />
-            <marker date="1552177003794" expanded="true" signature="1042:1509" ph="{...}" />
-            <marker date="1552177003794" expanded="true" signature="1272:1499" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -832,22 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-          <folding>
-            <marker date="1552366028222" expanded="false" signature="6:96" ph="..." />
-            <marker date="1552366028222" expanded="true" signature="152:1381" ph="{...}" />
-            <marker date="1552366028222" expanded="true" signature="480:553" ph="{...}" />
-            <marker date="1552366028222" expanded="true" signature="611:809" ph="{...}" />
-            <marker date="1552366028222" expanded="true" signature="724:803" ph="{...}" />
-            <marker date="1552366028222" expanded="true" signature="841:1207" ph="{...}" />
-            <marker date="1552366028222" expanded="true" signature="1268:1379" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -872,7 +889,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
+        <state relative-caret-position="245">
           <caret line="38" column="33" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
           <folding>
             <marker date="1552754012023" expanded="false" signature="6:184" ph="..." />
@@ -883,6 +900,61 @@
             <marker date="1552754012023" expanded="true" signature="1601:1673" ph="{...}" />
             <marker date="1552754012023" expanded="true" signature="1722:1784" ph="/* Override this method to receive predictions ... */" />
             <marker date="1552754012023" expanded="true" signature="1884:1896" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <marker date="1552366028222" expanded="false" signature="6:96" ph="..." />
+            <marker date="1552366028222" expanded="true" signature="152:1381" ph="{...}" />
+            <marker date="1552366028222" expanded="true" signature="480:553" ph="{...}" />
+            <marker date="1552366028222" expanded="true" signature="611:809" ph="{...}" />
+            <marker date="1552366028222" expanded="true" signature="724:803" ph="{...}" />
+            <marker date="1552366028222" expanded="true" signature="841:1207" ph="{...}" />
+            <marker date="1552366028222" expanded="true" signature="1268:1379" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Nokobot/ModernGuns_Handgun/Demo Assets/SimpleShoot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <marker date="1552766615027" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552766615027" expanded="true" signature="120:1937" ph="{...}" />
+            <marker date="1552766615027" expanded="true" signature="369:457" ph="{...}" />
+            <marker date="1552766615027" expanded="true" signature="476:630" ph="{...}" />
+            <marker date="1552766615027" expanded="true" signature="483:624" ph="/* if (Input.GetButtonDown(&quot;Fire1&quot;)) ... */" />
+            <marker date="1552766615027" expanded="true" signature="655:799" ph="{...}" />
+            <marker date="1552766615027" expanded="true" signature="824:1439" ph="{...}" />
+            <marker date="1552766615027" expanded="true" signature="839:1049" ph="/* GameObject bullet; ... */" />
+            <marker date="1552766615027" expanded="true" signature="1232:1425" ph="/* Destroy(tempFlash, 0.5f); ... */" />
+            <marker date="1552766615027" expanded="true" signature="1472:1933" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GunController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <marker date="1552766882188" expanded="false" signature="6:106" ph="..." />
+            <marker date="1552766882188" expanded="true" signature="150:1857" ph="{...}" />
+            <marker date="1552766882188" expanded="true" signature="435:543" ph="{...}" />
+            <marker date="1552766882188" expanded="true" signature="601:711" ph="{...}" />
+            <marker date="1552766882188" expanded="true" signature="649:705" ph="{...}" />
+            <marker date="1552766882188" expanded="true" signature="737:838" ph="{...}" />
+            <marker date="1552766882188" expanded="true" signature="868:972" ph="{...}" />
+            <marker date="1552766882188" expanded="true" signature="1002:1033" ph="{...}" />
+            <marker date="1552766882188" expanded="true" signature="1061:1855" ph="{...}" />
+            <marker date="1552766882188" expanded="true" signature="1382:1849" ph="{...}" />
+            <marker date="1552766882188" expanded="true" signature="1612:1839" ph="{...}" />
           </folding>
         </state>
       </provider>

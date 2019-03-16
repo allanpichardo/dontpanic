@@ -22,11 +22,11 @@ public class SimpleShoot : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            GetComponent<Animator>().SetTrigger("Fire");
-            
-        }
+//        if (Input.GetButtonDown("Fire1"))
+//        {
+//            GetComponent<Animator>().SetTrigger("Fire");
+//            
+//        }
     }
 
     public void Flash()
@@ -50,7 +50,7 @@ public class SimpleShoot : MonoBehaviour
        
     }
 
-    void CasingRelease()
+    public void CasingRelease()
     {
          GameObject casing;
         casing = Instantiate(casingPrefab, casingExitLocation.position, casingExitLocation.rotation) as GameObject;

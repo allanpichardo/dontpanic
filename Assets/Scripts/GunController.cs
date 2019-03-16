@@ -6,19 +6,26 @@ using UnityEngine;
 public class GunController : MonoBehaviour
 {
     private Animator animator;
+    private AudioSource audioSource;
 
     private static readonly int _fire = Animator.StringToHash("fire");
+    private static readonly int _fire1 = Animator.StringToHash("Fire");
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetButtonDown("Fire1"))
+        {
+            FireGun();
+            
+        }
     }
 
     private void Awake()
@@ -33,12 +40,19 @@ public class GunController : MonoBehaviour
 
     private void OnTrigger()
     {
-        animator.SetTrigger("Fire");
+        FireGun();
+    }
+
+    private void FireGun()
+    {
+        animator.SetTrigger(_fire1);
         GetComponent<SimpleShoot>().Flash();
-        
+        audioSource.Play();
+
         ViveInput.TriggerHapticPulse(HandRole.RightHand);
 
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out var hit, float.PositiveInfinity))
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out var hit,
+            float.PositiveInfinity))
         {
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward), Color.white, 0.3f);
             Debug.Log(hit.collider.gameObject.layer);
