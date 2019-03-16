@@ -17,7 +17,7 @@ public class PrisonLevelController : HandsEmpathyAgent
     private float phaseTime = 0.0f;
     public float spawnInterval = 10.0f;
     public Boolean startSpawn = false;
-    private int trial = 0;
+    public int trial = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +30,7 @@ public class PrisonLevelController : HandsEmpathyAgent
     {
         if (startSpawn && phaseTime<61)
         {
-            phaseTime+=Time.deltaTime;
+            phaseTime +=Time.deltaTime;
             this.zombiePhase(phaseTime);
 
             if(phaseTime == 60)
@@ -64,13 +64,12 @@ public class PrisonLevelController : HandsEmpathyAgent
     {
         //Exponential decay function
         elapsedTime += Time.deltaTime;
-
-        if (Math.Abs(elapsedTime - spawnInterval) < 0.001)
+        Debug.Log("Spawn Interval: " + spawnInterval + ", phaseTime: " + phaseTime + ", elapsedTime: " + elapsedTime);
+        if (Math.Abs(elapsedTime - spawnInterval) < 0.1)
         {
             elapsedTime = 0.0f;
             SpawnZombie();
             spawnInterval = (30 - 10 * (trial)) * Mathf.Pow((float)Math.E, (float)(-0.05 * time));
-            Debug.Log("Spawn Interval: " + spawnInterval+", phaseTime: "+phaseTime);
         }
     }
 
