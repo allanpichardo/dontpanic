@@ -21,15 +21,11 @@ public class GunController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-<<<<<<< HEAD
-        Debug.Log(ViveInput.GetTriggerValue(HandRole.RightHand));
-=======
         if (Input.GetButtonDown("Fire1"))
         {
             FireGun();
             
         }
->>>>>>> b176499f13bc3543473a2254f67641678379c84b
     }
 
     private void Awake()
