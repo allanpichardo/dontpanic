@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using MLAgents;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -32,8 +34,8 @@ public class CompanionController : MonoBehaviour
 
     public void SetPhaseObservations(float[] obsArr)
     {
-        float min = Mathf.Min(obsArr);
-        float max = Mathf.Max(obsArr);
+        if (obsArr.Length == 0) return;
+        
         float sum = 0.0f;
 
         for (int i = 0; i < obsArr.Length; i++)
@@ -43,9 +45,22 @@ public class CompanionController : MonoBehaviour
 
         float mean = sum / obsArr.Length;
 
-        float normalized = (mean - min) / (max - min);
+        float normalized = (obsArr.Max() - mean) / CalculateSd(obsArr, mean);
         
         Debug.Log("Phase score: " + normalized);
+    }
+    
+    float CalculateSd(float[] data, float mean)
+    {
+        float standardDeviation = 0.0f;
+
+        for (int i = 0; i < data.Length; ++i)
+        {
+            float diff = data[i] - mean;
+            standardDeviation += diff * diff;
+        }
+
+        return Mathf.Sqrt(standardDeviation / data.Length);
     }
 
     public void SetValence(float valence)

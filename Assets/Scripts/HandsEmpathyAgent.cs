@@ -12,6 +12,8 @@ public abstract class HandsEmpathyAgent : Agent
     public bool showDebug = false;
     public float filterBeta = 0.5f;
     public Transform worldCenter;
+    private Vector3 lastLeftPos = Vector3.zero;
+    private Vector3 lastRightPos = Vector3.zero;
 
     private LowpassFilter lowpassFilter;
     
@@ -22,21 +24,39 @@ public abstract class HandsEmpathyAgent : Agent
 
     public override void CollectObservations()
     {
+        float maxV = 100.0f;
+        float minV = 0.0f;
+        
         RigidPose rightHandPose = VivePose.GetPose(HandRole.RightHand);
         RigidPose leftHandPose = VivePose.GetPose(HandRole.LeftHand);
         RigidPose headPose = VivePose.GetPose(DeviceRole.Hmd);
 
-        Vector3 leftPosition = headPose.InverseTransformPoint(leftHandPose.pos);
-        Vector3 rightPosition = headPose.InverseTransformPoint(rightHandPose.pos);
-        float leftAngle = Vector3.Angle(headPose.forward, leftHandPose.forward);
-        float rightAngle = Vector3.Angle(headPose.forward, rightHandPose.forward);
+        Vector3 leftPosition = headPose.InverseTransformPoint(leftHandPose.pos).normalized;
+        Vector3 rightPosition = headPose.InverseTransformPoint(rightHandPose.pos).normalized;
         
-        //Debug.Log(leftPosition+" "+rightPosition+" "+headPose.pos);
+        float leftVelocity = 0f;
+        if (lastLeftPos.sqrMagnitude > 0)
+        {
+            leftVelocity = ((leftPosition - lastLeftPos) / Time.fixedDeltaTime).magnitude;
+            leftVelocity = (leftVelocity - minV) / (maxV - minV);
+        }
+        
+        float rightVelocity = 0f;
+        if (lastRightPos.sqrMagnitude > 0)
+        {
+            rightVelocity = ((rightPosition - lastRightPos) / Time.fixedDeltaTime).magnitude;
+            rightVelocity = (rightVelocity - minV) / (maxV - minV);
+        }
+        
+        //Debug.Log(leftPosition+" "+rightPosition+" "+leftAngle+", "+rightAngle);
         
         AddVectorObs(leftPosition);
         AddVectorObs(rightPosition);
-        AddVectorObs(leftAngle);
-        AddVectorObs(rightAngle);
+        AddVectorObs(leftVelocity);
+        AddVectorObs(rightVelocity);
+
+        lastLeftPos = leftPosition;
+        lastRightPos = rightPosition;
     }
 
     public override void AgentAction(float[] vectorAction, string textAction)

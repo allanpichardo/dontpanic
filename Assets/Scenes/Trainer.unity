@@ -215,8 +215,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: f2b11e939bdfc4aeba905aa100b6e7c6, type: 2}
     _brainsToControl:
     - {fileID: 11400000, guid: 658cc7572cd7f474da9831be211005d1, type: 2}
-    - {fileID: 11400000, guid: f2b11e939bdfc4aeba905aa100b6e7c6, type: 2}
-  maxSteps: 700
+  maxSteps: 1000
   trainingConfiguration:
     width: 320
     height: 240
@@ -279,7 +278,7 @@ MonoBehaviour:
   brain: {fileID: 11400000, guid: f2b11e939bdfc4aeba905aa100b6e7c6, type: 2}
   agentParameters:
     agentCameras: []
-    maxStep: 700
+    maxStep: 1000
     resetOnDone: 1
     onDemandDecision: 0
     numberOfActionsBetweenDecisions: 5
@@ -441,7 +440,7 @@ PrefabInstance:
     - target: {fileID: 9500000, guid: 9406e64fc47f94a5aaabb6565d5b9b55, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 7d8483ee66bd04e1aaa84b671f121bc9, type: 2}
+      objectReference: {fileID: 9100000, guid: b2d3f7469a43047368385f33c0e36aa8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9406e64fc47f94a5aaabb6565d5b9b55, type: 3}
 --- !u!1 &1809283833 stripped

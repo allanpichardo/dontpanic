@@ -17,38 +17,46 @@ public class EmpathyAgent : Agent
 
     private float lastDistance;
 
+    private int toalSteps = 5818;
+
     public override void InitializeAgent()
     {
         academy = FindObjectOfType<EmpathyAcademy>();
-        trainingPlayer.LoadRandomTrial();
+        trainingPlayer.SetAgent(this);
+//        trainingPlayer.LoadRandomTrial();
     }
 
     public override void CollectObservations()
     {
+        float maxV = 100.0f;
+        float minV = 0.0f;
+        
         Vector3 leftPosition = head.transform.InverseTransformPoint(leftHand.transform.position).normalized;
         Vector3 rightPosition = head.transform.InverseTransformPoint(rightHand.transform.position).normalized;
-        float leftAngle = Vector3.Angle(head.transform.TransformDirection(Vector3.forward), leftHand.transform.TransformDirection(Vector3.left));
-        float rightAngle = Vector3.Angle(head.transform.TransformDirection(Vector3.forward), rightHand.transform.TransformDirection(Vector3.right));
+//        float leftAngle = Vector3.Angle(head.transform.TransformDirection(Vector3.forward), leftHand.transform.TransformDirection(Vector3.left));
+//        float rightAngle = Vector3.Angle(head.transform.TransformDirection(Vector3.forward), rightHand.transform.TransformDirection(Vector3.right));
 
 
-//        float leftVelocity = 0f;
-//        if (lastLeftPos.sqrMagnitude > 0)
-//        {
-//            leftVelocity = ((leftPosition - lastLeftPos) / Time.fixedDeltaTime).magnitude;
-//        }
-//        
-//        float rightVelocity = 0f;
-//        if (lastRightPos.sqrMagnitude > 0)
-//        {
-//            rightVelocity = ((rightPosition - lastRightPos) / Time.fixedDeltaTime).magnitude;
-//        }
+        float leftVelocity = 0f;
+        if (lastLeftPos.sqrMagnitude > 0)
+        {
+            leftVelocity = ((leftPosition - lastLeftPos) / Time.fixedDeltaTime).magnitude;
+            leftVelocity = (leftVelocity - minV) / (maxV - minV);
+        }
+        
+        float rightVelocity = 0f;
+        if (lastRightPos.sqrMagnitude > 0)
+        {
+            rightVelocity = ((rightPosition - lastRightPos) / Time.fixedDeltaTime).magnitude;
+            rightVelocity = (rightVelocity - minV) / (maxV - minV);
+        }
 
-        Debug.Log(leftPosition+", "+rightPosition+", "+leftAngle+", "+rightAngle);
+        Debug.Log(leftPosition+", "+rightPosition+", "+leftVelocity+", "+rightVelocity);
         
         AddVectorObs(leftPosition);
         AddVectorObs(rightPosition);
-        AddVectorObs(leftAngle);
-        AddVectorObs(rightAngle);
+        AddVectorObs(leftVelocity);
+        AddVectorObs(rightVelocity);
 
         lastLeftPos = leftPosition;
         lastRightPos = rightPosition;
@@ -69,12 +77,14 @@ public class EmpathyAgent : Agent
 
     public override void AgentAction(float[] vectorAction, string textAction)
     {
+        if (trainingPlayer.GetCurrentValence() < 0.0f) return;
+        
         //float valence = Mathf.Clamp(vectorAction[0], -1.0f, 1.0f);
         float arousal = Mathf.Clamp(vectorAction[0], -1.0f, 1.0f);
 
-        Trial trial = trainingPlayer.GetCurrentTrial();
+//        Trial trial = trainingPlayer.GetCurrentTrial();
         //float valenceReward = CalculateReward(valence, trial.valence);
-        float reward = Mathf.Clamp(CalculateReward(arousal, trial.energy), -1.0f, 1.0f);
+        float reward = CalculateReward(arousal, trainingPlayer.GetCurrentValence());
         //float reward = (0.5f * valenceReward) + (0.5f * arousalReward);
 
 //        float maxDistance = 1.414215f;
@@ -83,9 +93,10 @@ public class EmpathyAgent : Agent
 //        float distance = Vector2.Distance(guess, actual);
 //        float r = (maxDistance - distance) / maxDistance;
         
-        Monitor.Log("Step Reward", reward/700f);
+        //Monitor.Log("Step Reward", reward/700f);
         //Monitor.Log("Valence", new []{trial.valence, valence});
-        Monitor.Log("Arousal", new []{trial.energy, arousal});
+        Monitor.Log("Actual", trainingPlayer.GetCurrentValence());
+        Monitor.Log("Guess", arousal);
 
 //        if (reward > 0.95)
 //        {
@@ -98,7 +109,7 @@ public class EmpathyAgent : Agent
 //            SetReward(reward);
 //        }
 
-        //SetReward(reward/700);
+//        SetReward(reward/toalSteps);
         
         if (reward >= threshold)
         {
@@ -120,16 +131,11 @@ public class EmpathyAgent : Agent
 //        lastDistance = distance;
     }
 
-    public override void AgentOnDone()
-    {
-        base.AgentOnDone();
-    }
-
     public override void AgentReset()
     {
         threshold = academy.resetParameters["target"];
         lastLeftPos = Vector3.zero;
         lastRightPos = Vector3.zero;
-        trainingPlayer.LoadRandomTrial();
+//        trainingPlayer.LoadRandomTrial();
     }
 }

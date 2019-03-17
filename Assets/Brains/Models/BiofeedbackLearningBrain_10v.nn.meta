@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 15983ac13d2a843bb99d1db7b3a3bdfd
+ScriptedImporter:
+  fileIDToRecycleName:
+    11400002: Assets/Brains/Models/BiofeedbackLearningBrain_10v.nn
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 83221ad3db87f4b3b91b041047cb2bc5, type: 3}

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d511573d588634d5e906027e6523946d
+ScriptedImporter:
+  fileIDToRecycleName:
+    11400002: Assets/Brains/Models/BiofeedbackLearningBrain_angles.nn
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 83221ad3db87f4b3b91b041047cb2bc5, type: 3}
