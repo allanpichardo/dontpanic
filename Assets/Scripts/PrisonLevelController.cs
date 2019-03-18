@@ -82,7 +82,7 @@ public class PrisonLevelController : HandsEmpathyAgent
     public override void OnNewPrediction(Vector3 inference)
     {
         flashlight.spotAngle = 40+(inference.x * -15);
-        companion.SetValence(-inference.x);
+        companion.SetValence(inference.x);
 
         if (startSpawn)
         {

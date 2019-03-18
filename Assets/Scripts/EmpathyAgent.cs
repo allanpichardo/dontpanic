@@ -53,8 +53,8 @@ public class EmpathyAgent : Agent
 
         Debug.Log(leftPosition+", "+rightPosition+", "+leftVelocity+", "+rightVelocity);
         
-        AddVectorObs(leftPosition);
-        AddVectorObs(rightPosition);
+        //AddVectorObs(leftPosition);
+        //AddVectorObs(rightPosition);
         AddVectorObs(leftVelocity);
         AddVectorObs(rightVelocity);
 

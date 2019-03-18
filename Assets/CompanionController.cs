@@ -44,10 +44,11 @@ public class CompanionController : MonoBehaviour
         }
 
         float mean = sum / obsArr.Length;
-
-        float normalized = (obsArr.Max() - mean) / CalculateSd(obsArr, mean);
+        float std = CalculateSd(obsArr, mean);
         
-        Debug.Log("Phase score: " + normalized);
+        
+        Debug.Log("Mean: " + mean+", Std: "+std);
+        Debug.Log("Score: "+mean/0.5f);
     }
     
     float CalculateSd(float[] data, float mean)
@@ -66,7 +67,7 @@ public class CompanionController : MonoBehaviour
     public void SetValence(float valence)
     {
         animator.SetFloat(_valence, valence);
-        if (valence < 0)
+        if (valence > 0.3f)
         {
             if (!audioSource.clip.Equals(scaredBreathing))
             {

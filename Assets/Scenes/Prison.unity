@@ -1405,9 +1405,9 @@ MonoBehaviour:
     maxStep: 0
     resetOnDone: 1
     onDemandDecision: 0
-    numberOfActionsBetweenDecisions: 10
+    numberOfActionsBetweenDecisions: 1
   showDebug: 1
-  filterBeta: 0.1
+  filterBeta: 0.01
   worldCenter: {fileID: 1946479389}
   zombiePrefabs:
   - {fileID: 8119183219152311386, guid: 38cebfb29525a460ca20802cff2b62d8, type: 3}

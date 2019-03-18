@@ -24,7 +24,7 @@ public abstract class HandsEmpathyAgent : Agent
 
     public override void CollectObservations()
     {
-        float maxV = 100.0f;
+        float maxV = 60.0f;
         float minV = 0.0f;
         
         RigidPose rightHandPose = VivePose.GetPose(HandRole.RightHand);
@@ -50,8 +50,8 @@ public abstract class HandsEmpathyAgent : Agent
         
         //Debug.Log(leftPosition+" "+rightPosition+" "+leftAngle+", "+rightAngle);
         
-        AddVectorObs(leftPosition);
-        AddVectorObs(rightPosition);
+        //AddVectorObs(leftPosition);
+        //AddVectorObs(rightPosition);
         AddVectorObs(leftVelocity);
         AddVectorObs(rightVelocity);
 
