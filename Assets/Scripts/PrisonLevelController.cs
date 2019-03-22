@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using HTC.UnityPlugin.Vive;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using Random = System.Random;
 
 public class PrisonLevelController : HandsEmpathyAgent
@@ -12,6 +15,8 @@ public class PrisonLevelController : HandsEmpathyAgent
     public Light godLight;
     public CompanionController companion;
     private Boolean toggleLight = false;
+    public AudioClip introClip;
+    public Text guidanceText;
 
     private List<float> phaseObservations;
     private float elapsedTime;
@@ -25,11 +30,29 @@ public class PrisonLevelController : HandsEmpathyAgent
     {
         player = GameObject.FindGameObjectWithTag("player");
         phaseObservations = new List<float>();
+        flashlight.enabled = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!flashlight.enabled)
+        {
+            companion.StartTalking(introClip);
+        }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
+        }
+        
+        if (ViveInput.GetPressDown(HandRole.LeftHand, ControllerButton.Pad) || Input.GetKeyDown(KeyCode.F))
+        {
+            flashlight.enabled = true;
+            startSpawn = true;
+            guidanceText.enabled = false;
+        }
+        
         if (startSpawn && phaseTime<61)
         {
             phaseTime +=Time.deltaTime;
@@ -51,6 +74,8 @@ public class PrisonLevelController : HandsEmpathyAgent
             toggleLight = !toggleLight;
             godLight.intensity = (toggleLight)? 2.5f : 0;
         }
+        
+        
     }
 
     private void SpawnZombie()

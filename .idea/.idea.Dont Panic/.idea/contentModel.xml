@@ -5,7 +5,6 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="CompanionController.cs" t="Include" />
         <e p="HTC.UnityPlugin" t="Include">
           <e p="ColliderEvent" t="Include">
             <e p="ColliderEventCaster.cs" t="Include" />
@@ -542,6 +541,7 @@
           <e p="CameraFollow.cs" t="Include" />
           <e p="Chomper.cs" t="Include" />
           <e p="ChomperAgent.cs" t="Include" />
+          <e p="CompanionController.cs" t="Include" />
           <e p="Ellen.cs" t="Include" />
           <e p="EllenAgent.cs" t="Include" />
           <e p="EmpathyAcademy.cs" t="Include" />

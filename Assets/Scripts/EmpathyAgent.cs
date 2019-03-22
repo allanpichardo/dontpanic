@@ -14,6 +14,8 @@ public class EmpathyAgent : Agent
 
     private Vector3 lastLeftPos;
     private Vector3 lastRightPos;
+    private float lastLeftV;
+    private float lastRightV;
 
     private float lastDistance;
 
@@ -31,8 +33,8 @@ public class EmpathyAgent : Agent
         float maxV = 100.0f;
         float minV = 0.0f;
         
-        Vector3 leftPosition = head.transform.InverseTransformPoint(leftHand.transform.position).normalized;
-        Vector3 rightPosition = head.transform.InverseTransformPoint(rightHand.transform.position).normalized;
+        Vector3 leftPosition = head.transform.InverseTransformPoint(leftHand.transform.position);
+        Vector3 rightPosition = head.transform.InverseTransformPoint(rightHand.transform.position);
 //        float leftAngle = Vector3.Angle(head.transform.TransformDirection(Vector3.forward), leftHand.transform.TransformDirection(Vector3.left));
 //        float rightAngle = Vector3.Angle(head.transform.TransformDirection(Vector3.forward), rightHand.transform.TransformDirection(Vector3.right));
 
@@ -41,25 +43,33 @@ public class EmpathyAgent : Agent
         if (lastLeftPos.sqrMagnitude > 0)
         {
             leftVelocity = ((leftPosition - lastLeftPos) / Time.fixedDeltaTime).magnitude;
-            leftVelocity = (leftVelocity - minV) / (maxV - minV);
+//            leftVelocity = (leftVelocity - minV) / (maxV - minV);
         }
         
         float rightVelocity = 0f;
         if (lastRightPos.sqrMagnitude > 0)
         {
             rightVelocity = ((rightPosition - lastRightPos) / Time.fixedDeltaTime).magnitude;
-            rightVelocity = (rightVelocity - minV) / (maxV - minV);
+//            rightVelocity = (rightVelocity - minV) / (maxV - minV);
         }
+        
+        float leftAccel = (leftVelocity - lastLeftV) / Time.fixedDeltaTime;
+
+        float rightAccel = (rightVelocity - lastRightV) / Time.fixedDeltaTime;
 
         Debug.Log(leftPosition+", "+rightPosition+", "+leftVelocity+", "+rightVelocity);
         
         //AddVectorObs(leftPosition);
         //AddVectorObs(rightPosition);
-        AddVectorObs(leftVelocity);
-        AddVectorObs(rightVelocity);
+        //AddVectorObs(leftVelocity);
+        //AddVectorObs(rightVelocity);
+        AddVectorObs(leftAccel);
+        AddVectorObs(rightAccel);
 
         lastLeftPos = leftPosition;
         lastRightPos = rightPosition;
+        lastLeftV = leftVelocity;
+        lastRightV = rightVelocity;
     }
 
     private Quaternion TransformRotationToLocalOf(Quaternion world, Quaternion target)
@@ -109,7 +119,7 @@ public class EmpathyAgent : Agent
 //            SetReward(reward);
 //        }
 
-//        SetReward(reward/toalSteps);
+        SetReward(reward/1000);
         
         if (reward >= threshold)
         {
