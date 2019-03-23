@@ -9,7 +9,7 @@ public class CompanionController : MonoBehaviour
 {
     public AudioClip neutralBreathing;
     public AudioClip scaredBreathing;
-    public AudioClip spookClip;
+    public List<AudioClip> randomPhrases;
     public List<AudioClip> negativePhrases;
     public List<AudioClip> neutralPhrases;
     public List<AudioClip> positivePhrases;
@@ -115,7 +115,7 @@ public class CompanionController : MonoBehaviour
         float chance = Random.Range(0.0f, 1.0f);
         if (chance >= 0.999f)
         {
-            StartTalking(spookClip);
+            StartTalking(randomPhrases[Random.Range(0, randomPhrases.Count)]);
         }
         if (!isTalking)
         {

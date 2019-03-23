@@ -601,19 +601,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   neutralBreathing: {fileID: 8300000, guid: e463f5b53b91644d0a4c38d3219f3bf2, type: 3}
   scaredBreathing: {fileID: 8300000, guid: 63e65ef63d7894f39a88021a3c94ebd4, type: 3}
-  spookClip: {fileID: 8300000, guid: 1c33869aa402b4a889f3a56c75616b07, type: 3}
+  randomPhrases:
+  - {fileID: 8300000, guid: d6f1379f548a14d23b6c8f7b1971c24c, type: 3}
+  - {fileID: 8300000, guid: bd7ec5506102c488f8d564b86e37b567, type: 3}
+  - {fileID: 8300000, guid: 7fadc7cfe259b40b69beb2f231b7ab82, type: 3}
+  - {fileID: 8300000, guid: febae4431f37841ffb158400d3e850ae, type: 3}
   negativePhrases:
-  - {fileID: 8300000, guid: 00e0ef94b0c174fcfba2ea1a37583f6a, type: 3}
-  - {fileID: 8300000, guid: 50510a3e11c454a1aae9380aca56c3d9, type: 3}
+  - {fileID: 8300000, guid: 3edbcfebb50434da09af45a9cc63bf3a, type: 3}
+  - {fileID: 8300000, guid: 98405b74b44104bc2945e83c92a9aff0, type: 3}
+  - {fileID: 8300000, guid: bccd81a7671af483a8656f055dbf05cd, type: 3}
   neutralPhrases:
-  - {fileID: 8300000, guid: 5466e2fd9e1274f37bdb78a7700393e6, type: 3}
-  - {fileID: 8300000, guid: 674cf6c5403e145e992bfe4bc7ec8da9, type: 3}
+  - {fileID: 8300000, guid: 983938eb838274ef1a1ecab8cb8dd52b, type: 3}
+  - {fileID: 8300000, guid: 66de0a0408ef54011ac4676742175b50, type: 3}
+  - {fileID: 8300000, guid: f0466875fa9f34950a5a7e821d2f6566, type: 3}
   positivePhrases:
-  - {fileID: 8300000, guid: 3b529417d6db74f6ea68e04395edfabf, type: 3}
-  - {fileID: 8300000, guid: e4c53ae9ec09b4a0383ca42ef40f69f7, type: 3}
-  - {fileID: 8300000, guid: b7cedf2ce0674434a9999a5e0d1c6144, type: 3}
-  - {fileID: 8300000, guid: bdbf41f5a3a234df18d882b50bb71d8f, type: 3}
-  - {fileID: 8300000, guid: aae68061d5d4845f7b5366d9d507d2c3, type: 3}
+  - {fileID: 8300000, guid: cdfee851a7a074b4d81fc59fbcb3a7cd, type: 3}
+  - {fileID: 8300000, guid: a83b565a9fbf5477685a18b662b834eb, type: 3}
+  - {fileID: 8300000, guid: 74b26c83e921d40ee880f67a9719bee7, type: 3}
 --- !u!195 &671656827
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1678,7 +1682,7 @@ MonoBehaviour:
   flashlight: {fileID: 605592346}
   godLight: {fileID: 1679450162}
   companion: {fileID: 671656826}
-  introClip: {fileID: 8300000, guid: bc213aec37dcc4a7bba02f504772bf7e, type: 3}
+  introClip: {fileID: 8300000, guid: cc4a3dc7b1e44480fa56dfa3f6d53731, type: 3}
   guidanceText: {fileID: 342434130}
   spawnInterval: 30
   startSpawn: 0
