@@ -57,7 +57,7 @@ public class CompanionController : MonoBehaviour
         
         
         Debug.Log("Mean: " + mean+", Std: "+std);
-        Debug.Log("Score: "+mean/0.5f);
+        Debug.Log("Score: "+mean);
         
         StartTalking(GetClipByScore(mean));
     }

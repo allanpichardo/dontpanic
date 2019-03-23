@@ -20,6 +20,7 @@ public class PrisonLevelController : HandsEmpathyAgent
     private Boolean toggleLight = false;
     public AudioClip introClip;
     public Text guidanceText;
+    public AudioSource heartbeat;
 
     private List<float> phaseObservations;
     private float elapsedTime;
@@ -38,15 +39,12 @@ public class PrisonLevelController : HandsEmpathyAgent
         phaseObservations = new List<float>();
         toGraph = new List<Vector2>();
         flashlight.enabled = false;
+        StartCoroutine(didYouHear());
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!flashlight.enabled)
-        {
-            companion.StartTalking(introClip);
-        }
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
@@ -56,6 +54,7 @@ public class PrisonLevelController : HandsEmpathyAgent
         if (Input.GetKeyDown(KeyCode.R))
         {
             this.Done();
+            SceneManager.UnloadSceneAsync(1);
             SceneManager.LoadScene (0);
         }
         
@@ -99,7 +98,7 @@ public class PrisonLevelController : HandsEmpathyAgent
         int i = 0;
         for (int k = 0; k < phaseObservations.Count; k += 10)
         {
-            toGraph.Add(new Vector2(++i, phaseObservations[k]));
+            toGraph.Add(new Vector2(++i, phaseObservations[k]*0.66f));
         }
         lineRenderer.Points = toGraph.ToArray();
         phaseObservations.Clear();
@@ -109,6 +108,12 @@ public class PrisonLevelController : HandsEmpathyAgent
         lineRenderer.enabled = false;
         this.startSpawn = true;
 
+    }
+
+    IEnumerator didYouHear()
+    {
+        yield return new WaitForSeconds(3);
+        companion.StartTalking(introClip);
     }
 
     private void SpawnZombie()
@@ -139,7 +144,9 @@ public class PrisonLevelController : HandsEmpathyAgent
 
     public override void OnNewPrediction(Vector3 inference)
     {
-        flashlight.spotAngle = 40+(inference.x * -15);
+        flashlight.spotAngle = 40+(inference.x * -38);
+        flashlight.intensity = 1.45f + (inference.x * -0.75f);
+        heartbeat.pitch = Mathf.Lerp(0.85f, 1.5f, inference.x);
         companion.SetValence(inference.x);
 
         if (startSpawn)
