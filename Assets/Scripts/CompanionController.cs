@@ -23,7 +23,7 @@ public class CompanionController : MonoBehaviour
     private static readonly int _valence = Animator.StringToHash("valence");
 
     private const float BreathingVolume = 0.891f;
-    private const float TalkingVolume = 9.0f;
+    private const float TalkingVolume = 3.0f;
 
     // Start is called before the first frame update
     void Start()
