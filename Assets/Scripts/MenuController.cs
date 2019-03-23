@@ -14,9 +14,14 @@ public class MenuController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(ViveInput.GetPressDown(HandRole.RightHand, ControllerButton.Trigger))
+        if(ViveInput.GetPressDown(HandRole.RightHand, ControllerButton.Trigger) || Input.GetKeyDown(KeyCode.S))
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Scenes/Prison");
+            UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Application.Quit();
         }
     }
 }

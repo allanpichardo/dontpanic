@@ -5,6 +5,7 @@ using HTC.UnityPlugin.Vive;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Events;
 using UnityEngine.UI.Extensions;
 using Random = System.Random;
 
@@ -47,10 +48,15 @@ public class PrisonLevelController : HandsEmpathyAgent
             companion.StartTalking(introClip);
         }
 
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Application.Quit();
+        }
+
         if (Input.GetKeyDown(KeyCode.R))
         {
             this.Done();
-            SceneManager.LoadScene ("Scenes/Menu");
+            SceneManager.LoadScene (0);
         }
         
         if (ViveInput.GetPressDown(HandRole.LeftHand, ControllerButton.Pad) || Input.GetKeyDown(KeyCode.F))
