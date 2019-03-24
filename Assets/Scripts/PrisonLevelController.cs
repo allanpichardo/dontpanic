@@ -4,6 +4,7 @@ using HTC.UnityPlugin.Vive;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.UI.Extensions;
 using Random = System.Random;
 
 public class PrisonLevelController : HandsEmpathyAgent
@@ -25,11 +26,15 @@ public class PrisonLevelController : HandsEmpathyAgent
     public Boolean startSpawn = false;
     public int trial = 0;
 
+    public UILineRenderer lineRenderer;
+    private List<Vector2> toGraph;
+
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("player");
         phaseObservations = new List<float>();
+        toGraph = new List<Vector2>();
         flashlight.enabled = false;
     }
 
@@ -64,7 +69,14 @@ public class PrisonLevelController : HandsEmpathyAgent
                 phaseTime = 0;
                 startSpawn = false;
                 companion.SetPhaseObservations(phaseObservations.ToArray());
+                int i = 0;
+                foreach (float obs in phaseObservations)
+                {
+                    toGraph.Add(new Vector2(++i, obs));
+                }
+                lineRenderer.Points = toGraph.ToArray();
                 phaseObservations.Clear();
+                toGraph.Clear();
                 trial = (trial < 2) ? trial + 1 : 0;
             }
         }
