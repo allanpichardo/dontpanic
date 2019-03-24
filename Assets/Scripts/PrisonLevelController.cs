@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using HTC.UnityPlugin.Vive;
 using UnityEngine;
@@ -65,19 +66,11 @@ public class PrisonLevelController : HandsEmpathyAgent
 
             if(phaseTime > 60)
             {
-                Debug.Log("End of Zombie Phase " + trial);
+                Debug.Log("End of Zombie Phase " + trial+1);
                 phaseTime = 0;
                 startSpawn = false;
-                companion.SetPhaseObservations(phaseObservations.ToArray());
-                int i = 0;
-                foreach (float obs in phaseObservations)
-                {
-                    toGraph.Add(new Vector2(++i, obs));
-                }
-                lineRenderer.Points = toGraph.ToArray();
-                phaseObservations.Clear();
-                toGraph.Clear();
                 trial = (trial < 2) ? trial + 1 : 0;
+                StartCoroutine(ShowSummary());
             }
         }
 
@@ -88,6 +81,27 @@ public class PrisonLevelController : HandsEmpathyAgent
         }
         
         
+    }
+
+    IEnumerator ShowSummary()
+    {
+        guidanceText.text = "Phase " + trial + " Complete";
+        guidanceText.enabled = true;
+        lineRenderer.enabled = true;
+        companion.SetPhaseObservations(phaseObservations.ToArray());
+        int i = 0;
+        for (int k = 0; k < phaseObservations.Count; k += 10)
+        {
+            toGraph.Add(new Vector2(++i, phaseObservations[k]));
+        }
+        lineRenderer.Points = toGraph.ToArray();
+        phaseObservations.Clear();
+        toGraph.Clear();
+        yield return new WaitForSeconds(10);
+        guidanceText.enabled = false;
+        lineRenderer.enabled = false;
+        this.startSpawn = true;
+
     }
 
     private void SpawnZombie()
