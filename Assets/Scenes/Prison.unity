@@ -1743,7 +1743,7 @@ MonoBehaviour:
   agentParameters:
     agentCameras: []
     maxStep: 0
-    resetOnDone: 1
+    resetOnDone: 0
     onDemandDecision: 0
     numberOfActionsBetweenDecisions: 1
   showDebug: 1

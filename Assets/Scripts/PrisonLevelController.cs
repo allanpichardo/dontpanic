@@ -49,7 +49,8 @@ public class PrisonLevelController : HandsEmpathyAgent
 
         if (Input.GetKeyDown(KeyCode.R))
         {
-            SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
+            this.Done();
+            SceneManager.LoadScene ("Scenes/Menu");
         }
         
         if (ViveInput.GetPressDown(HandRole.LeftHand, ControllerButton.Pad) || Input.GetKeyDown(KeyCode.F))
