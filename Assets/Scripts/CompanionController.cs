@@ -13,6 +13,8 @@ public class CompanionController : MonoBehaviour
     public List<AudioClip> negativePhrases;
     public List<AudioClip> neutralPhrases;
     public List<AudioClip> positivePhrases;
+    public float min = 0.1784f;
+    public float max = 0.8674f;
 
     private bool isTalking;
     private NavMeshAgent navMeshAgent;
@@ -53,13 +55,18 @@ public class CompanionController : MonoBehaviour
         }
 
         float mean = sum / obsArr.Length;
-        float std = CalculateSd(obsArr, mean);
+        //float std = CalculateSd(obsArr, mean);
+
+        float score = GetNormalized(mean);
         
+        Debug.Log("Score: "+score);
         
-        Debug.Log("Mean: " + mean+", Std: "+std);
-        Debug.Log("Score: "+mean/0.5f);
-        
-        StartTalking(GetClipByScore(mean));
+        StartTalking(GetClipByScore(score));
+    }
+
+    float GetNormalized(float value)
+    {
+        return (value - min) / (max - min);
     }
     
     float CalculateSd(float[] data, float mean)
@@ -112,6 +119,7 @@ public class CompanionController : MonoBehaviour
 
     public void SetValence(float valence)
     {
+        valence = GetNormalized(valence);
         float chance = Random.Range(0.0f, 1.0f);
         if (chance >= 0.999f)
         {
