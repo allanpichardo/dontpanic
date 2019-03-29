@@ -24,7 +24,7 @@ public abstract class HandsEmpathyAgent : Agent
 
     public override void CollectObservations()
     {
-        float maxV = 60.0f;
+        float maxV = 15.0f;
         float minV = 0.0f;
         
         RigidPose rightHandPose = VivePose.GetPose(HandRole.RightHand);

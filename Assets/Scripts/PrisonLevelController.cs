@@ -1,9 +1,12 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using HTC.UnityPlugin.Vive;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Events;
+using UnityEngine.UI.Extensions;
 using Random = System.Random;
 
 public class PrisonLevelController : HandsEmpathyAgent
@@ -17,6 +20,7 @@ public class PrisonLevelController : HandsEmpathyAgent
     private Boolean toggleLight = false;
     public AudioClip introClip;
     public Text guidanceText;
+    public AudioSource heartbeat;
 
     private List<float> phaseObservations;
     private float elapsedTime;
@@ -25,25 +29,33 @@ public class PrisonLevelController : HandsEmpathyAgent
     public Boolean startSpawn = false;
     public int trial = 0;
 
+    public UILineRenderer lineRenderer;
+    private List<Vector2> toGraph;
+
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("player");
         phaseObservations = new List<float>();
+        toGraph = new List<Vector2>();
         flashlight.enabled = false;
+        StartCoroutine(didYouHear());
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!flashlight.enabled)
+
+        if (Input.GetKeyDown(KeyCode.Q))
         {
-            companion.StartTalking(introClip);
+            Application.Quit();
         }
 
         if (Input.GetKeyDown(KeyCode.R))
         {
-            SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
+            this.Done();
+            SceneManager.UnloadSceneAsync(1);
+            SceneManager.LoadScene (0);
         }
         
         if (ViveInput.GetPressDown(HandRole.LeftHand, ControllerButton.Pad) || Input.GetKeyDown(KeyCode.F))
@@ -60,12 +72,11 @@ public class PrisonLevelController : HandsEmpathyAgent
 
             if(phaseTime > 60)
             {
-                Debug.Log("End of Zombie Phase " + trial);
+                Debug.Log("End of Zombie Phase " + trial+1);
                 phaseTime = 0;
                 startSpawn = false;
-                companion.SetPhaseObservations(phaseObservations.ToArray());
-                phaseObservations.Clear();
                 trial = (trial < 2) ? trial + 1 : 0;
+                StartCoroutine(ShowSummary());
             }
         }
 
@@ -76,6 +87,33 @@ public class PrisonLevelController : HandsEmpathyAgent
         }
         
         
+    }
+
+    IEnumerator ShowSummary()
+    {
+        guidanceText.text = "Phase " + trial + " Complete";
+        guidanceText.enabled = true;
+        lineRenderer.enabled = true;
+        companion.SetPhaseObservations(phaseObservations.ToArray());
+        int i = 0;
+        for (int k = 0; k < phaseObservations.Count; k += 10)
+        {
+            toGraph.Add(new Vector2(++i, phaseObservations[k]*0.66f));
+        }
+        lineRenderer.Points = toGraph.ToArray();
+        phaseObservations.Clear();
+        toGraph.Clear();
+        yield return new WaitForSeconds(10);
+        guidanceText.enabled = false;
+        lineRenderer.enabled = false;
+        this.startSpawn = true;
+
+    }
+
+    IEnumerator didYouHear()
+    {
+        yield return new WaitForSeconds(3);
+        companion.StartTalking(introClip);
     }
 
     private void SpawnZombie()
@@ -106,7 +144,9 @@ public class PrisonLevelController : HandsEmpathyAgent
 
     public override void OnNewPrediction(Vector3 inference)
     {
-        flashlight.spotAngle = 40+(inference.x * -15);
+        flashlight.spotAngle = 40+(inference.x * -38);
+        flashlight.intensity = 1.45f + (inference.x * -0.75f);
+        heartbeat.pitch = Mathf.Lerp(0.85f, 1.5f, inference.x);
         companion.SetValence(inference.x);
 
         if (startSpawn)

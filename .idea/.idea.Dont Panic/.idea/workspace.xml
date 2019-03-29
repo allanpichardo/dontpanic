@@ -2,11 +2,598 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e6632de-10d4-4fa0-ae08-47d0fb5c8659" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Dont Panic/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Heartbeat.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Heartbeat.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/ScatterMaterial.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/ScatterMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/White Transparent.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/White Transparent.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/scatterPoint.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Models/scatterPoint.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Graph.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Graph.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Grapher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Grapher.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Graphing.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Graphing/GraphGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Graphing/GraphGenerator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Graphing/ScatterPointController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Graphing/ScatterPointController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MenuController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MenuController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/AccordionElementEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/AccordionElementEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/BezierLineRendererEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/BezierLineRendererEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/BoxSliderEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/BoxSliderEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/CUIBezierCurveEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/CUIBezierCurveEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/CUIGraphicEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/CUIGraphicEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/CUIImageEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/CUIImageEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/CUITextEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/CUITextEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/CanvasGroupActivator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/CanvasGroupActivator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/NonDrawingGraphicEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/NonDrawingGraphicEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/ReadOnlyDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/ReadOnlyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/TextPicEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/TextPicEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/UIExtensionsMenuOptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/UIExtensionsMenuOptions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/uGUITools.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Editor/uGUITools.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/ColorPicker.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/ColorPicker/Picker 2.0.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/ColorPicker/Picker 2.0.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/ColorPicker/PickerTest.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/ColorPicker/PickerTest.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/ComboBox.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/ComboBox/ComboBox.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/ComboBox/ComboBox.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/ComboBox/ComboBoxChanged.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/ComboBox/ComboBoxChanged.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/Cooldown.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/Cooldown/CooldownEffect_Image.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/Cooldown/CooldownEffect_Image.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/Cooldown/CooldownEffect_SAUIM.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/Cooldown/CooldownEffect_SAUIM.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/Cooldown/CooldownExamples.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/Cooldown/CooldownExamples.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/Cooldown/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/Cooldown/box.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/Cooldown/fadeUp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/Cooldown/fadeUp.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/Cooldown/sphere.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/Cooldown/sphere.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/Cooldown/swipe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/Cooldown/swipe.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/CurlyUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/CurlyUI/CurlyUIDemo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/CurlyUI/CurlyUIDemo.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/01_BasicScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/01_BasicScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Animations/01_Basic_Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Animations/01_Basic_Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Animations/01_Basic_CellScroll.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Animations/01_Basic_CellScroll.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01CellDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01CellDto.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01Scene.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01Scene.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01ScrollView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01ScrollView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01ScrollViewCell.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01ScrollViewCell.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/02_CellEventHandling.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/02_CellEventHandling.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02CellDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02CellDto.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02Scene.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02Scene.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02ScrollView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02ScrollView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02ScrollViewCell.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02ScrollViewCell.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02ScrollViewContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02ScrollViewContext.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/03_InfiniteScroll.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/03_InfiniteScroll.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Animations/03_InfiniteScroll_Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Animations/03_InfiniteScroll_Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Animations/03_InfiniteScroll_CellScroll.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Animations/03_InfiniteScroll_CellScroll.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03CellDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03CellDto.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03Scene.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03Scene.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollViewCell.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollViewCell.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollViewContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollViewContext.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/Document.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/Document/infiniteScrollSettings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/Document/infiniteScrollSettings.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/Document/inspector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/Document/inspector.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/Document/screencast1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/Document/screencast1.gif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/Document/screencast2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/Document/screencast2.gif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/Document/screencast3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/Document/screencast3.gif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/FancyScrollView/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/FullScreenScrollSnap.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/FullScreenScrollSnap.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/GameObject (1).prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/GameObject (1).prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Horizontal Scroll Snap.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Horizontal Scroll Snap.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Horizontal_page_prefab.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Horizontal_page_prefab.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Image.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Image.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/ItemAnimationClip.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/ItemAnimationClip.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/PaginationManagerExample.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/PaginationManagerExample.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/PaginationScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/PaginationScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/ScrollSnapManagedTests.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/ScrollSnapManagedTests.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/UpdateScrollSnap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/UpdateScrollSnap.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Vertical_Page_Prefab.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Vertical_Page_Prefab.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/MainScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/MainScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/MenuSystem.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/MenuSystem/MenuManager.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/MenuSystem/MenuManager.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/AwesomeMenu.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/AwesomeMenu.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/GameMenu.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/GameMenu.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/MainMenu.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/MainMenu.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/OptionsMenu.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/OptionsMenu.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/PauseMenu.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/PauseMenu.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/AwesomeMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/AwesomeMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/GameMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/GameMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/MainMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/MainMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/OptionsMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/OptionsMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/PauseMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/PauseMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/RadialSlider.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/RadialSlider/UpdateRadialValue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/RadialSlider/UpdateRadialValue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/RadialSlider/radial_slider.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/RadialSlider/radial_slider.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/RadialSlider/radial_sprite.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/RadialSlider/radial_sprite.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/ReorderableList.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/ReorderableList/ReorderableList.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/ReorderableList/ReorderableList.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/ScrollRectConflictManager.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/ScrollRectConflictManager/ScrollrectConflictManagerDemo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/ScrollRectConflictManager/ScrollrectConflictManagerDemo.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/SelectionBox.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/SelectionBox/Selection Box Test.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/SelectionBox/Selection Box Test.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/TextEffects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/TextEffects/AnimateEffects.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/TextEffects/AnimateEffects.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/TextEffects/TextEffects.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/TextEffects/TextEffects.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/TextEffects/swirl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/TextEffects/swirl.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/TextEffects/testHref.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/TextEffects/testHref.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UILineRenderer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UILineRenderer/LineRendererOrbit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UILineRenderer/LineRendererOrbit.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UILineRenderer/TestAddingPoints.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UILineRenderer/TestAddingPoints.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UILineRenderer/UILineRendererDemo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UILineRenderer/UILineRendererDemo.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Prefabs/DaysVertical.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Prefabs/DaysVertical.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Prefabs/MonthsVertical.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Prefabs/MonthsVertical.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Prefabs/YearsVertical.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Prefabs/YearsVertical.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scenes/VerticalCalendar.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scenes/VerticalCalendar.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scripts/ScrollingCalendar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scripts/ScrollingCalendar.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Sprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Sprites/MrsYakaYochaMedium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Sprites/MrsYakaYochaMedium.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/LICENSE.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/README.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/RELEASENOTES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/RELEASENOTES.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/Accordion.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/Accordion/Accordion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/Accordion/Accordion.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/Accordion/AccordionElement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/Accordion/AccordionElement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/FloatTween.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/FloatTween.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/ITweenValue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/ITweenValue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/TweenRunner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/TweenRunner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/BoxSlider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/BoxSlider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorImage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorImage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorLabel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorLabel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerControl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerControl.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerPresets.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerPresets.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerTester.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerTester.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorSlider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorSlider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorSliderImage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorSliderImage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorValues.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorValues.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/Events.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/Events/ColorChangedEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/Events/ColorChangedEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/Events/HSVChangedEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/Events/HSVChangedEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/HSVUtil.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/HSVUtil.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/HexColorField.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/HexColorField.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/SVBoxSlider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/SVBoxSlider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/TiltWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/TiltWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ComboBox.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ComboBox/AutoCompleteComboBox.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ComboBox/AutoCompleteComboBox.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ComboBox/ComboBox.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ComboBox/ComboBox.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownList.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/CooldownButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/CooldownButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/InputFocus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/InputFocus.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/MultiTouchScrollRect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/MultiTouchScrollRect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/RadialSlider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/RadialSlider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ReorderableList.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableList.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListContent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListContent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListDebug.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListDebug.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListElement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListElement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/RescaleDragPanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/RescaleDragPanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/RescalePanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/RescalePanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/ResizePanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/ResizePanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/SegmentedControl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/SegmentedControl.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/SelectionBox.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/ExampleSelectable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/ExampleSelectable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/IBoxSelectable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/IBoxSelectable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/SelectionBox.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/SelectionBox.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/Stepper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/Stepper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/TextPic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/TextPic.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/UI_Knob.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Controls/UI_Knob.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/BestFitOutline.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/BestFitOutline.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/CurlyUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIBezierCurve.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIBezierCurve.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIGraphic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIGraphic.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIImage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIImage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIMisc.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIMisc.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIText.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIText.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/CurvedText.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/CurvedText.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/CylinderText.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/CylinderText.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/Gradient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/Gradient.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/Gradient2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/Gradient2.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/LetterSpacing.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/LetterSpacing.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/MonoSpacing.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/MonoSpacing.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/NicerOutline.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/NicerOutline.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/RaycastMask.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/RaycastMask.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIAdditiveEffect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIAdditiveEffect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIImageCrop.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIImageCrop.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UILinearDodgeEffect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UILinearDodgeEffect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIMultiplyEffect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIMultiplyEffect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIScreenEffect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIScreenEffect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UISoftAdditiveEffect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UISoftAdditiveEffect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/ShineEffect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/ShineEffect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/ShineEffector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/ShineEffector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/SoftMaskScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/SoftMaskScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/UIFlippable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/UIFlippable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/UIParticleSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Effects/UIParticleSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/InputModules.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/InputModules/AimerInputModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/InputModules/AimerInputModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/InputModules/GamePadInputModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/InputModules/GamePadInputModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/CurvedLayout.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/CurvedLayout.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/FancyScrollView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/FancyScrollView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/FancyScrollViewCell.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/FancyScrollViewCell.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/FlowLayoutGroup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/FlowLayoutGroup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/HorizontalScrollSnap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/HorizontalScrollSnap.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/IScrollSnap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/IScrollSnap.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/RadialLayout.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/RadialLayout.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/ScrollPositionController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/ScrollPositionController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/ScrollSnap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/ScrollSnap.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapScrollbarHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapScrollbarHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/TableLayoutGroup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/TableLayoutGroup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/TileSizeFitter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/TileSizeFitter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/UIVerticalScroller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/UIVerticalScroller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/VerticalScrollSnap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Layout/VerticalScrollSnap.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/MenuSystem.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/MenuSystem/Menu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/MenuSystem/Menu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/MenuSystem/MenuManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/MenuSystem/MenuManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/MenuSystem/SimpleMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/MenuSystem/SimpleMenu.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Primitives.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Primitives/DiamondGraph.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Primitives/DiamondGraph.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Primitives/UICircle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Primitives/UICircle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Primitives/UICornerCut.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Primitives/UICornerCut.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Primitives/UIGridRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Primitives/UIGridRenderer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Primitives/UILineRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Primitives/UILineRenderer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Primitives/UILineTextureRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Primitives/UILineTextureRenderer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Primitives/UIPolygon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Primitives/UIPolygon.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Primitives/UIPrimitiveBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Primitives/UIPrimitiveBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/TabNavigationHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/TabNavigationHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/ToolTips.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/ToolTips/BoundTooltip.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/ToolTips/BoundTooltip/BoundTooltipItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/ToolTips/BoundTooltip/BoundTooltipItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/ToolTips/BoundTooltip/BoundTooltipTrigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/ToolTips/BoundTooltip/BoundTooltipTrigger.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/ToolTips/HoverTooltip.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/ToolTips/HoverTooltip.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/ToolTips/ToolTip.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/ToolTips/ToolTip.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/UIWindowBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/UIWindowBase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/BezierPath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/BezierPath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/CLFZ2-CompressionHelper-ReadME.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/CLFZ2-CompressionHelper-ReadME.md.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/CLZF2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/CLZF2.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/CableCurve.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/CableCurve.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/Circle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/Circle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/DragCorrector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/DragCorrector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ExtensionsToggle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ExtensionsToggle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ExtensionsToggleGroup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ExtensionsToggleGroup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/InputFieldEnterSubmit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/InputFieldEnterSubmit.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/NonDrawingGraphic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/NonDrawingGraphic.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/PPIViewer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/PPIViewer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/PaginationManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/PaginationManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ReadOnlyAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ReadOnlyAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ReturnKeyTriggersButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ReturnKeyTriggersButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ScrollConflictManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ScrollConflictManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectEx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectLinker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectLinker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectTweener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectTweener.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/SelectableScaler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/SelectableScaler.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/SetPropertyUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/SetPropertyUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/TestCompression.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/TestCompression.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UIExtensionMethods.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UIExtensionMethods.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UIHighlightable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UIHighlightable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UILineConnector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UILineConnector.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UIScrollToSelection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UIScrollToSelection.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UIScrollToSelectionXY.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UIScrollToSelectionXY.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UISelectableExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UISelectableExtension.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UI_InfiniteScroll.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UI_InfiniteScroll.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UI_ScrollRectOcclusion.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UI_ScrollRectOcclusion.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UI_TweenScale.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/UI_TweenScale.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/switchToRectTransform.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/Utilities/switchToRectTransform.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/VR Extensions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/VR Extensions/VRCursor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/VR Extensions/VRCursor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/VR Extensions/VRInputModule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Scripts/VR Extensions/VRInputModule.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/SoftMaskShader.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/SoftMaskShader.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle Add.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle Add.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle AddMultiply.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle AddMultiply.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle AddSmooth.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle AddSmooth.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle Alpha Blend.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle Alpha Blend.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle Blend.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle Blend.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle Multiply.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle Multiply.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle MultiplyDouble.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle MultiplyDouble.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle Premultiply Blend.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle Premultiply Blend.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle VertexLit Blended.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UI Particle VertexLit Blended.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UIAdditive.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UIAdditive.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UIImageCrop.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UIImageCrop.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UILinearDodge.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UILinearDodge.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UIMultiply.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UIMultiply.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UIParticleHidden.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UIParticleHidden.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UIScreen.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UIScreen.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UISoftAdditive.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/Shaders/UISoftAdditive.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/unity-ui-extensions/package.json.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HTC.UnityPlugin/ViveInputUtility/Resources/VIUSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HTC.UnityPlugin/ViveInputUtility/Resources/VIUSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/Zombie Animation Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Prison/Scary Zombie Pack/Zombie Animation Controller.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/mortimer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Local/mortimer.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs Local/zombie.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs Local/zombie.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prison.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CompanionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CompanionController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unityProject.vrmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/unityProject.vrmanifest" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,27 +603,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
+            <state relative-caret-position="2220">
+              <caret line="148" selection-start-line="148" selection-end-line="148" />
               <folding>
-                <marker date="1553296769610" expanded="false" signature="6:181" ph="..." />
-                <marker date="1553296769610" expanded="true" signature="237:3392" ph="{...}" />
-                <marker date="1553296769610" expanded="true" signature="840:996" ph="{...}" />
-                <marker date="1553296769610" expanded="true" signature="1054:2238" ph="{...}" />
-                <marker date="1553296769610" expanded="true" signature="1093:1160" ph="{...}" />
-                <marker date="1553296769610" expanded="true" signature="1202:1296" ph="{...}" />
-                <marker date="1553296769610" expanded="true" signature="1413:1545" ph="{...}" />
-                <marker date="1553296769610" expanded="true" signature="1594:2054" ph="{...}" />
-                <marker date="1553296769610" expanded="true" signature="1717:2044" ph="{...}" />
-                <marker date="1553296769610" expanded="true" signature="2096:2214" ph="{...}" />
-                <marker date="1553296769610" expanded="true" signature="2270:2636" ph="{...}" />
-                <marker date="1553296769610" expanded="true" signature="2678:3126" ph="{...}" />
-                <marker date="1553296769610" expanded="true" signature="2938:3120" ph="{...}" />
-                <marker date="1553296769610" expanded="true" signature="3187:3390" ph="{...}" />
-                <marker date="1553296769610" expanded="true" signature="3316:3384" ph="{...}" />
+                <marker date="1553888484698" expanded="true" signature="6:266" ph="..." />
+                <marker date="1553888484698" expanded="true" signature="322:4561" ph="{...}" />
+                <marker date="1553888484698" expanded="true" signature="1035:1268" ph="{...}" />
+                <marker date="1553888484698" expanded="true" signature="1326:2470" ph="{...}" />
+                <marker date="1553888484698" expanded="true" signature="1374:1426" ph="{...}" />
+                <marker date="1553888484698" expanded="true" signature="1468:1599" ph="{...}" />
+                <marker date="1553888484698" expanded="true" signature="1716:1848" ph="{...}" />
+                <marker date="1553888484698" expanded="true" signature="1897:2286" ph="{...}" />
+                <marker date="1553888484698" expanded="true" signature="2020:2276" ph="{...}" />
+                <marker date="1553888484698" expanded="true" signature="2328:2446" ph="{...}" />
+                <marker date="1553888484698" expanded="true" signature="2501:3151" ph="{...}" />
+                <marker date="1553888484698" expanded="true" signature="2791:2882" ph="{...}" />
+                <marker date="1553888484698" expanded="true" signature="3181:3280" ph="{...}" />
+                <marker date="1553888484698" expanded="true" signature="3312:3678" ph="{...}" />
+                <marker date="1553888484698" expanded="true" signature="3720:4168" ph="{...}" />
+                <marker date="1553888484698" expanded="true" signature="3980:4162" ph="{...}" />
+                <marker date="1553888484698" expanded="true" signature="4229:4559" ph="{...}" />
+                <marker date="1553888484698" expanded="true" signature="4485:4553" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -45,32 +635,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CompanionController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
+            <state relative-caret-position="210">
+              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding>
-                <marker date="1553888314052" expanded="false" signature="6:135" ph="..." />
-                <marker date="1553888314052" expanded="true" signature="185:4079" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="985:1217" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="1275:1409" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="1463:1884" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="1593:1643" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="1922:1978" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="2031:2298" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="2124:2231" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="2344:2440" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="2374:2434" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="2491:2913" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="2547:2643" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="2682:2776" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="2789:2885" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="2959:3160" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="3203:4076" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="3330:3429" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="3453:4070" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="3595:3818" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="3672:3804" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="3835:4060" ph="{...}" />
-                <marker date="1553888314052" expanded="true" signature="3913:4046" ph="{...}" />
+                <marker date="1553888540829" expanded="false" signature="6:135" ph="..." />
+                <marker date="1553888540829" expanded="true" signature="185:4079" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="985:1217" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="1275:1409" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="1463:1884" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="1593:1643" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="1922:1978" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="2031:2298" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="2124:2231" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="2344:2440" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="2374:2434" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="2491:2913" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="2547:2643" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="2682:2776" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="2789:2885" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="2959:3160" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="3203:4076" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="3330:3429" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="3453:4070" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="3595:3818" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="3672:3804" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="3835:4060" ph="{...}" />
+                <marker date="1553888540829" expanded="true" signature="3913:4046" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ZombieController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+              <folding>
+                <marker date="1552800027203" expanded="false" signature="6:100" ph="..." />
+                <marker date="1552800027203" expanded="true" signature="147:1481" ph="{...}" />
+                <marker date="1552800027203" expanded="true" signature="616:777" ph="{...}" />
+                <marker date="1552800027203" expanded="true" signature="835:1120" ph="{...}" />
+                <marker date="1552800027203" expanded="true" signature="862:1114" ph="{...}" />
+                <marker date="1552800027203" expanded="true" signature="1158:1349" ph="{...}" />
+                <marker date="1552800027203" expanded="true" signature="1291:1343" ph="{...}" />
+                <marker date="1552800027203" expanded="true" signature="1383:1404" ph="{...}" />
+                <marker date="1552800027203" expanded="true" signature="1431:1479" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -87,30 +697,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/HoopController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MuzzleFlashController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/HoopsGame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/LearningBrain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/IKControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletCasingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrainingPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Monitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ZombieController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HandsEmpathyAgent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CompanionController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HTC.UnityPlugin/Utility/RigidPose.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Nokobot/ModernGuns_Handgun/Demo Assets/SimpleShoot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/HoopsGame.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/LearningBrain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BallController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlashlightController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BasketController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Hoops/BallGrabber.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPC/IKControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EmpathyAcademy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletCasingController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Hoops.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EmpathyAgent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SteamVR/Input/Editor/SteamVR_Input_EditorWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrainingPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Agent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ML-Agents/Scripts/Monitor.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -256,12 +867,12 @@
       <workItem from="1553014835611" duration="1302000" />
       <workItem from="1553291043754" duration="4073000" />
       <workItem from="1553364303016" duration="875000" />
-      <workItem from="1553887915416" duration="405000" />
+      <workItem from="1553887915416" duration="1879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60454000" />
+    <option name="totallyTimeSpent" value="61928000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -789,24 +1400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ZombieController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-          <folding>
-            <marker date="1552800027203" expanded="false" signature="6:100" ph="..." />
-            <marker date="1552800027203" expanded="true" signature="147:1481" ph="{...}" />
-            <marker date="1552800027203" expanded="true" signature="616:777" ph="{...}" />
-            <marker date="1552800027203" expanded="true" signature="835:1120" ph="{...}" />
-            <marker date="1552800027203" expanded="true" signature="862:1114" ph="{...}" />
-            <marker date="1552800027203" expanded="true" signature="1158:1349" ph="{...}" />
-            <marker date="1552800027203" expanded="true" signature="1291:1343" ph="{...}" />
-            <marker date="1552800027203" expanded="true" signature="1383:1404" ph="{...}" />
-            <marker date="1552800027203" expanded="true" signature="1431:1479" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GunController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -979,58 +1572,218 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CompanionController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
+        <state relative-caret-position="2220">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
           <folding>
-            <marker date="1553888314052" expanded="false" signature="6:135" ph="..." />
-            <marker date="1553888314052" expanded="true" signature="185:4079" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="985:1217" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="1275:1409" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="1463:1884" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="1593:1643" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="1922:1978" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="2031:2298" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="2124:2231" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="2344:2440" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="2374:2434" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="2491:2913" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="2547:2643" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="2682:2776" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="2789:2885" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="2959:3160" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="3203:4076" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="3330:3429" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="3453:4070" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="3595:3818" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="3672:3804" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="3835:4060" ph="{...}" />
-            <marker date="1553888314052" expanded="true" signature="3913:4046" ph="{...}" />
+            <marker date="1553888484698" expanded="true" signature="6:266" ph="..." />
+            <marker date="1553888484698" expanded="true" signature="322:4561" ph="{...}" />
+            <marker date="1553888484698" expanded="true" signature="1035:1268" ph="{...}" />
+            <marker date="1553888484698" expanded="true" signature="1326:2470" ph="{...}" />
+            <marker date="1553888484698" expanded="true" signature="1374:1426" ph="{...}" />
+            <marker date="1553888484698" expanded="true" signature="1468:1599" ph="{...}" />
+            <marker date="1553888484698" expanded="true" signature="1716:1848" ph="{...}" />
+            <marker date="1553888484698" expanded="true" signature="1897:2286" ph="{...}" />
+            <marker date="1553888484698" expanded="true" signature="2020:2276" ph="{...}" />
+            <marker date="1553888484698" expanded="true" signature="2328:2446" ph="{...}" />
+            <marker date="1553888484698" expanded="true" signature="2501:3151" ph="{...}" />
+            <marker date="1553888484698" expanded="true" signature="2791:2882" ph="{...}" />
+            <marker date="1553888484698" expanded="true" signature="3181:3280" ph="{...}" />
+            <marker date="1553888484698" expanded="true" signature="3312:3678" ph="{...}" />
+            <marker date="1553888484698" expanded="true" signature="3720:4168" ph="{...}" />
+            <marker date="1553888484698" expanded="true" signature="3980:4162" ph="{...}" />
+            <marker date="1553888484698" expanded="true" signature="4229:4559" ph="{...}" />
+            <marker date="1553888484698" expanded="true" signature="4485:4553" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PrisonLevelController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/SteamVR/Input/Editor/SteamVR_Input_EditorWindow.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
+        <state relative-caret-position="197">
+          <caret line="526" selection-start-line="526" selection-end-line="526" />
           <folding>
-            <marker date="1553296769610" expanded="false" signature="6:181" ph="..." />
-            <marker date="1553296769610" expanded="true" signature="237:3392" ph="{...}" />
-            <marker date="1553296769610" expanded="true" signature="840:996" ph="{...}" />
-            <marker date="1553296769610" expanded="true" signature="1054:2238" ph="{...}" />
-            <marker date="1553296769610" expanded="true" signature="1093:1160" ph="{...}" />
-            <marker date="1553296769610" expanded="true" signature="1202:1296" ph="{...}" />
-            <marker date="1553296769610" expanded="true" signature="1413:1545" ph="{...}" />
-            <marker date="1553296769610" expanded="true" signature="1594:2054" ph="{...}" />
-            <marker date="1553296769610" expanded="true" signature="1717:2044" ph="{...}" />
-            <marker date="1553296769610" expanded="true" signature="2096:2214" ph="{...}" />
-            <marker date="1553296769610" expanded="true" signature="2270:2636" ph="{...}" />
-            <marker date="1553296769610" expanded="true" signature="2678:3126" ph="{...}" />
-            <marker date="1553296769610" expanded="true" signature="2938:3120" ph="{...}" />
-            <marker date="1553296769610" expanded="true" signature="3187:3390" ph="{...}" />
-            <marker date="1553296769610" expanded="true" signature="3316:3384" ph="{...}" />
+            <marker date="1548876874000" expanded="false" signature="6:312" ph="..." />
+            <marker date="1548876874000" expanded="true" signature="332:36943" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="457:28690" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="607:719" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="762:1002" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="846:965" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="1040:1521" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="1125:1511" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="1598:1677" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="1856:2313" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="2692:3642" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="2743:2858" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="3696:3760" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="3815:3880" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="3945:4011" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="4072:4506" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="4172:4298" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="4331:4395" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="4433:4496" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="4567:4757" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="4815:5667" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="4866:4918" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="5121:5273" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="5311:5465" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="5719:6280" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="6387:6805" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="6589:6691" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="6708:6795" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="6869:6942" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="7015:7087" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="7160:7413" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="7483:7958" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="8390:8623" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="8669:8923" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="8984:9513" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="9035:9503" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="9109:9310" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="9331:9489" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="9632:9778" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="9814:10778" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="10056:10315" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="10332:10584" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="10823:11423" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="10871:10929" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="10980:11413" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="11128:11399" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="11246:11381" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="11465:11727" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="11585:11717" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="11768:12295" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="12088:12190" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="12332:12603" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="12510:12567" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="12669:12945" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="12847:12910" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="13025:15365" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="13372:13767" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="13588:13728" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="13837:13987" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="14421:14486" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="14503:15309" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="14873:14953" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="14974:15045" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="15397:15582" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="15625:15834" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="15737:15824" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="15876:16009" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="16054:16183" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="16216:16770" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="16582:16667" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="16690:16760" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="16817:17253" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="16862:17197" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="17115:17183" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="17293:17433" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="17467:17872" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="17537:17862" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="17780:17848" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="17908:18311" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="18348:23013" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="18626:18719" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="18850:19131" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="19008:19117" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="19262:21137" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="19976:20077" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="20168:21123" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="20915:21105" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="21272:21738" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="21573:21724" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="22028:22957" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="22494:22597" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="22644:22943" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="23046:27583" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="23337:26874" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="23408:26267" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="23700:24207" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="23903:24081" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="24441:24784" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="24619:24762" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="25110:25308" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="25451:26098" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="25690:26076" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="26288:26727" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="26463:26709" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="26987:27487" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="27699:27776" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="27809:28174" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="28217:28684" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="28296:28674" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="28392:28660" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="28482:28642" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="28752:33650" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="28798:28909" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="29090:31255" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="29378:29635" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="30793:31118" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="31149:31245" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="31297:31617" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="31520:31607" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="31653:32396" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="32300:32386" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="32440:33003" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="32813:32947" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="33051:33644" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="33453:33588" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="33711:36941" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="33757:33883" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="34244:36935" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="34532:34789" ph="{...}" />
+            <marker date="1548876874000" expanded="true" signature="36762:36925" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CompanionController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <marker date="1553888540829" expanded="false" signature="6:135" ph="..." />
+            <marker date="1553888540829" expanded="true" signature="185:4079" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="985:1217" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="1275:1409" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="1463:1884" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="1593:1643" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="1922:1978" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="2031:2298" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="2124:2231" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="2344:2440" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="2374:2434" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="2491:2913" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="2547:2643" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="2682:2776" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="2789:2885" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="2959:3160" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="3203:4076" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="3330:3429" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="3453:4070" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="3595:3818" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="3672:3804" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="3835:4060" ph="{...}" />
+            <marker date="1553888540829" expanded="true" signature="3913:4046" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ZombieController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+          <folding>
+            <marker date="1552800027203" expanded="false" signature="6:100" ph="..." />
+            <marker date="1552800027203" expanded="true" signature="147:1481" ph="{...}" />
+            <marker date="1552800027203" expanded="true" signature="616:777" ph="{...}" />
+            <marker date="1552800027203" expanded="true" signature="835:1120" ph="{...}" />
+            <marker date="1552800027203" expanded="true" signature="862:1114" ph="{...}" />
+            <marker date="1552800027203" expanded="true" signature="1158:1349" ph="{...}" />
+            <marker date="1552800027203" expanded="true" signature="1291:1343" ph="{...}" />
+            <marker date="1552800027203" expanded="true" signature="1383:1404" ph="{...}" />
+            <marker date="1552800027203" expanded="true" signature="1431:1479" ph="{...}" />
           </folding>
         </state>
       </provider>
