@@ -64,7 +64,7 @@ public class CompanionController : MonoBehaviour
         StartTalking(GetClipByScore(score));
     }
 
-    float GetNormalized(float value)
+    public float GetNormalized(float value)
     {
         return (value - min) / (max - min);
     }

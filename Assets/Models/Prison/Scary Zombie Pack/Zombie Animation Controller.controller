@@ -50,7 +50,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: distance
-    m_EventTreshold: 2
+    m_EventTreshold: 1.6
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102971113810509464}
   m_Solo: 0

@@ -613,9 +613,7 @@ MonoBehaviour:
   neutralPhrases:
   - {fileID: 8300000, guid: 983938eb838274ef1a1ecab8cb8dd52b, type: 3}
   - {fileID: 8300000, guid: 66de0a0408ef54011ac4676742175b50, type: 3}
-  - {fileID: 8300000, guid: f0466875fa9f34950a5a7e821d2f6566, type: 3}
   positivePhrases:
-  - {fileID: 8300000, guid: cdfee851a7a074b4d81fc59fbcb3a7cd, type: 3}
   - {fileID: 8300000, guid: a83b565a9fbf5477685a18b662b834eb, type: 3}
   - {fileID: 8300000, guid: 74b26c83e921d40ee880f67a9719bee7, type: 3}
   min: 0.1784

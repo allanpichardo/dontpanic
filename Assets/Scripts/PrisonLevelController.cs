@@ -77,6 +77,7 @@ public class PrisonLevelController : HandsEmpathyAgent
                 startSpawn = false;
                 trial = (trial < 2) ? trial + 1 : 0;
                 StartCoroutine(ShowSummary());
+                KillAllZombies();
             }
         }
 
@@ -87,6 +88,15 @@ public class PrisonLevelController : HandsEmpathyAgent
         }
         
         
+    }
+
+    private void KillAllZombies()
+    {
+        ZombieController[] zombies = FindObjectsOfType<ZombieController>();
+        foreach (var zombie in zombies)
+        {
+            zombie.SetDead(true);
+        }
     }
 
     IEnumerator ShowSummary()
@@ -144,9 +154,10 @@ public class PrisonLevelController : HandsEmpathyAgent
 
     public override void OnNewPrediction(Vector3 inference)
     {
-        flashlight.spotAngle = 40+(inference.x * -38);
-        flashlight.intensity = 1.45f + (inference.x * -0.75f);
-        heartbeat.pitch = Mathf.Lerp(0.85f, 1.5f, inference.x);
+        float normed = companion.GetNormalized(inference.x);
+        flashlight.spotAngle = (-52.0f * (normed * normed)) + 40;
+        flashlight.intensity = 1.45f + (normed * -0.75f);
+        heartbeat.pitch = Mathf.Lerp(0.85f, 1.5f, normed);
         companion.SetValence(inference.x);
 
         if (startSpawn)
